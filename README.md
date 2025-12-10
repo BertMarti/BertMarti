@@ -6,8 +6,6 @@
 - 🌱 **Actualmente:** Explorando cómo integrar **IA** en flujos de trabajo de desarrollo para mejorar la productividad (desde asistentes de código hasta análisis inteligentes de datos).
 - 💡 **Mantra:** *“El buen diseño es tan importante como el buen código”*. Creo en soluciones limpias, mantenibles y centradas en el usuario final.
 
-## 🛠️ Tech Stack & Skills
-
 ## 🛠️ Tech Stack & Tools
 
 **Languages**  

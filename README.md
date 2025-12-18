@@ -1,8 +1,7 @@
 # 💼 Hola, soy Alberto – Full-Stack Developer
+Soy un desarrollador de software **full-stack** con más de 3 años de experiencia, apasionado por construir aplicaciones web escalables y atractivas. Mi enfoque principal está en el **frontend** (React/Angular) sin descuidar el **backend** (Java/Spring Boot), fusionando creatividad de **UI/UX** con arquitectura robusta de servidor. Me motiva convertir ideas en productos digitales de alta calidad, cuidando cada detalle del código y la experiencia de usuario.
 
-¡Bienvenido a mi perfil! Soy un desarrollador de software **full-stack** con más de 3 años de experiencia, apasionado por construir aplicaciones web escalables y atractivas. Mi enfoque principal está en el **frontend** (React/Angular) sin descuidar el **backend** (Java/Spring Boot), fusionando creatividad de **UI/UX** con arquitectura robusta de servidor. Me motiva convertir ideas en productos digitales de alta calidad, cuidando cada detalle del código y la experiencia de usuario.
-
-- 🎯 **Perfil:** Ingeniero en Computación, desarrollador en entornos ágiles. He contribuido a proyectos empresariales globales (finanzas, consultoría) donde la **calidad de código** y las **buenas prácticas** son prioritarias.
+- 🎯 **Perfil:** Ingeniero, desarrollador en entornos ágiles. He contribuido a proyectos empresariales globales (finanzas, consultoría) donde la **calidad de código** y las **buenas prácticas** son prioritarias.
 - 🌱 **Actualmente:** Explorando cómo integrar **IA** en flujos de trabajo de desarrollo para mejorar la productividad (desde asistentes de código hasta análisis inteligentes de datos).
 - 💡 **Mantra:** *“El buen diseño es tan importante como el buen código”*. Creo en soluciones limpias, mantenibles y centradas en el usuario final.
 
@@ -30,7 +29,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 
 **Other**  
-
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 

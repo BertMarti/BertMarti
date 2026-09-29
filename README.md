@@ -102,8 +102,7 @@ En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/
 
 ### Gracias por pasarte por aquí ✨
 
-<a href="https://github.com/BertMarti?tab=repositories">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=BertMarti&show_icons=true&hide_border=true&theme=transparent&locale=es" alt="GitHub stats">
-</a>
+<a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-8%20public%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="8 public projects"></a>
+<a href="https://github.com/BertMarti"><img src="https://img.shields.io/badge/BUILDING-modelduel%20%7C%20commitling%20%7C%20printquote-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Current projects"></a>
 
 </div>

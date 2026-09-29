@@ -22,66 +22,57 @@ Mi día a día combina **React, Angular, TypeScript, Java, Spring Boot y Spring 
 
 > **Mi forma de trabajar:** entender el problema, simplificarlo y convertirlo en software útil. El buen diseño es tan importante como el buen código.
 
-## 🧠 Pionero en IA aplicada al desarrollo
+## 🤖 IA aplicada: de la idea al impacto
+
+<div align="center">
+
+![AI + Software](https://img.shields.io/badge/AI%20%2B%20Software-Explorar%20%7C%20Medir%20%7C%20Mejorar-7C3AED?style=for-the-badge&logo=openai&logoColor=white)
+
+</div>
 
 Estoy incorporando la **IA como una capa transversal** en mis proyectos: para explorar ideas, actualizar soluciones, mejorar la calidad del código, automatizar tareas repetitivas, generar mejores pruebas y tomar decisiones técnicas con más contexto.
 
-No la veo como un atajo, sino como una nueva forma de construir. En público estoy experimentando con proyectos como [`modelduel`](https://github.com/BertMarti/modelduel), un benchmark que compara modelos con los mismos tests y mide aciertos, tiempo y coste. Mi objetivo es crear software más rápido, más fiable y con una experiencia de desarrollo cada vez más inteligente.
+En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/modelduel), un benchmark que compara modelos con los mismos tests y mide aciertos, tiempo y coste. Me interesa convertir la IA en una herramienta práctica: más claridad al diseñar, más velocidad al construir y mejores productos al entregar.
 
-## 🛠️ Stack tecnológico
+## ⚡ Toolkit
 
 ### Frontend
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=react,angular,ts,js,astro,html,css" alt="Frontend stack">
+</p>
 
 ### Backend & datos
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Batch](https://img.shields.io/badge/Spring%20Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,python,mysql" alt="Backend and data stack">
+  <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Batch">
+</p>
 
 ### Delivery & herramientas
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,vite,jira" alt="Delivery and tools stack">
+</p>
 
 ## 🌟 Proyectos públicos
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>⚔️ <a href="https://github.com/BertMarti/modelduel">modelduel</a></h3>
       <p>Dos modelos, una tarea y los mismos tests. Un laboratorio para comparar calidad, tiempo y coste en generación de código.</p>
       <a href="https://bertmarti.github.io/modelduel/">🔗 Ver demo</a>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>👾 <a href="https://github.com/BertMarti/commitling">commitling</a></h3>
       <p>Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits. Código, identidad y un toque de juego.</p>
       <a href="https://bertmarti.github.io/commitling/">🔗 Ver proyecto</a>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>🧊 <a href="https://github.com/BertMarti/printquote">printquote</a></h3>
       <p>Calculadora de impresión 3D 100% en el navegador: carga un STL, visualízalo en 3D y estima peso, tiempo y precio.</p>
       <a href="https://bertmarti.github.io/printquote/">🔗 Ver demo</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌶️ <a href="https://github.com/BertMarti/tu-gitana-demo">tu-gitana-demo</a></h3>
-      <p>Propuesta de rediseño para una tienda online: catálogo, categorías, fichas de producto, blog y una experiencia web más actual.</p>
-      <a href="https://bertmarti.github.io/tu-gitana-demo/">🔗 Ver demo</a>
     </td>
   </tr>
 </table>

@@ -59,30 +59,32 @@ En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3>⚔️ <a href="https://github.com/BertMarti/modelduel">modelduel</a></h3>
-      <p>Dos modelos, una tarea y los mismos tests. Un laboratorio para comparar calidad, tiempo y coste en generación de código.</p>
-      <a href="https://bertmarti.github.io/modelduel/">🔗 Ver demo</a>
+      <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Dos modelos, una tarea y los mismos tests: calidad, tiempo y coste en un mismo informe.</p>
+      <a href="https://github.com/BertMarti/modelduel"><img src="https://img.shields.io/badge/REPOSITORY-181717?style=flat-square&logo=github&logoColor=white" alt="modelduel repository"></a>
+      <a href="https://bertmarti.github.io/modelduel/"><img src="https://img.shields.io/badge/LIVE%20DEMO-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="modelduel demo"></a>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3>👾 <a href="https://github.com/BertMarti/commitling">commitling</a></h3>
-      <p>Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits. Código, identidad y un toque de juego.</p>
-      <a href="https://bertmarti.github.io/commitling/">🔗 Ver proyecto</a>
+      <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Una mascota pixel-art que vive en tu perfil y crece con tus commits.</p>
+      <a href="https://github.com/BertMarti/commitling"><img src="https://img.shields.io/badge/REPOSITORY-181717?style=flat-square&logo=github&logoColor=white" alt="commitling repository"></a>
+      <a href="https://bertmarti.github.io/commitling/"><img src="https://img.shields.io/badge/EXPLORE-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white" alt="commitling project"></a>
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <h3>🧊 <a href="https://github.com/BertMarti/printquote">printquote</a></h3>
-      <p>Calculadora de impresión 3D 100% en el navegador: carga un STL, visualízalo en 3D y estima peso, tiempo y precio.</p>
-      <a href="https://bertmarti.github.io/printquote/">🔗 Ver demo</a>
+      <p><strong>Del archivo STL al presupuesto en segundos.</strong><br>Una herramienta 3D que funciona en el navegador: visualiza el modelo y estima peso, tiempo y precio sin subir el archivo a un servidor.</p>
+      <a href="https://github.com/BertMarti/printquote"><img src="https://img.shields.io/badge/REPOSITORY-181717?style=flat-square&logo=github&logoColor=white" alt="printquote repository"></a>
+      <a href="https://bertmarti.github.io/printquote/"><img src="https://img.shields.io/badge/LIVE%20DEMO-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="printquote demo"></a>
     </td>
   </tr>
 </table>
 
-### Más proyectos y experimentos
+### También en abierto
 
-- 🎮 [`Adivina-pkm`](https://github.com/BertMarti/Adivina-pkm) — juego web de adivinanzas inspirado en Pokémon.
-- 🧭 [`Roscodex`](https://github.com/BertMarti/Roscodex) — experimento web para explorar ideas y mecánicas interactivas.
-- 📚 [`curso_ia_MoureDev`](https://github.com/BertMarti/curso_ia_MoureDev) — espacio de aprendizaje y experimentación alrededor de la inteligencia artificial.
-- 🧩 [`squad-summoner-v3`](https://github.com/BertMarti/squad-summoner-v3) — proyecto frontend construido con Vue.
+🎮 [`Adivina-pkm`](https://github.com/BertMarti/Adivina-pkm) · 🧭 [`Roscodex`](https://github.com/BertMarti/Roscodex)
 
 ## 🎯 En qué estoy trabajando ahora
 
@@ -100,6 +102,8 @@ En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/
 
 ### Gracias por pasarte por aquí ✨
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=BertMarti&show_icons=true&hide_border=true&theme=transparent&locale=es)
+<a href="https://github.com/BertMarti?tab=repositories">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=BertMarti&show_icons=true&hide_border=true&theme=transparent&locale=es" alt="GitHub stats">
+</a>
 
 </div>

@@ -1,0 +1,33 @@
+name: commitling
+
+on:
+  schedule:
+    - cron: "23 5 * * *" # cada día a las 05:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  commitling:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: BertMarti/commitling@v1
+        with:
+          out: commitling.svg
+      - uses: BertMarti/commitling@v1
+        with:
+          out: commitling-dark.svg
+          theme: dark
+      - name: Guardar los SVG si han cambiado
+        run: |
+          git add commitling.svg commitling-dark.svg
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: actualiza commitling"
+          git push

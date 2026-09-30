@@ -100,6 +100,15 @@ En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/
 
 <div align="center">
 
+<a href="https://bertmarti.github.io/commitling/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./commitling-dark.svg">
+    <img alt="Mi commitling: una mascota pixel-art que crece con mi actividad en GitHub" src="./commitling.svg">
+  </picture>
+</a>
+
+<sub>Mi <a href="https://github.com/BertMarti/commitling">commitling</a> crece con mis commits y se actualiza cada día.</sub>
+
 ### Gracias por pasarte por aquí ✨
 
 <a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-8%20public%20projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="8 public projects"></a>

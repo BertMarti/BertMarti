@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: BertMarti/commitling@main
+      - uses: BertMarti/commitling@v1
         with:
           out: commitling.svg
-      - uses: BertMarti/commitling@main
+      - uses: BertMarti/commitling@v1
         with:
           out: commitling-dark.svg
           theme: dark

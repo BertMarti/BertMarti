@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-labelledby="cl-title cl-desc">
 <title id="cl-title">commitling de @BertMarti</title>
-<desc id="cl-desc">Retoño, contento. 630 XP, racha de 2 días, 4 días activos en los últimos 30. Accesorios: flor.</desc>
+<desc id="cl-desc">Retoño, contento. 718 XP, racha de 3 días, 5 días activos en los últimos 30. Accesorios: flor.</desc>
 <style>
 .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono","Liberation Mono",monospace}
 .b{font-weight:700}
@@ -28,13 +28,13 @@
 <rect x="222" y="78" width="8" height="8" fill="#7fb069" shape-rendering="crispEdges"/>
 <text class="t" x="236" y="86" font-size="12" fill="#2b2724">Contento</text>
 <text class="t" x="460" y="86" font-size="11" fill="#6f675e" text-anchor="end">fase 3 de 5</text>
-<text class="t" x="222" y="110" font-size="12" fill="#2b2724">630 XP</text>
+<text class="t" x="222" y="110" font-size="12" fill="#2b2724">718 XP</text>
 <text class="t" x="460" y="110" font-size="11" fill="#6f675e" text-anchor="end">arbusto: 1.000 XP</text>
-<g shape-rendering="crispEdges"><path fill="#ddd5c6" d="M312 118h8v8h-8zM322 118h8v8h-8zM332 118h8v8h-8zM342 118h8v8h-8zM352 118h8v8h-8zM362 118h8v8h-8zM372 118h8v8h-8zM382 118h8v8h-8zM392 118h8v8h-8zM402 118h8v8h-8zM412 118h8v8h-8zM422 118h8v8h-8zM432 118h8v8h-8zM442 118h8v8h-8zM452 118h8v8h-8z"/><path fill="#7fb069" d="M222 118h8v8h-8zM232 118h8v8h-8zM242 118h8v8h-8zM252 118h8v8h-8zM262 118h8v8h-8zM272 118h8v8h-8zM282 118h8v8h-8zM292 118h8v8h-8zM302 118h8v8h-8z"/></g>
+<g shape-rendering="crispEdges"><path fill="#ddd5c6" d="M342 118h8v8h-8zM352 118h8v8h-8zM362 118h8v8h-8zM372 118h8v8h-8zM382 118h8v8h-8zM392 118h8v8h-8zM402 118h8v8h-8zM412 118h8v8h-8zM422 118h8v8h-8zM432 118h8v8h-8zM442 118h8v8h-8zM452 118h8v8h-8z"/><path fill="#7fb069" d="M222 118h8v8h-8zM232 118h8v8h-8zM242 118h8v8h-8zM252 118h8v8h-8zM262 118h8v8h-8zM272 118h8v8h-8zM282 118h8v8h-8zM292 118h8v8h-8zM302 118h8v8h-8zM312 118h8v8h-8zM322 118h8v8h-8zM332 118h8v8h-8z"/></g>
 <text class="t" x="222" y="150" font-size="10" fill="#6f675e">racha</text>
-<text class="t b" x="222" y="168" font-size="15" fill="#2b2724">2 días</text>
+<text class="t b" x="222" y="168" font-size="15" fill="#2b2724">3 días</text>
 <text class="t" x="308" y="150" font-size="10" fill="#6f675e">activo 30 d</text>
-<text class="t b" x="308" y="168" font-size="15" fill="#2b2724">4/30</text>
+<text class="t b" x="308" y="168" font-size="15" fill="#2b2724">5/30</text>
 <text class="t" x="402" y="150" font-size="10" fill="#6f675e">repos</text>
 <text class="t b" x="402" y="168" font-size="15" fill="#2b2724">7</text>
 <text class="t" x="222" y="188" font-size="10" fill="#6f675e">accesorios: flor</text>

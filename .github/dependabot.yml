@@ -1,0 +1,16 @@
+# Actualizaciones semanales y agrupadas de las acciones de GitHub.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    # La acción de la mascota (commitling.yml) no se toca desde aquí.
+    ignore:
+      - dependency-name: "BertMarti/commitling"
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: "ci"

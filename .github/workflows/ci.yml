@@ -1,0 +1,75 @@
+name: CI
+
+# Los commits diarios de commitling.yml solo tocan los SVG de la mascota:
+# no hace falta revisar nada en ese caso.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["commitling.svg", "commitling-dark.svg"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gitleaks:
+    name: Secretos (gitleaks)
+    runs-on: ubuntu-latest
+    env:
+      GITLEAKS_VERSION: "8.30.1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Instalar gitleaks (binario oficial con suma de comprobación)
+        run: |
+          base="https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}"
+          curl -fsSLO "$base/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          curl -fsSLO "$base/gitleaks_${GITLEAKS_VERSION}_checksums.txt"
+          grep "gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" "gitleaks_${GITLEAKS_VERSION}_checksums.txt" | sha256sum -c -
+          tar -xzf "gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" gitleaks
+      - name: Historial completo y árbol de trabajo
+        run: |
+          ./gitleaks git . --redact --no-banner -v
+          ./gitleaks dir . --redact --no-banner -v
+
+  perfil:
+    name: README y web estática
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: El README sigue mostrando la mascota commitling
+        run: |
+          grep -qF 'srcset="./commitling-dark.svg"' README.md || { echo "::error::Falta commitling-dark.svg en el README"; exit 1; }
+          grep -qF 'src="./commitling.svg"' README.md || { echo "::error::Falta commitling.svg en el README"; exit 1; }
+      - name: Las imágenes locales del README existen
+        run: |
+          fallo=0
+          for ruta in $(grep -ohE '(src|srcset)="\./[^"]+"' README.md | sed -E 's/^[a-z]+="\.\///; s/"$//' | sort -u); do
+            [ -e "$ruta" ] || { echo "::error::No existe: $ruta"; fallo=1; }
+          done
+          exit $fallo
+      - name: Web sin estilos ni scripts en línea, sin innerHTML, con CSP
+        run: |
+          if grep -nE 'style=|<style|<script>|on(click|load|error|change)=' site/*.html; then echo "::error::Estilos/scripts en línea: rompen la CSP"; exit 1; fi
+          if grep -nE 'innerHTML|outerHTML|insertAdjacentHTML|document\.write' site/*.js; then echo "::error::Usa textContent"; exit 1; fi
+          grep -q 'Content-Security-Policy' site/index.html || { echo "::error::Falta la CSP"; exit 1; }
+      - name: La web no publica ningún email
+        run: |
+          if grep -rnIE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}' site/; then echo "::error::Email en la web"; exit 1; fi
+      - name: Los archivos enlazados de la web existen
+        run: |
+          fallo=0
+          for ruta in $(grep -ohE '(src|href|srcset)="[^"#:]+"' site/*.html | sed -E 's/^[a-z]+="//; s/"$//' | sort -u); do
+            [ -e "site/$ruta" ] || { echo "::error::No existe: site/$ruta"; fallo=1; }
+          done
+          exit $fallo
+      - name: JavaScript y SVG válidos
+        run: |
+          for f in site/*.js; do node --check "$f"; done
+          for f in img/*.svg site/*.svg; do python3 -c "import sys,xml.etree.ElementTree as E; E.parse(sys.argv[1])" "$f"; done

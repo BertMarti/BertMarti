@@ -1,0 +1,15 @@
+# Actualizaciones semanales y agrupadas de las acciones de GitHub.
+# (commitling.yml también usa acciones: los PR de Dependabot que lo toquen
+#  se revisan a mano; ver AGENTS.md.)
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: "ci"

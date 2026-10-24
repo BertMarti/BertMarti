@@ -1,6 +1,4 @@
 # Actualizaciones semanales y agrupadas de las acciones de GitHub.
-# (commitling.yml también usa acciones: los PR de Dependabot que lo toquen
-#  se revisan a mano; ver AGENTS.md.)
 version: 2
 updates:
   - package-ecosystem: github-actions
@@ -8,6 +6,9 @@ updates:
     schedule:
       interval: weekly
       day: monday
+    # La acción de la mascota (commitling.yml) no se toca desde aquí.
+    ignore:
+      - dependency-name: "BertMarti/commitling"
     groups:
       actions:
         patterns: ["*"]

@@ -61,7 +61,7 @@ jobs:
           grep -q 'Content-Security-Policy' site/index.html || { echo "::error::Falta la CSP"; exit 1; }
       - name: La web no publica ningún email
         run: |
-          if grep -rnE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}' site/; then echo "::error::Email en la web"; exit 1; fi
+          if grep -rnIE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}' site/; then echo "::error::Email en la web"; exit 1; fi
       - name: Los archivos enlazados de la web existen
         run: |
           fallo=0

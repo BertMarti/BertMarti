@@ -18,6 +18,6 @@
 ## Trampas conocidas
 - El bot de commitling hace commit a `main` cada día: las ramas se quedan atrás enseguida; no es un problema
   (no toca los mismos archivos), pero rebasa antes de fusionar si hay conflicto.
-- Dependabot puede abrir PR que actualicen acciones dentro de `commitling.yml`: revísalas a mano.
+- Dependabot ignora `BertMarti/commitling` (la acción de la mascota); `actions/checkout` de `commitling.yml` sí puede actualizarlo: revísalo a mano.
 - Las capturas se hacen con Chromium sin cabeza; printquote sale sin vista 3D porque no hay WebGL (es normal).
 - ARIA aún no tenía web publicada el 24/10/2026; su tarjeta usa una captura de la web en preparación.

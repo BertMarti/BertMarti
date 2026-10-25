@@ -16,7 +16,8 @@
 - No se mencionan repos privados.
 
 ## Historial
-- 25/10/2026: sección «Para tu día a día» (a medias y RUNA) en el README y en la web, con su filtro; captura real de ARIA
+- 25/10/2026 (noche): «a medias» pasa a llamarse **Repartito** (web /repartito/, repo BertMarti/repartito, app de Android en releases) para evitar choques de marca con apps de gastos «A medias». Su web antigua /amedias/ da 404.
+- 25/10/2026: sección «Para tu día a día» (a medias —hoy Repartito— y RUNA) en el README y en la web, con su filtro; captura real de ARIA
   (ya publicada); contador: 10 proyectos con web + RUNA.
 - 25/10/2026 (noche): Vitaclip (app de escritorio, sin web: botón «Descargar» a releases/latest) en Herramientas;
   imagen compuesta con PIL a partir de `docs/img/popup*.png` de su repo (datos de ejemplo, nada personal). printquote ya
@@ -28,4 +29,4 @@
 - Dependabot ignora `BertMarti/commitling` (la acción de la mascota); `actions/checkout` de `commitling.yml` sí puede actualizarlo: revísalo a mano.
 - Las capturas se hacen con Chromium sin cabeza; printquote sale sin vista 3D porque no hay WebGL (es normal).
 - RUNA no tiene web pública (es autoalojable): su tarjeta solo enlaza al repo. No menciones ningún subdominio propio.
-- Las tarjetas de a medias y RUNA (25/10/2026) llevan una línea de tecnologías: en el README como `<sub>`, en la web como `.stack`.
+- Las tarjetas de Repartito (antes «a medias») y RUNA (25/10/2026) llevan una línea de tecnologías: en el README como `<sub>`, en la web como `.stack`.

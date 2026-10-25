@@ -7,7 +7,7 @@
 - [x] Documentación para IA (AGENTS, CLAUDE, MEMORY, skill `anadir-proyecto`).
 
 ## Hecho (25/10/2026)
-- [x] Sección «Para tu día a día» con a medias y RUNA (README y web, con filtro).
+- [x] Sección «Para tu día a día» con Repartito (antes «a medias») y RUNA (README y web, con filtro).
 - [x] Captura real de ARIA, ya publicada en Pages.
 - [x] Vitaclip en Herramientas y aviso semanal de repos públicos que falten en el perfil.
 

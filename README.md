@@ -68,12 +68,13 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://bertmarti.github.io/amedias/"><img src="./site/img/proyectos/amedias.webp" alt="Web de a medias" width="100%"></a>
-      <h3>🍫 <a href="https://github.com/BertMarti/amedias">a medias</a></h3>
-      <p><strong>Cuentas claras y el chocolate espeso.</strong><br>Reparte los gastos del piso, la pareja o el viaje: gratis, sin cuentas, sin anuncios y sin conexión. PWA en React + TypeScript con sincronización por enlace cifrado y auditoría de seguridad independiente.</p>
-      <p><sub>React · TypeScript · PWA · Web Crypto · Offline-first</sub></p>
-      <a href="https://bertmarti.github.io/amedias/"><img src="https://img.shields.io/badge/WEB-D97706?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de a medias"></a>
-      <a href="https://github.com/BertMarti/amedias"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de a medias"></a>
+      <a href="https://bertmarti.github.io/repartito/"><img src="./site/img/proyectos/repartito.webp" alt="Web de Repartito" width="100%"></a>
+      <h3>🍫 <a href="https://github.com/BertMarti/repartito">Repartito</a></h3>
+      <p><strong>Cuentas claras y el chocolate espeso.</strong><br>Reparte los gastos del piso, la pareja o el viaje: gratis, sin cuentas, sin anuncios y sin conexión. Web (PWA) y app de Android, con sincronización por enlace cifrado y auditoría de seguridad independiente.</p>
+      <p><sub>React · TypeScript · PWA · Android (Capacitor) · Web Crypto</sub></p>
+      <a href="https://bertmarti.github.io/repartito/"><img src="https://img.shields.io/badge/WEB-D97706?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Repartito"></a>
+      <a href="https://github.com/BertMarti/repartito/releases/latest"><img src="https://img.shields.io/badge/ANDROID-3DDC84?style=flat-square&logo=android&logoColor=white" alt="App de Android de Repartito"></a>
+      <a href="https://github.com/BertMarti/repartito"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Repartito"></a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/BertMarti/runa"><img src="./site/img/proyectos/runa.webp" alt="Captura de RUNA" width="100%"></a>

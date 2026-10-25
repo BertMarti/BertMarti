@@ -1,0 +1,50 @@
+name: Repos públicos en el perfil
+
+# Avisa (sin fallar nunca) si algún repo público de BertMarti no aparece en el
+# README o en el portafolio (site/index.html). Semanal, a mano y en cada PR.
+on:
+  schedule:
+    - cron: "17 6 * * 1" # lunes a las 06:17 UTC
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  comprobar:
+    name: Todos los repos públicos están en el perfil
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Comparar repos públicos con el README y la web
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DUENO: ${{ github.repository_owner }}
+        run: |
+          # Solo repos públicos, propios (no forks) y sin archivar; el propio repo de perfil se excluye.
+          repos=$(gh api "users/$DUENO/repos?type=owner&per_page=100" --paginate \
+            -q '.[] | select(.private==false and .fork==false and .archived==false) | .name' | sort -f) || {
+            echo "::warning::No se pudo consultar la API de GitHub; se omite la comprobación."; exit 0; }
+          faltan=0
+          {
+            echo "### Repos públicos en el perfil"
+            echo
+            echo "| Repo | README | Web |"
+            echo "|---|:---:|:---:|"
+          } >> "$GITHUB_STEP_SUMMARY"
+          for r in $repos; do
+            [ "$r" = "$DUENO" ] && continue
+            patron="github\.com/$DUENO/$r([/\"?#]|$)"
+            en_readme=sí; en_web=sí
+            grep -qiE "$patron" README.md || { en_readme=no; echo "::warning file=README.md::El repo público $r no aparece en el README"; faltan=$((faltan+1)); }
+            grep -qiE "$patron" site/index.html || { en_web=no; echo "::warning file=site/index.html::El repo público $r no aparece en el portafolio"; faltan=$((faltan+1)); }
+            echo "| $r | $en_readme | $en_web |" >> "$GITHUB_STEP_SUMMARY"
+          done
+          echo >> "$GITHUB_STEP_SUMMARY"
+          if [ "$faltan" -eq 0 ]; then
+            echo "Todos los repos públicos están en el README y en la web." | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Faltan $faltan apariciones: añade los proyectos con la skill anadir-proyecto." | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
+          exit 0

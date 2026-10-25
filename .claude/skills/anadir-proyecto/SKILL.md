@@ -10,7 +10,7 @@ Requisitos: el repo es **público** (nunca añadas repos privados) y tiene web e
 
 1. **Datos exactos.** `gh repo view BertMarti/<Repo> --json description,homepageUrl` — la frase de la tarjeta sale
    de la descripción, reescrita para cualquier visitante (sin jerga: nada de «Docker», «Vite»…).
-   Elige categoría: casa (cielo `#0EA5E9`), herramientas e IA (morado `#7C3AED`) o juegos (turquesa `#14B8A6`).
+   Elige categoría: casa (cielo `#0EA5E9`), día a día (ámbar `#D97706`), herramientas e IA (morado `#7C3AED`) o juegos (turquesa `#14B8A6`).
 
 2. **Captura 640x400 en WebP** (id en minúsculas):
    ```bash

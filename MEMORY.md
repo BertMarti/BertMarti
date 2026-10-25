@@ -1,8 +1,8 @@
-# MEMORY.md — decisiones y trampas (actualizado 25/10/2026)
+# MEMORY.md — decisiones y trampas (actualizado 25/10/2026, noche)
 
 ## Estado actual
 - README del perfil renovado: banner SVG propio (claro/oscuro), proyectos en tarjetas por categoría
-  (casa, día a día, herramientas e IA, juegos) con captura, web y código; mascota commitling en el mismo sitio.
+  (casa, día a día, herramientas e IA, juegos); están TODOS los repos públicos con aplicación (12, sin contar este) con captura, web y código; mascota commitling en el mismo sitio.
 - Portafolio estático en `site/` publicado con Pages (`pages.yml`), sin dependencias.
 - CI: gitleaks + comprobaciones del README (mascota, imágenes locales) y de la web (CSP, sin email, enlaces).
 
@@ -18,6 +18,9 @@
 ## Historial
 - 25/10/2026: sección «Para tu día a día» (a medias y RUNA) en el README y en la web, con su filtro; captura real de ARIA
   (ya publicada); contador: 10 proyectos con web + RUNA.
+- 25/10/2026 (noche): Vitaclip (app de escritorio, sin web: botón «Descargar» a releases/latest) en Herramientas;
+  imagen compuesta con PIL a partir de `docs/img/popup*.png` de su repo (datos de ejemplo, nada personal). printquote ya
+  acepta STL, OBJ o 3MF. Contador: «12 proyectos abiertos». Nuevo workflow `repos-publicos.yml` que avisa si falta alguno.
 
 ## Trampas conocidas
 - El bot de commitling hace commit a `main` cada día: las ramas se quedan atrás enseguida; no es un problema

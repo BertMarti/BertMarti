@@ -9,6 +9,7 @@
 ## Hecho (25/10/2026)
 - [x] Sección «Para tu día a día» con a medias y RUNA (README y web, con filtro).
 - [x] Captura real de ARIA, ya publicada en Pages.
+- [x] Vitaclip en Herramientas y aviso semanal de repos públicos que falten en el perfil.
 
 ## Siguiente
 - [ ] Revisar cada pocos meses que las descripciones de las tarjetas siguen igual que en cada repo.

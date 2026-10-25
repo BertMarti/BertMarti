@@ -15,6 +15,7 @@ https://bertmarti.github.io/BertMarti/ (carpeta `site/`).
 | `site/` | Portafolio: `index.html`, `styles.css`, `app.js`, `favicon.svg`, `img/proyectos/*.webp`. Sin dependencias ni build. |
 | `.github/workflows/pages.yml` | Publica `site/` en Pages (solo si cambia `site/**`). |
 | `.github/workflows/ci.yml` | gitleaks + comprobaciones del README y de la web. |
+| `.github/workflows/repos-publicos.yml` | Avisa (sin fallar) si un repo público no aparece en el README o en la web. |
 
 ## Reglas que no se rompen
 

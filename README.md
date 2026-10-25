@@ -100,7 +100,7 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/printquote/"><img src="./site/img/proyectos/printquote.webp" alt="Web de printquote" width="100%"></a>
       <h3>🧊 <a href="https://github.com/BertMarti/printquote">printquote</a></h3>
-      <p><strong>Del archivo STL al presupuesto en segundos.</strong><br>Arrastra tu modelo 3D, míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor.</p>
+      <p><strong>Del archivo STL al presupuesto en segundos.</strong><br>Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor.</p>
       <a href="https://bertmarti.github.io/printquote/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de printquote"></a>
       <a href="https://github.com/BertMarti/printquote"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de printquote"></a>
     </td>
@@ -110,6 +110,16 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
       <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Una mascota pixel-art que vive en tu perfil y crece con tus commits (la mía está aquí abajo).</p>
       <a href="https://bertmarti.github.io/commitling/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de commitling"></a>
       <a href="https://github.com/BertMarti/commitling"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de commitling"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://github.com/BertMarti/vitaclip/releases/latest"><img src="./site/img/proyectos/vitaclip.webp" alt="Vitaclip: historial del portapapeles en modo claro y oscuro" width="100%"></a>
+      <h3>🍋 <a href="https://github.com/BertMarti/vitaclip">Vitaclip</a></h3>
+      <p><strong>El portapapeles supervitaminado.</strong><br>Historial de todo lo que copias (como Ditto), capturas con anotaciones (como Lightshot) y grabación de pantalla en MP4. Gratis, sin cuentas y todo en tu equipo.</p>
+      <p><sub>Tauri · Rust · JavaScript · Windows · macOS · Linux</sub></p>
+      <a href="https://github.com/BertMarti/vitaclip/releases/latest"><img src="https://img.shields.io/badge/DESCARGAR-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Descargar Vitaclip"></a>
+      <a href="https://github.com/BertMarti/vitaclip"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Vitaclip"></a>
     </td>
   </tr>
 </table>
@@ -186,6 +196,6 @@ En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/
 ### Gracias por pasarte por aquí ✨
 
 <a href="https://bertmarti.github.io/BertMarti/"><img src="https://img.shields.io/badge/PORTAFOLIO-bertmarti.github.io-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Mi portafolio"></a>
-<a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-10%20proyectos%20con%20web%20%2B%20RUNA-181717?style=for-the-badge&logo=github&logoColor=white" alt="10 proyectos con web y RUNA"></a>
+<a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-12%20proyectos%20abiertos-181717?style=for-the-badge&logo=github&logoColor=white" alt="12 proyectos de código abierto"></a>
 
 </div>

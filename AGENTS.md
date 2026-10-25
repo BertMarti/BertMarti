@@ -49,5 +49,5 @@ tarjeta en `site/index.html` → tarjeta en la tabla de su categoría del `READM
 ## Convenciones
 
 - Español de España, tono cercano. Emojis con mesura (uno por título o tarjeta).
-- Paleta: morado `#7C3AED` (IA/herramientas), cielo `#0EA5E9` (casa), turquesa `#14B8A6` (juegos).
+- Paleta: morado `#7C3AED` (IA/herramientas), cielo `#0EA5E9` (casa), ámbar `#D97706` (día a día), turquesa `#14B8A6` (juegos).
 - Commits pequeños en español; ramas y PR, nunca push directo a `main`.

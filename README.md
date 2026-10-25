@@ -63,6 +63,29 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
   </tr>
 </table>
 
+### 🧾 Para tu día a día
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://bertmarti.github.io/amedias/"><img src="./site/img/proyectos/amedias.webp" alt="Web de a medias" width="100%"></a>
+      <h3>🍫 <a href="https://github.com/BertMarti/amedias">a medias</a></h3>
+      <p><strong>Cuentas claras y el chocolate espeso.</strong><br>Reparte los gastos del piso, la pareja o el viaje: gratis, sin cuentas, sin anuncios y sin conexión. PWA en React + TypeScript con sincronización por enlace cifrado y auditoría de seguridad independiente.</p>
+      <p><sub>React · TypeScript · PWA · Web Crypto · Offline-first</sub></p>
+      <a href="https://bertmarti.github.io/amedias/"><img src="https://img.shields.io/badge/WEB-D97706?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de a medias"></a>
+      <a href="https://github.com/BertMarti/amedias"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de a medias"></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/BertMarti/runa"><img src="./site/img/proyectos/runa.webp" alt="Captura de RUNA" width="100%"></a>
+      <h3>🔥 <a href="https://github.com/BertMarti/runa">RUNA</a></h3>
+      <p><strong>Secretos que se leen una vez… y desaparecen.</strong><br>Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse. Autoalojable con Docker, conocimiento cero, auditado.</p>
+      <p><sub>Fastify · React · Web Crypto · Docker · SQLite</sub></p>
+      <a href="https://github.com/BertMarti/runa"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de RUNA"></a>
+      <img src="https://img.shields.io/badge/SE%20INSTALA%20EN%20TU%20SERVIDOR-6B7280?style=flat-square&logo=docker&logoColor=white" alt="Se instala en tu servidor">
+    </td>
+  </tr>
+</table>
+
 ### 🛠️ Herramientas e IA
 
 <table>
@@ -163,6 +186,6 @@ En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/
 ### Gracias por pasarte por aquí ✨
 
 <a href="https://bertmarti.github.io/BertMarti/"><img src="https://img.shields.io/badge/PORTAFOLIO-bertmarti.github.io-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Mi portafolio"></a>
-<a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-9%20proyectos%20con%20web-181717?style=for-the-badge&logo=github&logoColor=white" alt="9 proyectos con web"></a>
+<a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-10%20proyectos%20con%20web%20%2B%20RUNA-181717?style=for-the-badge&logo=github&logoColor=white" alt="10 proyectos con web y RUNA"></a>
 
 </div>

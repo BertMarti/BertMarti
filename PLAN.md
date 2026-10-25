@@ -6,8 +6,11 @@
 - [x] CI con gitleaks y comprobaciones; Dependabot para acciones.
 - [x] Documentación para IA (AGENTS, CLAUDE, MEMORY, skill `anadir-proyecto`).
 
+## Hecho (25/10/2026)
+- [x] Sección «Para tu día a día» con a medias y RUNA (README y web, con filtro).
+- [x] Captura real de ARIA, ya publicada en Pages.
+
 ## Siguiente
-- [ ] Rehacer la captura de ARIA cuando su web esté publicada.
 - [ ] Revisar cada pocos meses que las descripciones de las tarjetas siguen igual que en cada repo.
 - [ ] Imagen social (`og:image`) para que el enlace del portafolio se vea bien al compartirlo.
 

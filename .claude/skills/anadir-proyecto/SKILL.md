@@ -1,48 +1,58 @@
 ---
 name: anadir-proyecto
-description: Añade un proyecto público nuevo de BertMarti al README del perfil y al portafolio (site/). Úsala cuando haya un repo público nuevo con web en GitHub Pages o cambie la descripción de uno existente.
+description: Añade un proyecto público nuevo de BertMarti al README del perfil y al portafolio (site/), o cambia la descripción o los enlaces de uno existente. Todo sale de proyectos.json.
 ---
 
-# Añadir un proyecto al perfil y al portafolio
+# Añadir o cambiar un proyecto del perfil y del portafolio
+
+Las tarjetas del README y de `site/index.html` **se generan** desde `proyectos.json` con
+`scripts/generar-tarjetas.mjs` (sin dependencias). No edites a mano lo que hay entre los marcadores
+`<!-- tarjetas:inicio … -->` / `<!-- tarjetas:fin -->` (ni los filtros de la web): el CI falla si no coincide.
 
 Requisitos: el repo es **público** (nunca añadas repos privados). Si tiene web, está en `https://bertmarti.github.io/<Repo>/`
-(respeta las mayúsculas exactas del nombre del repo). Si no tiene web:
-- app de escritorio con releases (p. ej. Vitaclip) → botón «Descargar» a `https://github.com/BertMarti/<Repo>/releases/latest`;
-- app autoalojada sin web pública (p. ej. RUNA) → solo «Ver el código» y la nota «Se instala en tu servidor».
+(respeta las mayúsculas exactas del nombre del repo; el script lo comprueba).
 
-**Aviso automático:** el workflow `.github/workflows/repos-publicos.yml` (semanal, en cada PR y a mano) compara los repos
-públicos de la API con los enlaces `github.com/BertMarti/<Repo>` del README y de `site/index.html`, y deja un aviso
-(`::warning::`, nunca falla) y una tabla en el resumen del job por cada repo que falte. Si ves ese aviso, usa esta skill.
+**Aviso automático:** `.github/workflows/repos-publicos.yml` (semanal, en cada PR y a mano) avisa si un repo público
+no aparece en el README o en la web. Si ves ese aviso, usa esta skill.
 
-1. **Datos exactos.** `gh repo view BertMarti/<Repo> --json description,homepageUrl` — la frase de la tarjeta sale
-   de la descripción, reescrita para cualquier visitante (sin jerga: nada de «Docker», «Vite»…).
-   Elige categoría: casa (cielo `#0EA5E9`), día a día (ámbar `#D97706`), herramientas e IA (morado `#7C3AED`) o juegos (turquesa `#14B8A6`).
+1. **Datos exactos.** `gh repo view BertMarti/<Repo> --json description,homepageUrl,languages,repositoryTopics`.
+   El lema y la descripción salen de la descripción del repo, reescritos para cualquier visitante (sin jerga: nada de
+   «Docker» o «Vite» en la frase; las tecnologías van aparte, en `tecnologias`).
 
-2. **Captura 640x400 en WebP** (id en minúsculas):
+2. **Captura 640x400 en WebP** (id en minúsculas). Con `nice` y una sola instancia de Chromium:
    ```bash
-   chromium --headless=new --disable-gpu --hide-scrollbars --window-size=1280,800 \
+   nice -n 19 ionice -c3 chromium --headless=new --disable-gpu --hide-scrollbars --window-size=1280,800 \
      --virtual-time-budget=8000 --screenshot=/tmp/p.png https://bertmarti.github.io/<Repo>/
    python3 -c "from PIL import Image; Image.open('/tmp/p.png').convert('RGB').resize((640,400)).save('site/img/proyectos/<id>.webp','WEBP',quality=72,method=6)"
    ```
    Mírala antes de seguir (que no salga en blanco). Debe pesar menos de ~30 KB.
-   Sin web que capturar: compón la imagen con PIL a partir de las capturas del propio repo (p. ej. `docs/img/*.png`,
-   descargadas con `gh api repos/BertMarti/<Repo>/contents/<ruta> -H "Accept: application/vnd.github.raw"`) y revisa que
-   no muestren datos personales.
+   Sin web que capturar: compón la imagen con PIL a partir de las capturas del propio repo y revisa que no muestren
+   datos personales.
 
-3. **Web (`site/index.html`).** Copia una tarjeta existente de la misma categoría y cambia: imagen
-   (`img/proyectos/<id>.webp`, con `width`/`height`, `loading="lazy"` y `alt`), nombre, frase, categoría y los dos
-   enlaces («Abrir la web» y «Ver el código»), con `rel="noopener noreferrer"`. Sin estilos ni scripts en línea (CSP).
-
-4. **README.** Copia una celda `<td>` de la tabla de su categoría (imagen `./site/img/proyectos/<id>.webp`, título con
-   emoji, frase en negrita + explicación, insignias WEB/JUGAR y CÓDIGO). Si la fila ya tiene 3 celdas, abre otra `<tr>`.
-   Actualiza el número de la insignia «proyectos abiertos» del final.
-   **No toques** las líneas de contacto, el bloque `<picture>` de la mascota ni `commitling*.svg`.
-
-5. **Comprueba:**
-   ```bash
-   git diff README.md | grep -iE 'mailto|linkedin|commitling' # no debe salir nada (salvo que el proyecto sea commitling)
-   node --check site/app.js
+3. **Entrada en `proyectos.json`** (en el orden en que debe salir; la sección decide la tabla del README):
+   ```json
+   {
+     "repo": "NombreExactoDelRepo", "nombre": "Nombre visible", "emoji": "🧩",
+     "seccion": "casa | dia | herramientas | juegos", "etiqueta": "filtro de la web (Casa, Día a día, IA, Herramientas, Juegos)",
+     "captura": "<id>.webp", "alt": "Captura de …, qué se ve",
+     "lema": "Frase corta en negrita.", "descripcion": "Para qué sirve, en una o dos frases.",
+     "tecnologias": ["React", "TypeScript"],
+     "web": "https://bertmarti.github.io/<Repo>/", "jugar": true
+   }
    ```
-   Sirve `site/` con el prefijo `/BertMarti/` (ver AGENTS.md) y revisa la tarjeta en escritorio y a 390 px.
+   Enlaces opcionales, en este orden: `web` (botón WEB, o JUGAR con `"jugar": true`), `android` (APK en releases),
+   `descarga` (app de escritorio: `…/releases/latest`), el código (siempre) y `nota` (sin web ni descarga, p. ej.
+   `{ "texto": "Se instala en tu servidor", "logo": "docker" }`).
+
+4. **Genera y comprueba:**
+   ```bash
+   node scripts/generar-tarjetas.mjs              # reescribe README.md y site/index.html
+   node scripts/generar-tarjetas.mjs --comprobar  # lo mismo que hace el CI
+   git diff README.md | grep -iE 'mailto|linkedin' # no debe salir nada
+   ```
+   El número de la insignia «proyectos abiertos» se actualiza solo. Sirve `site/` con el prefijo `/BertMarti/`
+   (ver AGENTS.md) y revisa la tarjeta en escritorio y a 390 px.
+
+5. Si el proyecto tiene web, la vigilancia semanal de CSP (`vigilancia-csp.yml`) la incluirá sola.
 
 6. Commit pequeño en español («Añade <Repo> al perfil y al portafolio») en una rama y PR.

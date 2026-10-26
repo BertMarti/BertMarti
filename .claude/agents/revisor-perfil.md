@@ -16,3 +16,6 @@ Comprueba:
    enlaces externos con `rel="noopener noreferrer"`; imágenes con `alt`, `width` y `height`; las rutas locales existen.
 5. Los enlaces `https://bertmarti.github.io/<Repo>/` respetan las mayúsculas del repo.
 6. Textos en español de España, sin jerga técnica en el README.
+7. Las tarjetas salen de `proyectos.json`: `node scripts/generar-tarjetas.mjs --comprobar` sale con 0 y nadie ha
+   editado a mano lo que hay entre los marcadores `<!-- tarjetas:… -->`.
+8. La CSP de `site/index.html` mantiene `require-trusted-types-for 'script'` y las claves de localStorage llevan prefijo `bertmarti:`.

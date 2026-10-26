@@ -1,0 +1,25 @@
+name: Vigilancia del origen compartido
+
+# Todas las webs de Pages de BertMarti comparten el origen https://bertmarti.github.io
+# (localStorage, IndexedDB, cookies y service workers son comunes). Cada lunes se descarga
+# la CSP de todas (lista de proyectos.json) y se avisa, SIN FALLAR, si alguna no tiene CSP,
+# permite 'unsafe-inline'/'unsafe-eval' en script-src o carga scripts de otros hosts.
+on:
+  schedule:
+    - cron: "41 6 * * 1" # lunes a las 06:41 UTC
+  workflow_dispatch:
+  pull_request:
+    paths: ["proyectos.json", "scripts/vigilar-csp*.mjs", ".github/workflows/vigilancia-csp.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  csp:
+    name: CSP de todas las webs de Pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - name: Descargar y revisar la CSP de cada web
+        run: node scripts/vigilar-csp.mjs

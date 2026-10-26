@@ -84,7 +84,7 @@
       "captura": "modelduel.webp",
       "alt": "Captura de modelduel, comparador de modelos de IA",
       "lema": "Comparar modelos con datos, no con opiniones.",
-      "descripcion": "Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe.",
+      "descripcion": "Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe, con el código de los modelos aislado en un contenedor si quieres.",
       "tecnologias": ["Python", "CLI", "pytest", "Docker"],
       "web": "https://bertmarti.github.io/modelduel/"
     },
@@ -136,7 +136,7 @@
       "captura": "roscodex.webp",
       "alt": "Captura de Roscodex, rosco de preguntas de Pokémon",
       "lema": "El rosco de las letras, versión Pokémon.",
-      "descripcion": "Preguntas fan con estética pixel-art: gratis, sin cuentas y también sin conexión.",
+      "descripcion": "Preguntas fan con estética pixel-art, contrarreloj y estadísticas: gratis, sin cuentas y también sin conexión.",
       "tecnologias": ["React", "TypeScript", "Vite", "PWA"],
       "web": "https://bertmarti.github.io/Roscodex/",
       "jugar": true
@@ -150,7 +150,7 @@
       "captura": "adivina-pkm.webp",
       "alt": "Captura de PokéQuién, duelo de deducción con Pokémon",
       "lema": "¿Quién es quién?, con Pokémon.",
-      "descripcion": "Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador o en Android.",
+      "descripcion": "Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador; se instala en el móvil y el Solitario funciona sin conexión.",
       "tecnologias": ["React Native (Expo)", "TypeScript", "WebSocket"],
       "web": "https://bertmarti.github.io/Adivina-pkm/",
       "jugar": true
@@ -164,7 +164,7 @@
       "captura": "squad-summoner-v3.webp",
       "alt": "Captura de Squad Summoner, convocatorias para jugar en grupo",
       "lema": "Convocatorias épicas para tu escuadrón.",
-      "descripcion": "Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2 o Monster Hunter, listos para WhatsApp.",
+      "descripcion": "Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2, Monster Hunter y más, con el tono que elijas y encuesta de asistencia, listos para WhatsApp.",
       "tecnologias": ["Vue 3", "TypeScript", "Vite", "Gemini"],
       "web": "https://bertmarti.github.io/squad-summoner-v3/"
     }

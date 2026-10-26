@@ -99,7 +99,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/modelduel/"><img src="./site/img/proyectos/modelduel.webp" alt="Web de modelduel" width="100%"></a>
       <h3>⚔️ <a href="https://github.com/BertMarti/modelduel">modelduel</a></h3>
-      <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe.</p>
+      <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe, con el código de los modelos aislado en un contenedor si quieres.</p>
       <p><sub>Python · CLI · pytest · Docker</sub></p>
       <a href="https://bertmarti.github.io/modelduel/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de modelduel"></a>
       <a href="https://github.com/BertMarti/modelduel"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de modelduel"></a>
@@ -140,7 +140,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/Roscodex/"><img src="./site/img/proyectos/roscodex.webp" alt="Web de Roscodex" width="100%"></a>
       <h3>🧭 <a href="https://github.com/BertMarti/Roscodex">Roscodex</a></h3>
-      <p><strong>El rosco de las letras, versión Pokémon.</strong><br>Preguntas fan con estética pixel-art: gratis, sin cuentas y también sin conexión.</p>
+      <p><strong>El rosco de las letras, versión Pokémon.</strong><br>Preguntas fan con estética pixel-art, contrarreloj y estadísticas: gratis, sin cuentas y también sin conexión.</p>
       <p><sub>React · TypeScript · Vite · PWA</sub></p>
       <a href="https://bertmarti.github.io/Roscodex/"><img src="https://img.shields.io/badge/JUGAR-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Jugar a Roscodex"></a>
       <a href="https://github.com/BertMarti/Roscodex"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Roscodex"></a>
@@ -148,7 +148,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/Adivina-pkm/"><img src="./site/img/proyectos/adivina-pkm.webp" alt="Web de PokéQuién" width="100%"></a>
       <h3>🎮 <a href="https://github.com/BertMarti/Adivina-pkm">PokéQuién</a></h3>
-      <p><strong>¿Quién es quién?, con Pokémon.</strong><br>Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador o en Android.</p>
+      <p><strong>¿Quién es quién?, con Pokémon.</strong><br>Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador; se instala en el móvil y el Solitario funciona sin conexión.</p>
       <p><sub>React Native (Expo) · TypeScript · WebSocket</sub></p>
       <a href="https://bertmarti.github.io/Adivina-pkm/"><img src="https://img.shields.io/badge/JUGAR-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Jugar a PokéQuién"></a>
       <a href="https://github.com/BertMarti/Adivina-pkm"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de PokéQuién"></a>
@@ -156,7 +156,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/squad-summoner-v3/"><img src="./site/img/proyectos/squad-summoner-v3.webp" alt="Web de Squad Summoner" width="100%"></a>
       <h3>🎖️ <a href="https://github.com/BertMarti/squad-summoner-v3">Squad Summoner</a></h3>
-      <p><strong>Convocatorias épicas para tu escuadrón.</strong><br>Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2 o Monster Hunter, listos para WhatsApp.</p>
+      <p><strong>Convocatorias épicas para tu escuadrón.</strong><br>Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2, Monster Hunter y más, con el tono que elijas y encuesta de asistencia, listos para WhatsApp.</p>
       <p><sub>Vue 3 · TypeScript · Vite · Gemini</sub></p>
       <a href="https://bertmarti.github.io/squad-summoner-v3/"><img src="https://img.shields.io/badge/WEB-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Squad Summoner"></a>
       <a href="https://github.com/BertMarti/squad-summoner-v3"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Squad Summoner"></a>

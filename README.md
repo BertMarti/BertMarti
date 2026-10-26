@@ -33,7 +33,9 @@ Mi día a día combina **React, Angular, TypeScript, Java, Spring Boot y Spring 
 
 ## 🌟 Proyectos públicos
 
-Todos son gratuitos, de código abierto y se pueden probar en el navegador. Pulsa la imagen para abrir la web.
+Todos son gratuitos y de código abierto, y casi todos se prueban en el navegador. Pulsa la imagen para abrir su web (o la descarga, o el código si se instala en tu propio servidor).
+
+<!-- tarjetas:inicio · generado por scripts/generar-tarjetas.mjs desde proyectos.json: no lo edites a mano -->
 
 ### 🏠 Para tu casa
 
@@ -42,14 +44,16 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/ARIA/"><img src="./site/img/proyectos/aria.webp" alt="Web de ARIA" width="100%"></a>
       <h3>🤖 <a href="https://github.com/BertMarti/ARIA">ARIA</a></h3>
-      <p><strong>Tu casa, con voz propia.</strong><br>Asistente de IA autoalojado que gestiona las apps de tu casa: chat y voz, Telegram, rutinas y control parental. En una Raspberry Pi o un PC.</p>
+      <p><strong>Tu casa, con voz propia.</strong><br>Asistente de IA autoalojado que gestiona las apps de tu casa: chat y voz, Telegram, rutinas y control parental. Gratis, en una Raspberry Pi o un PC.</p>
+      <p><sub>Python · FastAPI · Ollama · Docker · Telegram</sub></p>
       <a href="https://bertmarti.github.io/ARIA/"><img src="https://img.shields.io/badge/WEB-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de ARIA"></a>
       <a href="https://github.com/BertMarti/ARIA"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de ARIA"></a>
     </td>
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/SHIELD-DNS/"><img src="./site/img/proyectos/shield-dns.webp" alt="Web de SHIELD-DNS" width="100%"></a>
       <h3>🛡️ <a href="https://github.com/BertMarti/SHIELD-DNS">SHIELD-DNS</a></h3>
-      <p><strong>Adiós a los anuncios en toda la casa.</strong><br>Bloquea anuncios y rastreadores en todos tus dispositivos a la vez (Pi-hole + Unbound), con guía paso a paso.</p>
+      <p><strong>Adiós a los anuncios en toda la casa.</strong><br>Bloquea anuncios y rastreadores en todos tus dispositivos a la vez (Pi-hole + Unbound con DNSSEC), con guía paso a paso.</p>
+      <p><sub>Pi-hole · Unbound · DNSSEC · Docker</sub></p>
       <a href="https://bertmarti.github.io/SHIELD-DNS/"><img src="https://img.shields.io/badge/WEB-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de SHIELD-DNS"></a>
       <a href="https://github.com/BertMarti/SHIELD-DNS"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de SHIELD-DNS"></a>
     </td>
@@ -57,6 +61,7 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
       <a href="https://bertmarti.github.io/HEIMDALL/"><img src="./site/img/proyectos/heimdall.webp" alt="Web de HEIMDALL" width="100%"></a>
       <h3>🔐 <a href="https://github.com/BertMarti/HEIMDALL">HEIMDALL</a></h3>
       <p><strong>Tu casa, a mano desde cualquier sitio.</strong><br>Tu propia VPN WireGuard para entrar en casa desde fuera de forma segura, con guía paso a paso.</p>
+      <p><sub>WireGuard · wg-easy · Caddy · Docker</sub></p>
       <a href="https://bertmarti.github.io/HEIMDALL/"><img src="https://img.shields.io/badge/WEB-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de HEIMDALL"></a>
       <a href="https://github.com/BertMarti/HEIMDALL"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de HEIMDALL"></a>
     </td>
@@ -77,7 +82,7 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
       <a href="https://github.com/BertMarti/repartito"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Repartito"></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/BertMarti/runa"><img src="./site/img/proyectos/runa.webp" alt="Captura de RUNA" width="100%"></a>
+      <a href="https://github.com/BertMarti/runa"><img src="./site/img/proyectos/runa.webp" alt="Captura de RUNA, para compartir secretos cifrados que se autodestruyen" width="100%"></a>
       <h3>🔥 <a href="https://github.com/BertMarti/runa">RUNA</a></h3>
       <p><strong>Secretos que se leen una vez… y desaparecen.</strong><br>Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse. Autoalojable con Docker, conocimiento cero, auditado.</p>
       <p><sub>Fastify · React · Web Crypto · Docker · SQLite</sub></p>
@@ -95,29 +100,32 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
       <a href="https://bertmarti.github.io/modelduel/"><img src="./site/img/proyectos/modelduel.webp" alt="Web de modelduel" width="100%"></a>
       <h3>⚔️ <a href="https://github.com/BertMarti/modelduel">modelduel</a></h3>
       <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe.</p>
+      <p><sub>Python · CLI · pytest · Docker</sub></p>
       <a href="https://bertmarti.github.io/modelduel/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de modelduel"></a>
       <a href="https://github.com/BertMarti/modelduel"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de modelduel"></a>
     </td>
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/printquote/"><img src="./site/img/proyectos/printquote.webp" alt="Web de printquote" width="100%"></a>
       <h3>🧊 <a href="https://github.com/BertMarti/printquote">printquote</a></h3>
-      <p><strong>Del archivo STL al presupuesto en segundos.</strong><br>Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor.</p>
+      <p><strong>Del modelo 3D al presupuesto en segundos.</strong><br>Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor.</p>
+      <p><sub>TypeScript · Three.js · Vite · PWA</sub></p>
       <a href="https://bertmarti.github.io/printquote/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de printquote"></a>
       <a href="https://github.com/BertMarti/printquote"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de printquote"></a>
     </td>
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/commitling/"><img src="./site/img/proyectos/commitling.webp" alt="Web de commitling" width="100%"></a>
       <h3>👾 <a href="https://github.com/BertMarti/commitling">commitling</a></h3>
-      <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Una mascota pixel-art que vive en tu perfil y crece con tus commits (la mía está aquí abajo).</p>
+      <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits (la mía está aquí abajo).</p>
+      <p><sub>Go · GitHub Actions · SVG animado · WebAssembly</sub></p>
       <a href="https://bertmarti.github.io/commitling/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de commitling"></a>
       <a href="https://github.com/BertMarti/commitling"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de commitling"></a>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <a href="https://github.com/BertMarti/vitaclip/releases/latest"><img src="./site/img/proyectos/vitaclip.webp" alt="Vitaclip: historial del portapapeles en modo claro y oscuro" width="100%"></a>
+      <a href="https://github.com/BertMarti/vitaclip/releases/latest"><img src="./site/img/proyectos/vitaclip.webp" alt="Vitaclip: ventana del historial del portapapeles en modo claro y oscuro" width="100%"></a>
       <h3>🍋 <a href="https://github.com/BertMarti/vitaclip">Vitaclip</a></h3>
-      <p><strong>El portapapeles supervitaminado.</strong><br>Historial de todo lo que copias (como Ditto), capturas con anotaciones (como Lightshot) y grabación de pantalla en MP4. Gratis, sin cuentas y todo en tu equipo.</p>
+      <p><strong>El portapapeles supervitaminado.</strong><br>Historial de todo lo que copias (como Ditto), capturas con anotaciones (como Lightshot) y grabación de pantalla en MP4. App de escritorio gratis, sin cuentas y todo en tu equipo.</p>
       <p><sub>Tauri · Rust · JavaScript · Windows · macOS · Linux</sub></p>
       <a href="https://github.com/BertMarti/vitaclip/releases/latest"><img src="https://img.shields.io/badge/DESCARGAR-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Descargar Vitaclip"></a>
       <a href="https://github.com/BertMarti/vitaclip"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Vitaclip"></a>
@@ -133,6 +141,7 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
       <a href="https://bertmarti.github.io/Roscodex/"><img src="./site/img/proyectos/roscodex.webp" alt="Web de Roscodex" width="100%"></a>
       <h3>🧭 <a href="https://github.com/BertMarti/Roscodex">Roscodex</a></h3>
       <p><strong>El rosco de las letras, versión Pokémon.</strong><br>Preguntas fan con estética pixel-art: gratis, sin cuentas y también sin conexión.</p>
+      <p><sub>React · TypeScript · Vite · PWA</sub></p>
       <a href="https://bertmarti.github.io/Roscodex/"><img src="https://img.shields.io/badge/JUGAR-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Jugar a Roscodex"></a>
       <a href="https://github.com/BertMarti/Roscodex"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Roscodex"></a>
     </td>
@@ -140,6 +149,7 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
       <a href="https://bertmarti.github.io/Adivina-pkm/"><img src="./site/img/proyectos/adivina-pkm.webp" alt="Web de PokéQuién" width="100%"></a>
       <h3>🎮 <a href="https://github.com/BertMarti/Adivina-pkm">PokéQuién</a></h3>
       <p><strong>¿Quién es quién?, con Pokémon.</strong><br>Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador o en Android.</p>
+      <p><sub>React Native (Expo) · TypeScript · WebSocket</sub></p>
       <a href="https://bertmarti.github.io/Adivina-pkm/"><img src="https://img.shields.io/badge/JUGAR-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Jugar a PokéQuién"></a>
       <a href="https://github.com/BertMarti/Adivina-pkm"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de PokéQuién"></a>
     </td>
@@ -147,11 +157,14 @@ Todos son gratuitos, de código abierto y se pueden probar en el navegador. Puls
       <a href="https://bertmarti.github.io/squad-summoner-v3/"><img src="./site/img/proyectos/squad-summoner-v3.webp" alt="Web de Squad Summoner" width="100%"></a>
       <h3>🎖️ <a href="https://github.com/BertMarti/squad-summoner-v3">Squad Summoner</a></h3>
       <p><strong>Convocatorias épicas para tu escuadrón.</strong><br>Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2 o Monster Hunter, listos para WhatsApp.</p>
+      <p><sub>Vue 3 · TypeScript · Vite · Gemini</sub></p>
       <a href="https://bertmarti.github.io/squad-summoner-v3/"><img src="https://img.shields.io/badge/WEB-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Squad Summoner"></a>
       <a href="https://github.com/BertMarti/squad-summoner-v3"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Squad Summoner"></a>
     </td>
   </tr>
 </table>
+
+<!-- tarjetas:fin -->
 
 ## 🤖 IA aplicada: de la idea al impacto
 

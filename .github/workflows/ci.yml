@@ -69,7 +69,16 @@ jobs:
             [ -e "site/$ruta" ] || { echo "::error::No existe: site/$ruta"; fallo=1; }
           done
           exit $fallo
+      - name: Las tarjetas coinciden con proyectos.json
+        run: node scripts/generar-tarjetas.mjs --comprobar
+      - name: Pruebas de los scripts
+        run: node --test scripts/vigilar-csp.test.mjs
+      - name: La web tiene og:image y Trusted Types
+        run: |
+          grep -q '<meta property="og:image" content="https://bertmarti.github.io/BertMarti/og.png">' site/index.html || { echo "::error::Falta og:image absoluta"; exit 1; }
+          [ -f site/og.png ] || { echo "::error::Falta site/og.png"; exit 1; }
+          grep -q "require-trusted-types-for 'script'" site/index.html || { echo "::error::Falta Trusted Types en la CSP"; exit 1; }
       - name: JavaScript y SVG válidos
         run: |
-          for f in site/*.js; do node --check "$f"; done
+          for f in site/*.js scripts/*.mjs; do node --check "$f"; done
           for f in img/*.svg site/*.svg; do python3 -c "import sys,xml.etree.ElementTree as E; E.parse(sys.argv[1])" "$f"; done

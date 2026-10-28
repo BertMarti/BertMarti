@@ -75,7 +75,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/repartito/"><img src="./site/img/proyectos/repartito.webp" alt="Web de Repartito" width="100%"></a>
       <h3>🍫 <a href="https://github.com/BertMarti/repartito">Repartito</a></h3>
-      <p><strong>Cuentas claras y el chocolate espeso.</strong><br>Reparte los gastos del piso, la pareja o el viaje: gratis, sin cuentas ni anuncios y sin conexión. Plantillas, recordatorios y fotos de tickets que nunca salen del móvil. Web (PWA) y Android, cifrado y auditado.</p>
+      <p><strong>Cuentas claras y el chocolate espeso.</strong><br>Reparte gastos del piso, la pareja o el viaje, en cualquier moneda: gratis, sin cuentas ni anuncios y sin conexión. Plantillas, recordatorios y fotos de tickets privadas. Web (PWA) y Android, cifrado y auditado.</p>
       <p><sub>React · TypeScript · PWA · Android (Capacitor) · Web Crypto</sub></p>
       <a href="https://bertmarti.github.io/repartito/"><img src="https://img.shields.io/badge/WEB-D97706?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Repartito"></a>
       <a href="https://github.com/BertMarti/repartito/releases/latest"><img src="https://img.shields.io/badge/ANDROID-3DDC84?style=flat-square&logo=android&logoColor=white" alt="App de Android de Repartito"></a>
@@ -84,7 +84,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="50%" valign="top">
       <a href="https://github.com/BertMarti/runa"><img src="./site/img/proyectos/runa.webp" alt="Captura de RUNA, para compartir secretos cifrados que se autodestruyen" width="100%"></a>
       <h3>🔥 <a href="https://github.com/BertMarti/runa">RUNA</a></h3>
-      <p><strong>Secretos que se leen una vez… y desaparecen.</strong><br>Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse, o pide un secreto con un enlace: llega cifrado solo para ti. Autoalojable con Docker, conocimiento cero, auditado.</p>
+      <p><strong>Secretos que se leen una vez… y desaparecen.</strong><br>Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse, o pide un secreto con un enlace. Autoalojable con Docker, instalable y con tema claro u oscuro. Auditado.</p>
       <p><sub>Fastify · React · Web Crypto · Docker · SQLite</sub></p>
       <a href="https://github.com/BertMarti/runa"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de RUNA"></a>
       <img src="https://img.shields.io/badge/SE%20INSTALA%20EN%20TU%20SERVIDOR-6B7280?style=flat-square&logo=docker&logoColor=white" alt="Se instala en tu servidor">

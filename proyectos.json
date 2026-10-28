@@ -57,7 +57,7 @@
       "captura": "repartito.webp",
       "alt": "Captura de Repartito, la app para repartir gastos",
       "lema": "Cuentas claras y el chocolate espeso.",
-      "descripcion": "Reparte los gastos del piso, la pareja o el viaje: gratis, sin cuentas ni anuncios y sin conexión. Plantillas, recordatorios y fotos de tickets que nunca salen del móvil. Web (PWA) y Android, cifrado y auditado.",
+      "descripcion": "Reparte gastos del piso, la pareja o el viaje, en cualquier moneda: gratis, sin cuentas ni anuncios y sin conexión. Plantillas, recordatorios y fotos de tickets privadas. Web (PWA) y Android, cifrado y auditado.",
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "Web Crypto"],
       "web": "https://bertmarti.github.io/repartito/",
       "android": "https://github.com/BertMarti/repartito/releases/latest"
@@ -71,7 +71,7 @@
       "captura": "runa.webp",
       "alt": "Captura de RUNA, para compartir secretos cifrados que se autodestruyen",
       "lema": "Secretos que se leen una vez… y desaparecen.",
-      "descripcion": "Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse, o pide un secreto con un enlace: llega cifrado solo para ti. Autoalojable con Docker, conocimiento cero, auditado.",
+      "descripcion": "Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse, o pide un secreto con un enlace. Autoalojable con Docker, instalable y con tema claro u oscuro. Auditado.",
       "tecnologias": ["Fastify", "React", "Web Crypto", "Docker", "SQLite"],
       "nota": { "texto": "Se instala en tu servidor", "logo": "docker" }
     },

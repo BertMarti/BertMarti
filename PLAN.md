@@ -17,6 +17,10 @@
 - [x] Vigilancia semanal de la CSP de todas las webs de Pages (origen compartido `bertmarti.github.io`).
 - [x] Trusted Types en la CSP del portafolio; clave de localStorage con prefijo `bertmarti:`.
 
+## Hecho (02/11/2026): versión 1.0.0
+- [x] Primera versión estable: `CHANGELOG.md`, versión visible en el pie del portafolio y release `v1.0.0`.
+- [x] Tarjetas al día con las versiones 1.1 de los proyectos (fase 6).
+
 ## Siguiente
 - [ ] Revisar cada pocos meses que las descripciones de `proyectos.json` siguen igual que en cada repo
       (`gh repo view BertMarti/<Repo> --json description`).

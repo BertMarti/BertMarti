@@ -75,7 +75,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/repartito/"><img src="./site/img/proyectos/repartito.webp" alt="Web de Repartito" width="100%"></a>
       <h3>🍫 <a href="https://github.com/BertMarti/repartito">Repartito</a></h3>
-      <p><strong>Cuentas claras y el chocolate espeso.</strong><br>Reparte gastos del piso, la pareja o el viaje, en cualquier moneda y 5 idiomas: gratis, sin cuentas ni anuncios y sin conexión. Recordatorios y tickets desde el menú de compartir. Web (PWA) y Android, cifrado y auditado.</p>
+      <p><strong>Cuentas claras y el chocolate espeso.</strong><br>Reparte gastos del piso, la pareja o el viaje, en cualquier moneda y 5 idiomas: gratis, sin cuentas ni anuncios y sin conexión. Recordatorios y tickets desde «Compartir». Web (PWA) y Android, cifrado y auditado.</p>
       <p><sub>React · TypeScript · PWA · Android (Capacitor) · Web Crypto</sub></p>
       <a href="https://bertmarti.github.io/repartito/"><img src="https://img.shields.io/badge/WEB-D97706?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Repartito"></a>
       <a href="https://github.com/BertMarti/repartito/releases/latest"><img src="https://img.shields.io/badge/ANDROID-3DDC84?style=flat-square&logo=android&logoColor=white" alt="App de Android de Repartito"></a>

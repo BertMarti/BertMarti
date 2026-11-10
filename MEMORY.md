@@ -17,6 +17,7 @@
   así se ve la versión del día sin redesplegar la web cada vez que el bot hace commit.
 - **`pages.yml` solo se dispara con `site/**`** y `ci.yml` ignora los commits que solo tocan los SVG de la mascota.
 - El email está solo en el README y a propósito (lo puso Alberto). La web solo enlaza LinkedIn y GitHub.
+- El enlace de la versión del pie de la web apunta a `CHANGELOG.md` (no a una release): no se crean releases por cada versión.
 - No se mencionan repos privados.
 - **Apps con código privado** (10/11/2026, Fresquito y Gestorín): se presentan con su demo pública
   (`BertMarti/<app>-demo`, solo el build) y `"privado": true` en `proyectos.json`; nunca se nombra ni enlaza el repo privado.

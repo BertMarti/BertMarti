@@ -99,7 +99,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/modelduel/"><img src="./site/img/proyectos/modelduel.webp" alt="Web de modelduel" width="100%"></a>
       <h3>⚔️ <a href="https://github.com/BertMarti/modelduel">modelduel</a></h3>
-      <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe. Tareas en Python, JavaScript o TypeScript, y el código de los modelos aislado en un contenedor si quieres.</p>
+      <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe, con quién gana a quién. Tareas en Python, JavaScript o TypeScript, y el código de los modelos aislado en un contenedor si quieres.</p>
       <p><sub>Python · CLI · pytest · Docker</sub></p>
       <a href="https://bertmarti.github.io/modelduel/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de modelduel"></a>
       <a href="https://github.com/BertMarti/modelduel"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de modelduel"></a>
@@ -107,7 +107,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/printquote/"><img src="./site/img/proyectos/printquote.webp" alt="Web de printquote" width="100%"></a>
       <h3>🧊 <a href="https://github.com/BertMarti/printquote">printquote</a></h3>
-      <p><strong>Del modelo 3D al presupuesto en segundos.</strong><br>Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor. El PDF del presupuesto sale numerado y con los datos de cada encargo.</p>
+      <p><strong>Del modelo 3D al presupuesto en segundos.</strong><br>Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor. El PDF del presupuesto sale numerado, con los datos del encargo y el correo y teléfono del cliente.</p>
       <p><sub>TypeScript · Three.js · Vite · PWA</sub></p>
       <a href="https://bertmarti.github.io/printquote/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de printquote"></a>
       <a href="https://github.com/BertMarti/printquote"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de printquote"></a>
@@ -115,7 +115,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/commitling/"><img src="./site/img/proyectos/commitling.webp" alt="Web de commitling" width="100%"></a>
       <h3>👾 <a href="https://github.com/BertMarti/commitling">commitling</a></h3>
-      <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits; desde la 1.1 también puede ser una calabaza (la mía está aquí abajo).</p>
+      <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits; también puede ser una calabaza (la mía está aquí abajo) y desde la 1.2 se instala en segundos con binarios verificables.</p>
       <p><sub>Go · GitHub Actions · SVG animado · WebAssembly</sub></p>
       <a href="https://bertmarti.github.io/commitling/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de commitling"></a>
       <a href="https://github.com/BertMarti/commitling"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de commitling"></a>
@@ -140,7 +140,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/Roscodex/"><img src="./site/img/proyectos/roscodex.webp" alt="Web de Roscodex" width="100%"></a>
       <h3>🧭 <a href="https://github.com/BertMarti/Roscodex">Roscodex</a></h3>
-      <p><strong>El rosco de las letras, versión Pokémon.</strong><br>Preguntas fan con estética pixel-art, contrarreloj, estadísticas y un Rosco del día igual para todos, con racha para compartir: gratis, sin cuentas y también sin conexión.</p>
+      <p><strong>El rosco de las letras, versión Pokémon.</strong><br>Preguntas fan con estética pixel-art, contrarreloj, estadísticas y un Rosco del día igual para todos, con racha, estadísticas y tu resultado como imagen para compartir: gratis, sin cuentas y también sin conexión.</p>
       <p><sub>React · TypeScript · Vite · PWA</sub></p>
       <a href="https://bertmarti.github.io/Roscodex/"><img src="https://img.shields.io/badge/JUGAR-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Jugar a Roscodex"></a>
       <a href="https://github.com/BertMarti/Roscodex"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Roscodex"></a>
@@ -148,7 +148,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/Adivina-pkm/"><img src="./site/img/proyectos/adivina-pkm.webp" alt="Web de PokéQuién" width="100%"></a>
       <h3>🎮 <a href="https://github.com/BertMarti/Adivina-pkm">PokéQuién</a></h3>
-      <p><strong>¿Quién es quién?, con Pokémon.</strong><br>Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador; se instala en el móvil, el Solitario funciona sin conexión y tiene ajustes de sonido, vibración y daltonismo.</p>
+      <p><strong>¿Quién es quién?, con Pokémon.</strong><br>Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador, con estadísticas de tus duelos; se instala en el móvil, el Solitario funciona sin conexión y tiene ajustes de sonido, vibración y daltonismo.</p>
       <p><sub>React Native (Expo) · TypeScript · WebSocket</sub></p>
       <a href="https://bertmarti.github.io/Adivina-pkm/"><img src="https://img.shields.io/badge/JUGAR-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Jugar a PokéQuién"></a>
       <a href="https://github.com/BertMarti/Adivina-pkm"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de PokéQuién"></a>
@@ -156,7 +156,7 @@ Todos son gratuitos y de código abierto, y casi todos se prueban en el navegado
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/squad-summoner-v3/"><img src="./site/img/proyectos/squad-summoner-v3.webp" alt="Web de Squad Summoner" width="100%"></a>
       <h3>🎖️ <a href="https://github.com/BertMarti/squad-summoner-v3">Squad Summoner</a></h3>
-      <p><strong>Convocatorias épicas para tu escuadrón.</strong><br>Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2, Monster Hunter y más, con tu tono o tus plantillas y encuesta de asistencia, listos para WhatsApp o para leer en voz alta.</p>
+      <p><strong>Convocatorias épicas para tu escuadrón.</strong><br>Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2, Monster Hunter y más, con tu tono o tus plantillas (compartibles por enlace) y encuesta de asistencia, listos para WhatsApp o para leer en voz alta con la voz que elijas.</p>
       <p><sub>Vue 3 · TypeScript · Vite · Gemini</sub></p>
       <a href="https://bertmarti.github.io/squad-summoner-v3/"><img src="https://img.shields.io/badge/WEB-14B8A6?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Squad Summoner"></a>
       <a href="https://github.com/BertMarti/squad-summoner-v3"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Squad Summoner"></a>

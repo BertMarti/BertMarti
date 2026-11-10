@@ -3,6 +3,11 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.1.2] - 2026-11-10
+
+### Corregido
+- El enlace de la versión del pie del portafolio daba 404 porque apuntaba a una release que no existía; ahora lleva a este CHANGELOG, que siempre está al día.
+
 ## [1.1.1] - 2026-11-10
 
 ### Cambiado
@@ -34,6 +39,7 @@ Primera versión estable del perfil de GitHub y del portafolio.
 - **Avisos automáticos**: el CI comprueba cada semana que ningún repo público falte en el perfil.
 - **Imagen social** (`og:image`) para que el enlace se vea bien al compartirlo.
 
+[1.1.2]: https://github.com/BertMarti/BertMarti/blob/main/CHANGELOG.md
 [1.1.1]: https://github.com/BertMarti/BertMarti/releases/tag/v1.1.1
 [1.1.0]: https://github.com/BertMarti/BertMarti/releases/tag/v1.1.0
 [1.0.0]: https://github.com/BertMarti/BertMarti/releases/tag/v1.0.0

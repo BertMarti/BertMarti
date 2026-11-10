@@ -21,7 +21,11 @@
 - [x] Primera versión estable: `CHANGELOG.md`, versión visible en el pie del portafolio y release `v1.0.0`.
 - [x] Tarjetas al día con las versiones 1.1 de los proyectos (fase 6).
 
+## Hecho (10/11/2026): versión 1.1.0
+- [x] Fresquito y Gestorín (código privado, demos públicas) en una sección nueva «Recién salidas», con `"privado": true`.
+
 ## Siguiente
+- [ ] Cuando terminen los rediseños de Fresquito (azules y verdes) y Gestorín, rehacer `fresquito.webp` y `gestorin.webp`.
 - [ ] Revisar cada pocos meses que las descripciones de `proyectos.json` siguen igual que en cada repo
       (`gh repo view BertMarti/<Repo> --json description`).
 - [ ] Si la vigilancia de CSP avisa de alguna web, corregirla en su repo.

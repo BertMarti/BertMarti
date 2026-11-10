@@ -3,12 +3,41 @@
   "dueno": "BertMarti",
   "portafolio": "https://bertmarti.github.io/BertMarti/",
   "secciones": [
+    { "id": "nuevas", "titulo": "✨ Recién salidas: apps con IA", "color": "7C3AED" },
     { "id": "casa", "titulo": "🏠 Para tu casa", "color": "0EA5E9" },
     { "id": "dia", "titulo": "🧾 Para tu día a día", "color": "D97706" },
     { "id": "herramientas", "titulo": "🛠️ Herramientas e IA", "color": "7C3AED" },
     { "id": "juegos", "titulo": "🎮 Juegos", "color": "14B8A6" }
   ],
   "proyectos": [
+    {
+      "repo": "fresquito-demo",
+      "nombre": "Fresquito",
+      "emoji": "🥬",
+      "seccion": "nuevas",
+      "etiqueta": "Día a día",
+      "captura": "fresquito.webp",
+      "alt": "Captura de Fresquito: inventario de la nevera ordenado por lo que caduca antes",
+      "lema": "Lo que hay en tu nevera, antes de que caduque.",
+      "descripcion": "Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas a tu gusto (fitness, vegana, picante…). Web (PWA) y Android, con modelos de IA gratuitos por defecto.",
+      "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "IA"],
+      "web": "https://bertmarti.github.io/fresquito-demo/",
+      "privado": true
+    },
+    {
+      "repo": "gestorin-demo",
+      "nombre": "Gestorín",
+      "emoji": "🗂️",
+      "seccion": "nuevas",
+      "etiqueta": "Día a día",
+      "captura": "gestorin.webp",
+      "alt": "Captura de Gestorín: una multa explicada en lenguaje llano, con su plazo e importe",
+      "lema": "Tu gestor de bolsillo.",
+      "descripcion": "Te explica cartas, multas y notificaciones en lenguaje llano, te avisa de los plazos y ordena tus papeles en Identidad, Vehículo, Hogar, Salud y Hacienda. Windows y Android, con IA local (Ollama) o modelos gratuitos.",
+      "tecnologias": ["Tauri", "Rust", "React", "TypeScript", "Ollama"],
+      "web": "https://bertmarti.github.io/gestorin-demo/",
+      "privado": true
+    },
     {
       "repo": "ARIA",
       "nombre": "ARIA",

@@ -3,6 +3,18 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.1.0] - 2026-11-10
+
+### Añadido
+- **Fresquito** 🥬: foto a la nevera, la despensa o el ticket; la IA apunta qué tienes, avisa de lo que caduca y propone recetas a tu gusto. Web (PWA) y Android.
+- **Gestorín** 🗂️: tu gestor de bolsillo, que explica cartas, multas y notificaciones en lenguaje llano y avisa de los plazos. Windows y Android.
+- Nueva sección **«✨ Recién salidas: apps con IA»**, la primera del README; en la web, las dos apps abren la rejilla de proyectos.
+- Las tarjetas admiten `"privado": true` para apps con el código cerrado: enlazan solo a la demo pública («Probar la demo»), muestran «Código privado» y no cuentan en la insignia «proyectos abiertos».
+
+### Cambiado
+- El aviso semanal de repos públicos da por presente un repo si aparece su web de Pages (las demos no enlazan su repo).
+- Versión del pie del portafolio: v1.1.0.
+
 ## [1.0.0] - 2026-11-02
 
 Primera versión estable del perfil de GitHub y del portafolio.
@@ -14,3 +26,6 @@ Primera versión estable del perfil de GitHub y del portafolio.
 - **Seguridad**: CSP estricta con Trusted Types, almacenamiento con prefijo propio (origen compartido `bertmarti.github.io`), gitleaks en cada PR y vigilancia semanal de la CSP de todas las webs de Pages.
 - **Avisos automáticos**: el CI comprueba cada semana que ningún repo público falte en el perfil.
 - **Imagen social** (`og:image`) para que el enlace se vea bien al compartirlo.
+
+[1.1.0]: https://github.com/BertMarti/BertMarti/releases/tag/v1.1.0
+[1.0.0]: https://github.com/BertMarti/BertMarti/releases/tag/v1.0.0

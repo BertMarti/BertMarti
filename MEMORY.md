@@ -18,6 +18,10 @@
 - **`pages.yml` solo se dispara con `site/**`** y `ci.yml` ignora los commits que solo tocan los SVG de la mascota.
 - El email está solo en el README y a propósito (lo puso Alberto). La web solo enlaza LinkedIn y GitHub.
 - No se mencionan repos privados.
+- **Apps con código privado** (10/11/2026, Fresquito y Gestorín): se presentan con su demo pública
+  (`BertMarti/<app>-demo`, solo el build) y `"privado": true` en `proyectos.json`; nunca se nombra ni enlaza el repo privado.
+  No cuentan en «proyectos abiertos». Sus capturas se sacaron de las demos con el navegador integrado de Claude
+  (encuadre 880x550 para Fresquito, que en escritorio ancho deja media pantalla vacía; 1280x800 para Gestorín).
 
 - **Una sola fuente para las tarjetas** (26/10/2026): `proyectos.json` + generador sin dependencias que reescribe solo
   lo que hay entre marcadores (`<!-- tarjetas:inicio … -->`/`<!-- tarjetas:fin -->`, y `filtros` en la web) y el número

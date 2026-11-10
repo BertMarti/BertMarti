@@ -35,7 +35,8 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
           for r in $repos; do
             [ "$r" = "$DUENO" ] && continue
-            patron="github\.com/$DUENO/$r([/\"?#]|$)"
+            # Cuenta el enlace al repo o a su web de Pages (las demos de apps con código privado solo enlazan la web).
+            patron="github\.com/$DUENO/$r([/\"?#]|$)|$DUENO\.github\.io/$r/"
             en_readme=sí; en_web=sí
             grep -qiE "$patron" README.md || { en_readme=no; echo "::warning file=README.md::El repo público $r no aparece en el README"; faltan=$((faltan+1)); }
             grep -qiE "$patron" site/index.html || { en_web=no; echo "::warning file=site/index.html::El repo público $r no aparece en el portafolio"; faltan=$((faltan+1)); }

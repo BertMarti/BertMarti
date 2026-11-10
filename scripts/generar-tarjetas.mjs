@@ -8,6 +8,8 @@
 // Solo se reescribe lo que hay entre los marcadores <!-- tarjetas:inicio … --> / <!-- tarjetas:fin -->
 // (y <!-- filtros:… --> en la web) y el número de la insignia «proyectos abiertos» del README.
 // El resto del README (contacto, mascota commitling…) no se toca nunca.
+// Con "privado": true (apps con el código cerrado) no se enlaza el código: «repo» es el de la demo pública y la
+// tarjeta dice «Código privado»; tampoco cuenta en la insignia «proyectos abiertos».
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -30,7 +32,7 @@ const textoInsignia = (texto) => encodeURIComponent(texto.toUpperCase());
 
 function celdaReadme(p, ancho, color) {
   const destino = p.web ?? p.descarga ?? urlRepo(p);
-  const altImagen = p.web ? `Web de ${p.nombre}` : p.alt;
+  const altImagen = p.web ? `${p.privado ? 'Demo' : 'Web'} de ${p.nombre}` : p.alt;
   const lineas = [
     `    <td width="${ancho}%" valign="top">`,
     `      <a href="${destino}"><img src="./site/img/proyectos/${p.captura}" alt="${escapar(altImagen)}" width="100%"></a>`,
@@ -39,13 +41,14 @@ function celdaReadme(p, ancho, color) {
   ];
   if (p.tecnologias?.length) lineas.push(`      <p><sub>${p.tecnologias.map(escapar).join(' · ')}</sub></p>`);
   if (p.web) {
-    const boton = p.jugar ? 'JUGAR' : 'WEB';
-    const alt = p.jugar ? `Jugar a ${p.nombre}` : `Web de ${p.nombre}`;
+    const boton = p.jugar ? 'JUGAR' : p.privado ? 'DEMO' : 'WEB';
+    const alt = p.jugar ? `Jugar a ${p.nombre}` : p.privado ? `Demo de ${p.nombre}` : `Web de ${p.nombre}`;
     lineas.push(`      <a href="${p.web}"><img src="${insignia(boton, color, 'googlechrome')}" alt="${escapar(alt)}"></a>`);
   }
   if (p.android) lineas.push(`      <a href="${p.android}"><img src="${insignia('ANDROID', '3DDC84', 'android')}" alt="App de Android de ${escapar(p.nombre)}"></a>`);
   if (p.descarga) lineas.push(`      <a href="${p.descarga}"><img src="${insignia('DESCARGAR', color, 'github')}" alt="Descargar ${escapar(p.nombre)}"></a>`);
-  lineas.push(`      <a href="${urlRepo(p)}"><img src="${insignia('CÓDIGO', '181717', 'github')}" alt="Código de ${escapar(p.nombre)}"></a>`);
+  if (p.privado) lineas.push(`      <img src="${insignia(textoInsignia('Código privado'), '6B7280', 'github')}" alt="Código privado">`);
+  else lineas.push(`      <a href="${urlRepo(p)}"><img src="${insignia('CÓDIGO', '181717', 'github')}" alt="Código de ${escapar(p.nombre)}"></a>`);
   if (p.nota) lineas.push(`      <img src="${insignia(textoInsignia(p.nota.texto), '6B7280', p.nota.logo)}" alt="${escapar(p.nota.texto)}">`);
   lineas.push('    </td>');
   return lineas.join('\n');
@@ -76,10 +79,11 @@ function enlaceWeb(url, texto, flecha) {
 
 function tarjetaWeb(p) {
   const enlaces = [];
-  if (p.web) enlaces.push(enlaceWeb(p.web, p.jugar ? 'Jugar' : 'Abrir la web', '↗'));
+  if (p.web) enlaces.push(enlaceWeb(p.web, p.jugar ? 'Jugar' : p.privado ? 'Probar la demo' : 'Abrir la web', '↗'));
   if (p.android) enlaces.push(enlaceWeb(p.android, 'App Android', '↓'));
   if (p.descarga) enlaces.push(enlaceWeb(p.descarga, 'Descargar', '↓'));
-  enlaces.push(enlaceWeb(urlRepo(p), 'Ver el código', '↗'));
+  if (p.privado) enlaces.push('<span class="no-web">Código privado</span>');
+  else enlaces.push(enlaceWeb(urlRepo(p), 'Ver el código', '↗'));
   if (p.nota) enlaces.push(`<span class="no-web">${escapar(p.nota.texto)}</span>`);
   const pila = p.tecnologias?.length
     ? `<ul class="stack" aria-label="Tecnologías">${p.tecnologias.map((t) => `<li>${escapar(t)}</li>`).join('')}</ul>`
@@ -110,7 +114,7 @@ const INSIGNIA_TOTAL = /OPEN%20SOURCE-\d+%20proyectos%20abiertos/;
 
 function generarReadme(texto) {
   if (!INSIGNIA_TOTAL.test(texto)) throw new Error('README.md: no encuentro la insignia «proyectos abiertos»');
-  const total = datos.proyectos.length;
+  const total = datos.proyectos.filter((p) => !p.privado).length;
   return reemplazar(texto, 'tarjetas', tarjetasReadme(), 'README.md', true)
     .replace(INSIGNIA_TOTAL, `OPEN%20SOURCE-${total}%20proyectos%20abiertos`)
     .replace(/alt="\d+ proyectos de código abierto"/, `alt="${total} proyectos de código abierto"`);
@@ -140,6 +144,7 @@ function validar(d) {
       if (p[campo] !== undefined && !/^https:\/\/[^\s"<>]+$/.test(p[campo])) errores.push(`${id}: «${campo}» no es una URL https válida`);
     }
     if (p.web && !p.web.startsWith(`https://${d.dueno.toLowerCase()}.github.io/${p.repo}/`)) errores.push(`${id}: la web debe ser https://${d.dueno.toLowerCase()}.github.io/${p.repo}/ (respeta las mayúsculas)`);
+    if (p.privado && !p.web) errores.push(`${id}: con el código privado necesita una «web» pública (la demo)`);
     if (!p.web && !p.descarga && !p.nota) errores.push(`${id}: sin web ni descarga, añade una «nota» (p. ej. «Se instala en tu servidor»)`);
     if (p.captura && !existsSync(join(raiz, 'site/img/proyectos', p.captura))) errores.push(`${id}: no existe site/img/proyectos/${p.captura}`);
   }

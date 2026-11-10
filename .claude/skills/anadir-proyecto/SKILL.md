@@ -9,7 +9,7 @@ Las tarjetas del README y de `site/index.html` **se generan** desde `proyectos.j
 `scripts/generar-tarjetas.mjs` (sin dependencias). No edites a mano lo que hay entre los marcadores
 `<!-- tarjetas:inicio … -->` / `<!-- tarjetas:fin -->` (ni los filtros de la web): el CI falla si no coincide.
 
-Requisitos: el repo es **público** (nunca añadas repos privados). Si tiene web, está en `https://bertmarti.github.io/<Repo>/`
+Requisitos: el repo es **público** (nunca añadas repos privados; para apps con código privado, mira `"privado"` en el paso 3). Si tiene web, está en `https://bertmarti.github.io/<Repo>/`
 (respeta las mayúsculas exactas del nombre del repo; el script lo comprueba).
 
 **Aviso automático:** `.github/workflows/repos-publicos.yml` (semanal, en cada PR y a mano) avisa si un repo público
@@ -43,6 +43,11 @@ no aparece en el README o en la web. Si ves ese aviso, usa esta skill.
    Enlaces opcionales, en este orden: `web` (botón WEB, o JUGAR con `"jugar": true`), `android` (APK en releases),
    `descarga` (app de escritorio: `…/releases/latest`), el código (siempre) y `nota` (sin web ni descarga, p. ej.
    `{ "texto": "Se instala en tu servidor", "logo": "docker" }`).
+
+   **App con el código privado** (p. ej. Fresquito o Gestorín): `"repo"` es el de su **demo pública**
+   (`<app>-demo`, con web en `https://bertmarti.github.io/<app>-demo/`) y se añade `"privado": true`. La tarjeta dice
+   «Demo» / «Probar la demo» y «Código privado», no enlaza ningún repo privado y no cuenta en «proyectos abiertos».
+   Nunca pongas en `repo` el nombre del repo privado.
 
 4. **Genera y comprueba:**
    ```bash

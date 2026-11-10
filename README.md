@@ -44,7 +44,7 @@ Arriba, lo más nuevo: dos apps con IA que ya puedes probar en su demo (de momen
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/fresquito-demo/"><img src="./site/img/proyectos/fresquito.webp" alt="Demo de Fresquito" width="100%"></a>
       <h3>🥬 <a href="https://github.com/BertMarti/fresquito-demo">Fresquito</a></h3>
-      <p><strong>Lo que hay en tu nevera, antes de que caduque.</strong><br>Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas a tu gusto (fitness, vegana, picante…). Web (PWA) y Android, con modelos de IA gratuitos por defecto.</p>
+      <p><strong>Lo que hay en tu nevera, antes de que caduque.</strong><br>Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.</p>
       <p><sub>React · TypeScript · PWA · Android (Capacitor) · IA</sub></p>
       <a href="https://bertmarti.github.io/fresquito-demo/"><img src="https://img.shields.io/badge/DEMO-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Fresquito"></a>
       <img src="https://img.shields.io/badge/C%C3%93DIGO%20PRIVADO-6B7280?style=flat-square&logo=github&logoColor=white" alt="Código privado">
@@ -52,7 +52,7 @@ Arriba, lo más nuevo: dos apps con IA que ya puedes probar en su demo (de momen
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/gestorin-demo/"><img src="./site/img/proyectos/gestorin.webp" alt="Demo de Gestorín" width="100%"></a>
       <h3>🗂️ <a href="https://github.com/BertMarti/gestorin-demo">Gestorín</a></h3>
-      <p><strong>Tu gestor de bolsillo.</strong><br>Te explica cartas, multas y notificaciones en lenguaje llano, te avisa de los plazos y ordena tus papeles en Identidad, Vehículo, Hogar, Salud y Hacienda. Windows y Android, con IA local (Ollama) o modelos gratuitos.</p>
+      <p><strong>Tu gestor de bolsillo.</strong><br>Te explica cartas, multas y notificaciones en lenguaje llano, te avisa de los plazos (con calendario fiscal y widget en Android) y ordena tus papeles en Identidad, Vehículo, Hogar, Salud y Hacienda. Windows y Android, con IA local (Ollama), modelos gratuitos o sin IA.</p>
       <p><sub>Tauri · Rust · React · TypeScript · Ollama</sub></p>
       <a href="https://bertmarti.github.io/gestorin-demo/"><img src="https://img.shields.io/badge/DEMO-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Gestorín"></a>
       <img src="https://img.shields.io/badge/C%C3%93DIGO%20PRIVADO-6B7280?style=flat-square&logo=github&logoColor=white" alt="Código privado">

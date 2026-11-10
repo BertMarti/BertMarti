@@ -17,9 +17,9 @@
       "seccion": "nuevas",
       "etiqueta": "Día a día",
       "captura": "fresquito.webp",
-      "alt": "Captura de Fresquito: inventario de la nevera ordenado por lo que caduca antes",
+      "alt": "Captura de Fresquito: inventario de la nevera ordenado por lo que caduca antes, en azul y verde",
       "lema": "Lo que hay en tu nevera, antes de que caduque.",
-      "descripcion": "Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas a tu gusto (fitness, vegana, picante…). Web (PWA) y Android, con modelos de IA gratuitos por defecto.",
+      "descripcion": "Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.",
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "IA"],
       "web": "https://bertmarti.github.io/fresquito-demo/",
       "privado": true
@@ -31,9 +31,9 @@
       "seccion": "nuevas",
       "etiqueta": "Día a día",
       "captura": "gestorin.webp",
-      "alt": "Captura de Gestorín: una multa explicada en lenguaje llano, con su plazo e importe",
+      "alt": "Captura de Gestorín: inicio con los plazos que vencen pronto y los apartados de tus papeles",
       "lema": "Tu gestor de bolsillo.",
-      "descripcion": "Te explica cartas, multas y notificaciones en lenguaje llano, te avisa de los plazos y ordena tus papeles en Identidad, Vehículo, Hogar, Salud y Hacienda. Windows y Android, con IA local (Ollama) o modelos gratuitos.",
+      "descripcion": "Te explica cartas, multas y notificaciones en lenguaje llano, te avisa de los plazos (con calendario fiscal y widget en Android) y ordena tus papeles en Identidad, Vehículo, Hogar, Salud y Hacienda. Windows y Android, con IA local (Ollama), modelos gratuitos o sin IA.",
       "tecnologias": ["Tauri", "Rust", "React", "TypeScript", "Ollama"],
       "web": "https://bertmarti.github.io/gestorin-demo/",
       "privado": true

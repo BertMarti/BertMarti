@@ -3,6 +3,13 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.1.1] - 2026-11-10
+
+### Cambiado
+- **Fresquito** (v2.4.0): captura nueva con la estética «Frescor» en azul y verde; la descripción cuenta las recetas según tus preferencias y que lo que falta pasa a la lista de la compra (exportación a Pricely). Su demo saca 99/100 en Lighthouse.
+- **Gestorín** (v2.11.0): captura nueva con el diseño serio y elegante (inicio con los plazos y los apartados Identidad, Vehículo, Hogar, Salud y Hacienda); la descripción suma el modo sin IA, el calendario fiscal y el widget de Android.
+- Versión del pie del portafolio: v1.1.1.
+
 ## [1.1.0] - 2026-11-10
 
 ### Añadido
@@ -27,5 +34,6 @@ Primera versión estable del perfil de GitHub y del portafolio.
 - **Avisos automáticos**: el CI comprueba cada semana que ningún repo público falte en el perfil.
 - **Imagen social** (`og:image`) para que el enlace se vea bien al compartirlo.
 
+[1.1.1]: https://github.com/BertMarti/BertMarti/releases/tag/v1.1.1
 [1.1.0]: https://github.com/BertMarti/BertMarti/releases/tag/v1.1.0
 [1.0.0]: https://github.com/BertMarti/BertMarti/releases/tag/v1.0.0

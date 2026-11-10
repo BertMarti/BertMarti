@@ -25,7 +25,7 @@
 - [x] Fresquito y Gestorín (código privado, demos públicas) en una sección nueva «Recién salidas», con `"privado": true`.
 
 ## Siguiente
-- [ ] Cuando terminen los rediseños de Fresquito (azules y verdes) y Gestorín, rehacer `fresquito.webp` y `gestorin.webp`.
+- [x] Capturas nuevas de Fresquito (v2.4.0, «Frescor») y Gestorín (v2.11.0) tras sus rediseños (v1.1.1).
 - [ ] Revisar cada pocos meses que las descripciones de `proyectos.json` siguen igual que en cada repo
       (`gh repo view BertMarti/<Repo> --json description`).
 - [ ] Si la vigilancia de CSP avisa de alguna web, corregirla en su repo.

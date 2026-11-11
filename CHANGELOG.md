@@ -3,6 +3,12 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.2.2] - 2026-11-11
+
+### Cambiado
+- **Lazo** pasa a v0.3.0: captura nueva con fotos de regalos de verdad y descripción al día (la IA es opcional y, para el uso diario, en casa con Ollama).
+- Versión del pie del portafolio: v1.2.2.
+
 ## [1.2.1] - 2026-11-11
 
 ### Cambiado

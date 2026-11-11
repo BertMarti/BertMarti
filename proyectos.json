@@ -17,9 +17,9 @@
       "seccion": "nuevas",
       "etiqueta": "Familia",
       "captura": "lazo.webp",
-      "alt": "Captura de Lazo: la lista de Mamá vista por otro miembro, con el presupuesto, «Mamá no ve esto» y los regalos libres o ya cogidos",
+      "alt": "Captura de Lazo: la lista de Mamá vista por otro miembro, con el presupuesto, «Mamá no ve esto» y los regalos con sus fotos, libres o ya cogidos",
       "lema": "Listas de regalos en familia, sin repetidos ni spoilers.",
-      "descripcion": "Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran; nadie ve lo de su propia lista, ni siquiera por la API. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible y día de la entrega. Web (PWA) y Android, autoalojado con PocketBase e IA gratuita opcional.",
+      "descripcion": "Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran; nadie ve lo de su propia lista, ni siquiera por la API. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible y día de la entrega. Web (PWA) y Android, autoalojado con PocketBase e IA opcional (Ollama en casa).",
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "PocketBase", "IA"],
       "web": "https://bertmarti.github.io/lazo/",
       "android": "https://github.com/BertMarti/lazo/releases/latest"

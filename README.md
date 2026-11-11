@@ -44,7 +44,7 @@ Arriba, lo más nuevo: dos apps con IA que ya puedes probar en su demo (de momen
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/lazo/"><img src="./site/img/proyectos/lazo.webp" alt="Web de Lazo" width="100%"></a>
       <h3>🎀 <a href="https://github.com/BertMarti/lazo">Lazo</a></h3>
-      <p><strong>Listas de regalos en familia, sin repetidos ni spoilers.</strong><br>Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran; nadie ve lo de su propia lista, ni siquiera por la API. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible y día de la entrega. Web (PWA) y Android, autoalojado con PocketBase e IA gratuita opcional.</p>
+      <p><strong>Listas de regalos en familia, sin repetidos ni spoilers.</strong><br>Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran; nadie ve lo de su propia lista, ni siquiera por la API. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible y día de la entrega. Web (PWA) y Android, autoalojado con PocketBase e IA opcional (Ollama en casa).</p>
       <p><sub>React · TypeScript · PWA · Android (Capacitor) · PocketBase · IA</sub></p>
       <a href="https://bertmarti.github.io/lazo/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Lazo"></a>
       <a href="https://github.com/BertMarti/lazo/releases/latest"><img src="https://img.shields.io/badge/ANDROID-3DDC84?style=flat-square&logo=android&logoColor=white" alt="App de Android de Lazo"></a>

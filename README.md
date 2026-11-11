@@ -61,7 +61,7 @@ Arriba, lo más nuevo: dos apps con IA que ya puedes probar en su demo (de momen
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/gestorin-demo/"><img src="./site/img/proyectos/gestorin.webp" alt="Demo de Gestorín" width="100%"></a>
       <h3>🗂️ <a href="https://github.com/BertMarti/gestorin-demo">Gestorín</a></h3>
-      <p><strong>Tu gestor de bolsillo.</strong><br>Te explica cartas, multas y notificaciones en lenguaje llano, te avisa de los plazos (con calendario fiscal y widget en Android) y ordena tus papeles en Identidad, Vehículo, Hogar, Salud y Hacienda. Windows y Android, con IA local (Ollama), modelos gratuitos o sin IA.</p>
+      <p><strong>Tu gestor de bolsillo.</strong><br>Te explica cartas, multas y notificaciones en lenguaje llano, convierte cada plazo en una tarea y te avisa antes. Novedades de la 3.0: los papeles de toda la familia, un lector con IA en casa (Ollama) para todos, modo sin IA y Ajustes más sencillos. Windows y Android.</p>
       <p><sub>Tauri · Rust · React · TypeScript · Ollama</sub></p>
       <a href="https://bertmarti.github.io/gestorin-demo/"><img src="https://img.shields.io/badge/DEMO-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Gestorín"></a>
       <img src="https://img.shields.io/badge/C%C3%93DIGO%20PRIVADO-6B7280?style=flat-square&logo=github&logoColor=white" alt="Código privado">

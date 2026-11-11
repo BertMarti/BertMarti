@@ -3,6 +3,12 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.2.0] - 2026-11-11
+
+### Añadido
+- **Lazo** (v0.2.0): listas de regalos en familia sin regalos repetidos ni spoilers. Nadie ve lo de su propia lista, ni siquiera por la API. Incluye hucha común con ajuste de cuentas, regalos a medias, amigo invisible y día de la entrega. Web (PWA) y Android, autoalojado con PocketBase. Repo público y demo en https://bertmarti.github.io/lazo/.
+- Versión del pie del portafolio: v1.2.0.
+
 ## [1.1.2] - 2026-11-10
 
 ### Corregido

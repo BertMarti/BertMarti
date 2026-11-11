@@ -41,7 +41,16 @@ Arriba, lo más nuevo: dos apps con IA que ya puedes probar en su demo (de momen
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <a href="https://bertmarti.github.io/lazo/"><img src="./site/img/proyectos/lazo.webp" alt="Web de Lazo" width="100%"></a>
+      <h3>🎀 <a href="https://github.com/BertMarti/lazo">Lazo</a></h3>
+      <p><strong>Listas de regalos en familia, sin repetidos ni spoilers.</strong><br>Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran; nadie ve lo de su propia lista, ni siquiera por la API. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible y día de la entrega. Web (PWA) y Android, autoalojado con PocketBase e IA gratuita opcional.</p>
+      <p><sub>React · TypeScript · PWA · Android (Capacitor) · PocketBase · IA</sub></p>
+      <a href="https://bertmarti.github.io/lazo/"><img src="https://img.shields.io/badge/WEB-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Lazo"></a>
+      <a href="https://github.com/BertMarti/lazo/releases/latest"><img src="https://img.shields.io/badge/ANDROID-3DDC84?style=flat-square&logo=android&logoColor=white" alt="App de Android de Lazo"></a>
+      <a href="https://github.com/BertMarti/lazo"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Lazo"></a>
+    </td>
+    <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/fresquito-demo/"><img src="./site/img/proyectos/fresquito.webp" alt="Demo de Fresquito" width="100%"></a>
       <h3>🥬 <a href="https://github.com/BertMarti/fresquito-demo">Fresquito</a></h3>
       <p><strong>Lo que hay en tu nevera, antes de que caduque.</strong><br>Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.</p>
@@ -49,7 +58,7 @@ Arriba, lo más nuevo: dos apps con IA que ya puedes probar en su demo (de momen
       <a href="https://bertmarti.github.io/fresquito-demo/"><img src="https://img.shields.io/badge/DEMO-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Fresquito"></a>
       <img src="https://img.shields.io/badge/C%C3%93DIGO%20PRIVADO-6B7280?style=flat-square&logo=github&logoColor=white" alt="Código privado">
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/gestorin-demo/"><img src="./site/img/proyectos/gestorin.webp" alt="Demo de Gestorín" width="100%"></a>
       <h3>🗂️ <a href="https://github.com/BertMarti/gestorin-demo">Gestorín</a></h3>
       <p><strong>Tu gestor de bolsillo.</strong><br>Te explica cartas, multas y notificaciones en lenguaje llano, te avisa de los plazos (con calendario fiscal y widget en Android) y ordena tus papeles en Identidad, Vehículo, Hogar, Salud y Hacienda. Windows y Android, con IA local (Ollama), modelos gratuitos o sin IA.</p>
@@ -233,6 +242,6 @@ En público estoy experimentando con [`modelduel`](https://github.com/BertMarti/
 ### Gracias por pasarte por aquí ✨
 
 <a href="https://bertmarti.github.io/BertMarti/"><img src="https://img.shields.io/badge/PORTAFOLIO-bertmarti.github.io-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Mi portafolio"></a>
-<a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-12%20proyectos%20abiertos-181717?style=for-the-badge&logo=github&logoColor=white" alt="12 proyectos de código abierto"></a>
+<a href="https://github.com/BertMarti?tab=repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-13%20proyectos%20abiertos-181717?style=for-the-badge&logo=github&logoColor=white" alt="13 proyectos de código abierto"></a>
 
 </div>

@@ -45,9 +45,9 @@
       "seccion": "nuevas",
       "etiqueta": "Día a día",
       "captura": "gestorin.webp",
-      "alt": "Captura de Gestorín 3.0: inicio con la lista «Por hacer», los plazos más urgentes arriba y el filtro por persona de la familia",
+      "alt": "Captura de Gestorín 3.2: índice de apartados arriba, plazos con su cifra grande en serif y el índice de apartados a la derecha",
       "lema": "Tu gestor de bolsillo.",
-      "descripcion": "Te explica cartas, multas y notificaciones en lenguaje llano, convierte cada plazo en una tarea y te avisa antes. Novedades de la 3.0: los papeles de toda la familia, un lector con IA en casa (Ollama) para todos, modo sin IA y Ajustes más sencillos. Windows y Android.",
+      "descripcion": "Te explica cartas, multas y notificaciones en lenguaje llano, convierte cada plazo en una tarea y te avisa antes. Estrena diseño en la 3.2, «Expediente con señal»: papel marfil, cifras serif grandes, iconos propios y color solo para el tiempo. Toda la familia, con IA local (Ollama) o sin IA. Windows y Android.",
       "tecnologias": ["Tauri", "Rust", "React", "TypeScript", "Ollama"],
       "web": "https://bertmarti.github.io/gestorin-demo/",
       "privado": true

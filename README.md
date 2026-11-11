@@ -51,11 +51,11 @@ Arriba, lo más nuevo: dos apps con IA que ya puedes probar en su demo (de momen
       <a href="https://github.com/BertMarti/lazo"><img src="https://img.shields.io/badge/CÓDIGO-181717?style=flat-square&logo=github&logoColor=white" alt="Código de Lazo"></a>
     </td>
     <td width="33%" valign="top">
-      <a href="https://bertmarti.github.io/fresquito-demo/"><img src="./site/img/proyectos/fresquito.webp" alt="Demo de Fresquito" width="100%"></a>
+      <a href="https://fresquito-demo.pages.dev/"><img src="./site/img/proyectos/fresquito.webp" alt="Demo de Fresquito" width="100%"></a>
       <h3>🥬 <a href="https://github.com/BertMarti/fresquito-demo">Fresquito</a></h3>
       <p><strong>Lo que hay en tu nevera, antes de que caduque.</strong><br>Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.</p>
       <p><sub>React · TypeScript · PWA · Android (Capacitor) · IA</sub></p>
-      <a href="https://bertmarti.github.io/fresquito-demo/"><img src="https://img.shields.io/badge/DEMO-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Fresquito"></a>
+      <a href="https://fresquito-demo.pages.dev/"><img src="https://img.shields.io/badge/DEMO-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Fresquito"></a>
       <img src="https://img.shields.io/badge/C%C3%93DIGO%20PRIVADO-6B7280?style=flat-square&logo=github&logoColor=white" alt="Código privado">
     </td>
     <td width="33%" valign="top">

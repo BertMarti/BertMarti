@@ -143,7 +143,9 @@ function validar(d) {
     for (const campo of ['web', 'android', 'descarga']) {
       if (p[campo] !== undefined && !/^https:\/\/[^\s"<>]+$/.test(p[campo])) errores.push(`${id}: «${campo}» no es una URL https válida`);
     }
-    if (p.web && !p.web.startsWith(`https://${d.dueno.toLowerCase()}.github.io/${p.repo}/`)) errores.push(`${id}: la web debe ser https://${d.dueno.toLowerCase()}.github.io/${p.repo}/ (respeta las mayúsculas)`);
+    // GitHub Pages del repo o, para una demo que se publica con Cloudflare Pages, su proyecto del mismo nombre.
+    const webs = [`https://${d.dueno.toLowerCase()}.github.io/${p.repo}/`, `https://${p.repo}.pages.dev/`];
+    if (p.web && !webs.some((w) => p.web.startsWith(w))) errores.push(`${id}: la web debe ser ${webs.join(' o ')} (respeta las mayúsculas)`);
     if (p.privado && !p.web) errores.push(`${id}: con el código privado necesita una «web» pública (la demo)`);
     if (!p.web && !p.descarga && !p.nota) errores.push(`${id}: sin web ni descarga, añade una «nota» (p. ej. «Se instala en tu servidor»)`);
     if (p.captura && !existsSync(join(raiz, 'site/img/proyectos', p.captura))) errores.push(`${id}: no existe site/img/proyectos/${p.captura}`);

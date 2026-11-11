@@ -3,6 +3,13 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.2.4] - 2026-11-11
+
+### Cambiado
+- **Fresquito** (v4.0.2): la demo se muda a https://fresquito-demo.pages.dev/ (Cloudflare Pages); captura nueva del
+  rediseño «Nevera abierta», con lo que caduca antes en fichas ilustradas y una receta para hoy.
+- Versión del pie del portafolio: v1.2.4.
+
 ## [1.2.3] - 2026-11-11
 
 ### Cambiado

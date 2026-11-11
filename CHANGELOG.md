@@ -3,10 +3,16 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
-## [1.2.1] - 2026-11-11
+## [1.2.2] - 2026-11-11
 
 ### Cambiado
 - **Lazo** pasa a v0.3.0: captura nueva con fotos de regalos de verdad y descripción al día (la IA es opcional y, para el uso diario, en casa con Ollama).
+- Versión del pie del portafolio: v1.2.2.
+
+## [1.2.1] - 2026-11-11
+
+### Cambiado
+- **Gestorín** (v3.0.1): captura nueva de la demo, con la lista «Por hacer» y el filtro por persona. La descripción cuenta las novedades de la 3.0: los papeles de toda la familia, un lector con IA en casa (Ollama) para todos, el modo sin IA y unos Ajustes más sencillos.
 - Versión del pie del portafolio: v1.2.1.
 
 ## [1.2.0] - 2026-11-11

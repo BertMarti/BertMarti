@@ -3,6 +3,12 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.2.3] - 2026-11-11
+
+### Cambiado
+- **Gestorín** (v3.2.1): captura del diseño nuevo, «Expediente con señal», con el índice de apartados arriba en lugar del panel lateral, las cifras de días en serif y los iconos propios. La descripción lo cuenta.
+- Versión del pie del portafolio: v1.2.3.
+
 ## [1.2.2] - 2026-11-11
 
 ### Cambiado

@@ -38,11 +38,11 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
 <table>
   <tr>
     <td width="170" valign="top"><code>jul 2026 – hoy</code></td>
-    <td valign="top"><strong>Rising Software Engineer</strong><br>Desarrollo Full-Stack en proyectos empresariales críticos con Java y Spring.</td>
+    <td valign="top"><strong>Rising Software Engineer</strong><br>Migración de servicios de integración (SI) de un framework propietario de orquestación sobre Spring y EJB (WebLogic) a microservicios con Spring Boot, en una plataforma bancaria.</td>
   </tr>
   <tr>
-    <td width="170" valign="top"><code>dic 2024 – hoy</code></td>
-    <td valign="top"><strong>Full-Stack Developer (Java + Front) · Arquitectura</strong><br>Equipo multidisciplinar de arquitectura de una plataforma bancaria.</td>
+    <td width="170" valign="top"><code>dic 2024 – jul 2026</code></td>
+    <td valign="top"><strong>Full-Stack Developer (Java + Front)</strong><br>Desarrollo y mantenimiento de microservicios con Spring Boot y procesos batch con Spring Batch.</td>
   </tr>
   <tr>
     <td width="170" valign="top"><code>jun 2023 – dic 2024</code></td>
@@ -72,10 +72,12 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
       <img src="https://img.shields.io/badge/Java-6D28D9?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
       <img src="https://img.shields.io/badge/Spring%20Boot-6D28D9?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
       <img src="https://img.shields.io/badge/Spring%20Batch-6D28D9?style=flat-square&logo=spring&logoColor=white" alt="Spring Batch">
-      <img src="https://img.shields.io/badge/Spring%20Web%20Flow-6D28D9?style=flat-square&logo=spring&logoColor=white" alt="Spring Web Flow">
       <img src="https://img.shields.io/badge/APIs%20REST-6D28D9?style=flat-square" alt="APIs REST">
       <img src="https://img.shields.io/badge/Microservicios-6D28D9?style=flat-square" alt="Microservicios">
+      <img src="https://img.shields.io/badge/EJB-6D28D9?style=flat-square" alt="EJB">
+      <img src="https://img.shields.io/badge/WebLogic-6D28D9?style=flat-square&logo=oracle&logoColor=white" alt="WebLogic">
       <img src="https://img.shields.io/badge/JSP-6D28D9?style=flat-square" alt="JSP">
+      <img src="https://img.shields.io/badge/Migraci%C3%B3n%20de%20arquitecturas%20legacy-6D28D9?style=flat-square" alt="Migración de arquitecturas legacy">
     </td>
   </tr>
   <tr>
@@ -93,10 +95,10 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
   <tr>
     <td width="150"><strong>Desarrollo asistido por IA</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Orquestaci%C3%B3n%20de%20agentes-475569?style=flat-square" alt="Orquestación de agentes">
-      <img src="https://img.shields.io/badge/Migraci%C3%B3n%20asistida%20por%20IA-475569?style=flat-square" alt="Migración asistida por IA">
-      <img src="https://img.shields.io/badge/Claude-475569?style=flat-square&logo=claude&logoColor=white" alt="Claude">
-      <img src="https://img.shields.io/badge/Ollama-475569?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+      <img src="https://img.shields.io/badge/Orquestaci%C3%B3n%20de%20agentes-6D28D9?style=flat-square" alt="Orquestación de agentes">
+      <img src="https://img.shields.io/badge/Migraci%C3%B3n%20asistida%20por%20IA-6D28D9?style=flat-square" alt="Migración asistida por IA">
+      <img src="https://img.shields.io/badge/Claude-6D28D9?style=flat-square&logo=claude&logoColor=white" alt="Claude">
+      <img src="https://img.shields.io/badge/Ollama-6D28D9?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
     </td>
   </tr>
   <tr>

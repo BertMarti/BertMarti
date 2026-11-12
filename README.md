@@ -31,7 +31,7 @@ Entre semana, microservicios y procesos batch para banca en NTT DATA. El resto d
 
 <!-- sobre:inicio · generado por scripts/generar-tarjetas.mjs desde perfil.json: no lo edites a mano -->
 
-Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA en proyectos reales, desde orquestadores de agentes hasta la migración de Spring Web Flow a microservicios. Vengo del diseño gráfico, así que cuido la interfaz tanto como el código.
+Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA y orquestación de agentes en el trabajo real de modernización, no solo en pruebas. Vengo del diseño gráfico, así que cuido la interfaz tanto como el código.
 
 ### Experiencia · NTT DATA Europe &amp; Latam
 
@@ -42,11 +42,11 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
   </tr>
   <tr>
     <td width="170" valign="top"><code>dic 2024 – hoy</code></td>
-    <td valign="top"><strong>Full-Stack Developer (Java + Front) · Arquitectura</strong><br>Proyecto de arquitectura para una plataforma bancaria, en un equipo multidisciplinar.</td>
+    <td valign="top"><strong>Full-Stack Developer (Java + Front) · Arquitectura</strong><br>Equipo multidisciplinar de arquitectura de una plataforma bancaria.</td>
   </tr>
   <tr>
     <td width="170" valign="top"><code>jun 2023 – dic 2024</code></td>
-    <td valign="top"><strong>Junior Full-Stack / Frontend Developer</strong><br>Funcionalidades end-to-end: APIs REST y su interfaz de usuario.</td>
+    <td valign="top"><strong>Junior Full-Stack / Frontend Developer</strong><br>Desarrollo de APIs REST y de las pantallas que las consumen.</td>
   </tr>
   <tr>
     <td width="170" valign="top"><code>mar 2023 – jun 2023</code></td>
@@ -91,12 +91,12 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
     </td>
   </tr>
   <tr>
-    <td width="150"><strong>IA</strong></td>
+    <td width="150"><strong>Desarrollo asistido por IA</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Orquestaci%C3%B3n%20de%20agentes-6D28D9?style=flat-square" alt="Orquestación de agentes">
-      <img src="https://img.shields.io/badge/Migraci%C3%B3n%20asistida%20por%20IA-6D28D9?style=flat-square" alt="Migración asistida por IA">
-      <img src="https://img.shields.io/badge/Claude-6D28D9?style=flat-square&logo=claude&logoColor=white" alt="Claude">
-      <img src="https://img.shields.io/badge/Ollama-6D28D9?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+      <img src="https://img.shields.io/badge/Orquestaci%C3%B3n%20de%20agentes-475569?style=flat-square" alt="Orquestación de agentes">
+      <img src="https://img.shields.io/badge/Migraci%C3%B3n%20asistida%20por%20IA-475569?style=flat-square" alt="Migración asistida por IA">
+      <img src="https://img.shields.io/badge/Claude-475569?style=flat-square&logo=claude&logoColor=white" alt="Claude">
+      <img src="https://img.shields.io/badge/Ollama-475569?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
     </td>
   </tr>
   <tr>

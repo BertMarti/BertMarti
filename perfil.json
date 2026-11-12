@@ -16,13 +16,34 @@
     "portafolio": "https://bertmarti.github.io/BertMarti/"
   },
   "perfil": {
-    "es": "Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA en proyectos reales, desde orquestadores de agentes hasta la migración de Spring Web Flow a microservicios. Vengo del diseño gráfico, así que cuido la interfaz tanto como el código.",
-    "en": "Full-Stack Developer with 3+ years at NTT DATA on enterprise banking projects: microservices, batch processing and architecture migration. On the backend I work with Java, Spring Boot and Spring Batch; on the frontend, with React, Angular and TypeScript. I apply AI in real projects, from agent orchestrators to migrating Spring Web Flow to microservices. I come from graphic design, so I care about the interface as much as the code."
+    "es": "Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA y orquestación de agentes en el trabajo real de modernización, no solo en pruebas. Vengo del diseño gráfico, así que cuido la interfaz tanto como el código.",
+    "en": "Full-Stack Developer with 3+ years at NTT DATA on enterprise banking projects: microservices, batch processing and architecture migration. On the backend I work with Java, Spring Boot and Spring Batch; on the frontend, with React, Angular and TypeScript. I use AI and agent orchestration in real modernisation work, not just experiments. With a background in graphic design, I care about the interface as much as the code."
   },
+  "logros": [
+    {
+      "es": "Modernizo una plataforma bancaria con IA: migro flujos de Spring Web Flow a microservicios Spring Boot apoyándome en orquestación de agentes.",
+      "en": "Modernise a banking platform with AI: migrate flows from Spring Web Flow to Spring Boot microservices using agent orchestration.",
+      "_cifra": "¿Cuántos flujos se han migrado ya (o qué % del total) y cuánto tiempo ahorra la IA frente a migrarlos a mano? Si se puede decir, añádelo al final de la frase."
+    },
+    {
+      "es": "Asumí la evolución y la mantenibilidad de la arquitectura de la plataforma (microservicios y procesos Spring Batch) con menos de 2 años de experiencia.",
+      "en": "Took ownership of the platform architecture's evolution and maintainability (microservices and Spring Batch jobs) with under 2 years of experience.",
+      "_cifra": "¿Cuántos microservicios o procesos batch mantienes, qué volumen mueven (registros, usuarios) y de cuántas personas es el equipo? Confirma también que esa responsabilidad empezó en 12/2024 (21 meses después de entrar)."
+    },
+    {
+      "es": "Tres cambios de puesto en algo más de 3 años en NTT DATA: de becario a Rising Software Engineer (03/2023 – 07/2026).",
+      "en": "Three role changes in just over 3 years at NTT DATA: from intern to Rising Software Engineer (03/2023 – 07/2026)."
+    },
+    {
+      "es": "Entregué funcionalidades completas desde el primer año: de la API REST en Spring a la interfaz en Angular y JavaScript.",
+      "en": "Shipped complete features from my first year: from the Spring REST API to the Angular and JavaScript interface.",
+      "_cifra": "Si sabes cuántas funcionalidades o pantallas entregaste, o una mejora medible de usabilidad o rendimiento, añádela."
+    }
+  ],
   "habilidades": [
     { "categoria": { "es": "Backend", "en": "Backend" }, "items": ["Java", "Spring Boot", "Spring Batch", "Spring Web Flow", "APIs REST", "Microservicios", "JSP"] },
     { "categoria": { "es": "Frontend", "en": "Frontend" }, "items": ["React", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS", "Diseño responsive"] },
-    { "categoria": { "es": "IA", "en": "AI" }, "items": ["Orquestación de agentes", "Migración asistida por IA", "Claude", "Ollama"] },
+    { "categoria": { "es": "Desarrollo asistido por IA", "en": "AI-assisted development" }, "items": ["Orquestación de agentes", "Migración asistida por IA", "Claude", "Ollama"] },
     { "categoria": { "es": "Datos", "en": "Data" }, "items": ["SQL", "MySQL", "SQLite"] },
     { "categoria": { "es": "DevOps y calidad", "en": "DevOps & quality" }, "items": ["Docker", "CI/CD", "GitHub Actions", "Git", "Testing", "Jira", "Bash"] },
     { "categoria": { "es": "Otros", "en": "Other" }, "items": ["Python", "Go", "Rust", "Tauri", "PWA", "Android (Capacitor)"] }
@@ -45,22 +66,22 @@
           "inicio": "07/2026", "fin": null,
           "logros": {
             "es": ["Desarrollo Full-Stack en proyectos empresariales críticos con Java y Spring."],
-            "en": ["Full-stack development on business-critical enterprise projects with Java and Spring."]
+            "en": ["Develop full-stack features for business-critical enterprise projects with Java and Spring."]
           }
         },
         {
-          "cargo": { "es": "Full-Stack Developer (Java + Front) · Arquitectura", "en": "Full-Stack Developer (Java + Front) · Architecture" },
+          "cargo": { "es": "Full-Stack Developer (Java + Front) · Arquitectura", "en": "Full-Stack Developer (Java + Frontend) · Architecture" },
           "inicio": "12/2024", "fin": null,
           "logros": {
             "es": [
-              "Proyecto de arquitectura para una plataforma bancaria, en un equipo multidisciplinar.",
-              "Responsable de la evolución y la mantenibilidad del sistema: microservicios con Spring Boot y procesos con Spring Batch.",
-              "Migración de flujos de Spring Web Flow a microservicios, con apoyo de IA y orquestadores de agentes."
+              "Equipo multidisciplinar de arquitectura de una plataforma bancaria.",
+              "Desarrollo y mantenimiento de microservicios con Spring Boot y de procesos batch con Spring Batch.",
+              "Migración asistida por IA (orquestadores de agentes) desde Spring Web Flow."
             ],
             "en": [
-              "Architecture project for a banking platform within a cross-functional team.",
-              "Responsible for the evolution and maintainability of the system: Spring Boot microservices and Spring Batch processes.",
-              "Migrating flows from Spring Web Flow to microservices, with the help of AI and agent orchestrators."
+              "Work in the cross-functional architecture team of a banking platform.",
+              "Build and maintain Spring Boot microservices and Spring Batch jobs.",
+              "Work on the AI-assisted migration (agent orchestrators) away from Spring Web Flow."
             ]
           }
         },
@@ -69,12 +90,12 @@
           "inicio": "06/2023", "fin": "12/2024",
           "logros": {
             "es": [
-              "Funcionalidades end-to-end: APIs REST y su interfaz de usuario.",
+              "Desarrollo de APIs REST y de las pantallas que las consumen.",
               "Componentes en Angular y JavaScript (y JSP heredado), gestión de estado y estilos.",
               "Mejoras de usabilidad en las pantallas de la aplicación."
             ],
             "en": [
-              "Delivered end-to-end features: REST APIs and their user interface.",
+              "Developed REST APIs and the screens that consume them.",
               "Built components in Angular and JavaScript (and legacy JSP), with state management and styling.",
               "Improved usability across application screens."
             ]

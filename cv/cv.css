@@ -103,10 +103,14 @@ h3, h4 { display: inline; font-size: inherit; font-weight: 700; }
   background: var(--tinta-suave);
 }
 
-/* Proyectos */
-.proyecto { break-inside: avoid; }
-.proyecto + .proyecto { margin-top: 1.05mm; }
-.stack { font-size: 7.4pt; line-height: 1.25; color: var(--tinta-suave); }
+/* Logros destacados: viñetas como las de los puestos, con el cuadradito violeta de la marca */
+.logros li { padding-left: 3.2mm; }
+.logros li + li { margin-top: 0.3mm; }
+.logros li::before {
+  content: ""; display: inline-block; vertical-align: 0.55mm;
+  width: 0.9mm; height: 0.9mm; margin-left: -3.2mm; margin-right: 2.3mm;
+  background: var(--violeta);
+}
 
 /* Formación, certificaciones, idiomas */
 /* Centro, nota y fechas van en bloque: si no caben tras el título (pasa en inglés), bajan juntos y no se queda la fecha sola. */

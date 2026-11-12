@@ -19,13 +19,13 @@
       "captura": "lazo.webp",
       "alt": "Captura de Lazo: el grupo «Navidad en familia» con cada persona en grande, su presupuesto (el tuyo no se ve) y lo más deseado en fotos, en papel crema con terracota",
       "lema": "Listas de regalos en familia, sin repetidos ni spoilers.",
-      "descripcion": "Aplicación de listas de regalos para familias y grupos: cada persona publica lo que quiere y el resto lo reserva o lo compra sin que el destinatario pueda verlo. Incluye fondo común, regalos compartidos y amigo invisible; web (PWA) y Android, autoalojada con PocketBase y auditada.",
-      "estado": "v1.0 · publicada",
+      "descripcion": "Aplicación de listas de regalos para familias y grupos: cada persona publica lo que quiere y el resto lo reserva o lo compra sin que el destinatario pueda verlo. Incluye fondo común, regalos compartidos, amigo invisible e importación de listas de Amazon; web (PWA) y Android, autoalojada con PocketBase y auditada.",
+      "estado": "v1.1 · publicada",
       "en": {
         "lema": "Family gift lists, with no duplicates and no spoilers.",
-        "descripcion": "Gift-list app for families and groups: each person posts what they would like and the others reserve or buy it without the recipient being able to see it. Includes a shared fund, split gifts and Secret Santa; web (PWA) and Android, self-hosted with PocketBase and audited.",
+        "descripcion": "Gift-list app for families and groups: each person posts what they would like and the others reserve or buy it without the recipient being able to see it. Includes a shared fund, split gifts, Secret Santa and Amazon wishlist import; web (PWA) and Android, self-hosted with PocketBase and audited.",
         "alt": "Lazo screenshot: the “Family Christmas” group with each person shown large, their budget (yours is hidden) and the most wanted gifts in photos, on cream paper with terracotta",
-        "estado": "v1.0 · released"
+        "estado": "v1.1 · released"
       },
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "PocketBase", "IA"],
       "web": "https://bertmarti.github.io/lazo/",

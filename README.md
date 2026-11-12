@@ -163,7 +163,7 @@ Aplicaciones completas que diseño, desarrollo y publico de principio a fin: arq
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/lazo/"><img src="./site/img/proyectos/lazo.webp" alt="Web de Lazo" width="100%"></a>
       <h3><a href="https://github.com/BertMarti/lazo">Lazo</a></h3>
-      <p><strong>Listas de regalos en familia, sin repetidos ni spoilers.</strong><br>Aplicación de listas de regalos para familias y grupos: cada persona publica lo que quiere y el resto lo reserva o lo compra sin que el destinatario pueda verlo. Incluye fondo común, regalos compartidos y amigo invisible; web (PWA) y Android, autoalojada con PocketBase y auditada.</p>
+      <p><strong>Listas de regalos en familia, sin repetidos ni spoilers.</strong><br>Aplicación de listas de regalos para familias y grupos: cada persona publica lo que quiere y el resto lo reserva o lo compra sin que el destinatario pueda verlo. Incluye fondo común, regalos compartidos, amigo invisible e importación de listas de Amazon; web (PWA) y Android, autoalojada con PocketBase y auditada.</p>
       <p><code>React</code> <code>TypeScript</code> <code>PWA</code> <code>Android (Capacitor)</code> <code>PocketBase</code> <code>IA</code></p>
       <a href="https://bertmarti.github.io/lazo/"><img src="https://img.shields.io/badge/WEB-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Lazo"></a>
       <a href="https://github.com/BertMarti/lazo/releases/latest"><img src="https://img.shields.io/badge/ANDROID-0F766E?style=flat-square&logo=android&logoColor=white" alt="App de Android de Lazo"></a>

@@ -1,0 +1,126 @@
+{
+  "_leeme": "Fuente única de los datos profesionales (CV en PDF, portafolio y README). Proyectos: proyectos.json. Nada de cifras inventadas: solo lo que figura en LinkedIn. El teléfono solo se usa en el PDF.",
+  "nombre": "Alberto Martínez Moreno",
+  "nombreCorto": "Alberto Martínez",
+  "ubicacion": { "es": "Jaén, España", "en": "Jaén, Spain" },
+  "modalidad": { "es": "Remoto o híbrido", "en": "Remote or hybrid" },
+  "titular": {
+    "es": "Full-Stack Developer · Java, Spring Boot, React y Angular · IA y microservicios",
+    "en": "Full-Stack Developer · Java, Spring Boot, React and Angular · AI and microservices"
+  },
+  "contacto": {
+    "email": "amarmor878@gmail.com",
+    "telefono": "+34 658 06 81 19",
+    "linkedin": "https://www.linkedin.com/in/alberto-martinez-moreno/",
+    "github": "https://github.com/BertMarti",
+    "portafolio": "https://bertmarti.github.io/BertMarti/"
+  },
+  "perfil": {
+    "es": "Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA en proyectos reales, desde orquestadores de agentes hasta la migración de Spring Web Flow a microservicios. Vengo del diseño gráfico, así que cuido la interfaz tanto como el código.",
+    "en": "Full-Stack Developer with 3+ years at NTT DATA on enterprise banking projects: microservices, batch processing and architecture migration. On the backend I work with Java, Spring Boot and Spring Batch; on the frontend, with React, Angular and TypeScript. I apply AI in real projects, from agent orchestrators to migrating Spring Web Flow to microservices. I come from graphic design, so I care about the interface as much as the code."
+  },
+  "habilidades": [
+    { "categoria": { "es": "Backend", "en": "Backend" }, "items": ["Java", "Spring Boot", "Spring Batch", "Spring Web Flow", "APIs REST", "Microservicios", "JSP"] },
+    { "categoria": { "es": "Frontend", "en": "Frontend" }, "items": ["React", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS", "Diseño responsive"] },
+    { "categoria": { "es": "IA", "en": "AI" }, "items": ["Orquestación de agentes", "Migración asistida por IA", "Claude", "Ollama"] },
+    { "categoria": { "es": "Datos", "en": "Data" }, "items": ["SQL", "MySQL", "SQLite"] },
+    { "categoria": { "es": "DevOps y calidad", "en": "DevOps & quality" }, "items": ["Docker", "CI/CD", "GitHub Actions", "Git", "Testing", "Jira", "Bash"] },
+    { "categoria": { "es": "Otros", "en": "Other" }, "items": ["Python", "Go", "Rust", "Tauri", "PWA", "Android (Capacitor)"] }
+  ],
+  "habilidadesEn": {
+    "APIs REST": "REST APIs",
+    "Microservicios": "Microservices",
+    "Diseño responsive": "Responsive design",
+    "Orquestación de agentes": "Agent orchestration",
+    "Migración asistida por IA": "AI-assisted migration",
+    "Testing": "Testing"
+  },
+  "experiencia": [
+    {
+      "empresa": "NTT DATA Europe & Latam",
+      "lugar": { "es": "Jaén · Híbrido", "en": "Jaén, Spain · Hybrid" },
+      "puestos": [
+        {
+          "cargo": { "es": "Rising Software Engineer", "en": "Rising Software Engineer" },
+          "inicio": "07/2026", "fin": null,
+          "logros": {
+            "es": ["Desarrollo Full-Stack en proyectos empresariales críticos con Java y Spring."],
+            "en": ["Full-stack development on business-critical enterprise projects with Java and Spring."]
+          }
+        },
+        {
+          "cargo": { "es": "Full-Stack Developer (Java + Front) · Arquitectura", "en": "Full-Stack Developer (Java + Front) · Architecture" },
+          "inicio": "12/2024", "fin": null,
+          "logros": {
+            "es": [
+              "Proyecto de arquitectura para una plataforma bancaria, en un equipo multidisciplinar.",
+              "Responsable de la evolución y la mantenibilidad del sistema: microservicios con Spring Boot y procesos con Spring Batch.",
+              "Migración de flujos de Spring Web Flow a microservicios, con apoyo de IA y orquestadores de agentes."
+            ],
+            "en": [
+              "Architecture project for a banking platform within a cross-functional team.",
+              "Owned the evolution and maintainability of the system: Spring Boot microservices and Spring Batch processes.",
+              "Migrated Spring Web Flow flows to microservices, supported by AI and agent orchestrators."
+            ]
+          }
+        },
+        {
+          "cargo": { "es": "Junior Full-Stack / Frontend Developer", "en": "Junior Full-Stack / Frontend Developer" },
+          "inicio": "06/2023", "fin": "12/2024",
+          "logros": {
+            "es": [
+              "Funcionalidades end-to-end: APIs REST y su interfaz de usuario.",
+              "Componentes en Angular y JavaScript (y JSP heredado), gestión de estado y estilos.",
+              "Mejoras de usabilidad en las pantallas de la aplicación."
+            ],
+            "en": [
+              "Delivered end-to-end features: REST APIs and their user interface.",
+              "Built components in Angular and JavaScript (and legacy JSP), with state management and styling.",
+              "Improved usability across application screens."
+            ]
+          }
+        },
+        {
+          "cargo": { "es": "Becario de desarrollo de software Full-Stack", "en": "Full-Stack Software Development Intern" },
+          "inicio": "03/2023", "fin": "06/2023",
+          "logros": {
+            "es": [
+              "APIs REST con Spring e interfaces con Angular y JavaScript.",
+              "Optimización de vistas, pequeñas mejoras de rendimiento y documentación de endpoints."
+            ],
+            "en": [
+              "Built REST APIs with Spring and interfaces with Angular and JavaScript.",
+              "Optimised views, made small performance improvements and documented endpoints."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "formacion": [
+    {
+      "titulo": { "es": "CFGS Desarrollo de Aplicaciones Web (DAW)", "en": "Higher Vocational Diploma in Web Application Development (DAW)" },
+      "centro": "IES Jándula, Andújar (Jaén)",
+      "inicio": "09/2021", "fin": "06/2023",
+      "nota": { "es": "Nota media: 9,5", "en": "GPA: 9.5/10" }
+    },
+    {
+      "titulo": { "es": "Grado Profesional en Diseño Gráfico", "en": "Vocational Degree in Graphic Design" },
+      "centro": "Escuela de Arte de Granada",
+      "inicio": "09/2017", "fin": "06/2019",
+      "secundario": true
+    }
+  ],
+  "certificaciones": [
+    { "nombre": { "es": "Desarrollo con IA · Iniciación", "en": "AI-Assisted Development · Foundations" }, "emisor": "BIG school", "fecha": "10/2026" },
+    { "nombre": { "es": "Test de aptitud: React", "en": "Skills test: React" }, "emisor": "OpenWebinars", "fecha": "06/2023" },
+    { "nombre": { "es": "Test de aptitud: MySQL", "en": "Skills test: MySQL" }, "emisor": "OpenWebinars", "fecha": "06/2023" },
+    { "nombre": { "es": "Test de aptitud: PHP", "en": "Skills test: PHP" }, "emisor": "OpenWebinars", "fecha": "06/2023" },
+    { "nombre": { "es": "Universidad de Programación: Python, Java y JavaScript", "en": "Programming University: Python, Java and JavaScript" }, "emisor": "Udemy", "fecha": "09/2021" }
+  ],
+  "idiomas": [
+    { "idioma": { "es": "Castellano", "en": "Spanish" }, "nivel": { "es": "Nativo", "en": "Native" } }
+  ],
+  "_pendienteUsuario": "Idiomas: solo figura el castellano. Si tienes inglés u otro idioma, añádelo aquí con su nivel y regenera el CV.",
+  "destacados": ["fresquito-demo", "gestorin-demo", "lazo", "modelduel", "commitling", "printquote"]
+}

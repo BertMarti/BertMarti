@@ -3,6 +3,12 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [2.1.1] - 2026-11-12
+
+### Cambiado
+- **Lazo** pasa a la v1.1 «Lista de Amazon»: la descripción (ES y EN) incluye la importación de listas de deseos de Amazon, y el estado pasa a «v1.1 · publicada».
+- Versión del pie: v2.1.1.
+
 ## [2.1.0] - 2026-11-12
 
 ### Cambiado

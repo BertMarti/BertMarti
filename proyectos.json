@@ -31,11 +31,11 @@
       "seccion": "nuevas",
       "etiqueta": "Día a día",
       "captura": "fresquito.webp",
-      "alt": "Captura de Fresquito: inventario de la nevera ordenado por lo que caduca antes, en azul y verde",
+      "alt": "Captura de Fresquito: lo que caduca antes en fichas con la ilustración de cada alimento, bajo una banda azul, y una receta para hoy",
       "lema": "Lo que hay en tu nevera, antes de que caduque.",
       "descripcion": "Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.",
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "IA"],
-      "web": "https://bertmarti.github.io/fresquito-demo/",
+      "web": "https://fresquito-demo.pages.dev/",
       "privado": true
     },
     {

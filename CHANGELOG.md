@@ -3,6 +3,12 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [1.2.5] - 2026-11-12
+
+### Cambiado
+- **Lazo** pasa a v0.5: captura nueva con el diseño «El catálogo de juguetes» (la familia en grande y lo más deseado en fotos) y descripción al día (avisos sin spoilers y guía para montarlo en casa).
+- Versión del pie del portafolio: v1.2.5.
+
 ## [1.2.4] - 2026-11-11
 
 ### Cambiado

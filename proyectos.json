@@ -1,5 +1,5 @@
 {
-  "_leeme": "Fuente única de las tarjetas de proyectos. Tras editar: node scripts/generar-tarjetas.mjs (regenera README.md y site/index.html). El CI falla si lo generado no coincide.",
+  "_leeme": "Fuente única de las tarjetas de proyectos. «estado» y «en» (lema, descripcion, alt, estado, nota) los usa la web (ES y EN). Tras editar: node scripts/generar-tarjetas.mjs (regenera README.md y site/index.html). El CI falla si lo generado no coincide.",
   "dueno": "BertMarti",
   "portafolio": "https://bertmarti.github.io/BertMarti/",
   "secciones": [
@@ -19,7 +19,14 @@
       "captura": "lazo.webp",
       "alt": "Captura de Lazo: el grupo «Navidad en familia» con cada persona en grande, su presupuesto (el tuyo no se ve) y lo más deseado en fotos, en papel crema con terracota",
       "lema": "Listas de regalos en familia, sin repetidos ni spoilers.",
-      "descripcion": "Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran; nadie ve lo de su propia lista, ni siquiera por la API. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible y avisos que nunca chivan nada. Novedades: diseño nuevo de «catálogo de juguetes» y guía para montarlo en casa con copias y HTTPS. Web (PWA) y Android, autoalojado con PocketBase e IA opcional (Ollama en casa).",
+      "descripcion": "Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran al momento; nadie ve lo de su propia lista, ni siquiera por la API ni en tiempo real. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible, lista para imprimir con QR y enlace de solo lectura. Web (PWA) y Android firmado, autoalojado en casa con PocketBase y auditado a fondo.",
+      "estado": "v1.0 · publicada",
+      "en": {
+        "lema": "Family gift lists, with no duplicates and no spoilers.",
+        "descripcion": "Everyone adds what they would like (from Amazon, any shop or a spreadsheet) and the others reserve or buy it on the spot; nobody sees what is happening on their own list, not through the API and not in real time. Shared kitty with settling up, split gifts, Secret Santa, a printable list with QR codes and a read-only link. Web (PWA) and signed Android app, self-hosted at home with PocketBase and thoroughly audited.",
+        "alt": "Lazo screenshot: the “Family Christmas” group with each person shown large, their budget (yours is hidden) and the most wanted gifts in photos, on cream paper with terracotta",
+        "estado": "v1.0 · released"
+      },
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "PocketBase", "IA"],
       "web": "https://bertmarti.github.io/lazo/",
       "android": "https://github.com/BertMarti/lazo/releases/latest"
@@ -34,6 +41,13 @@
       "alt": "Captura de Fresquito: lo que caduca antes en fichas con la ilustración de cada alimento, bajo una banda azul, y una receta para hoy",
       "lema": "Lo que hay en tu nevera, antes de que caduque.",
       "descripcion": "Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.",
+      "estado": "v4.0 · demo pública",
+      "en": {
+        "lema": "What’s in your fridge, before it goes off.",
+        "descripcion": "Take a photo of the fridge, the pantry or the receipt and the AI notes what you have, warns you about what’s about to expire and suggests recipes to suit you (fitness, vegan, spicy…); whatever is missing goes on your shopping list. Web (PWA) and Android, with free AI models by default.",
+        "alt": "Fresquito screenshot: what expires first as cards with an illustration of each food, under a blue band, and a recipe for today",
+        "estado": "v4.0 · public demo"
+      },
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "IA"],
       "web": "https://fresquito-demo.pages.dev/",
       "privado": true
@@ -48,6 +62,13 @@
       "alt": "Captura de Gestorín 3.2: índice de apartados arriba, plazos con su cifra grande en serif y el índice de apartados a la derecha",
       "lema": "Tu gestor de bolsillo.",
       "descripcion": "Te explica cartas, multas y notificaciones en lenguaje llano, convierte cada plazo en una tarea y te avisa antes. Estrena diseño en la 3.2, «Expediente con señal»: papel marfil, cifras serif grandes, iconos propios y color solo para el tiempo. Toda la familia, con IA local (Ollama) o sin IA. Windows y Android.",
+      "estado": "v3.2 · demo pública",
+      "en": {
+        "lema": "A paperwork assistant in your pocket.",
+        "descripcion": "It explains letters, fines and official notices in plain language, turns every deadline into a task and reminds you in time. Version 3.2 brings a new design, “Case file with a signal”: ivory paper, large serif figures, custom icons and colour reserved for time. For the whole family, with local AI (Ollama) or no AI at all. Windows and Android.",
+        "alt": "Gestorín 3.2 screenshot: section index at the top, deadlines with large serif figures and the section index on the right",
+        "estado": "v3.2 · public demo"
+      },
       "tecnologias": ["Tauri", "Rust", "React", "TypeScript", "Ollama"],
       "web": "https://bertmarti.github.io/gestorin-demo/",
       "privado": true
@@ -62,6 +83,13 @@
       "alt": "Captura de ARIA, asistente de IA para el hogar",
       "lema": "Tu casa, con voz propia.",
       "descripcion": "Asistente de IA autoalojado que gestiona las apps de tu casa: chat y voz, Telegram, rutinas y control parental. Gratis, en una Raspberry Pi o un PC.",
+      "estado": "Publicado",
+      "en": {
+        "lema": "Your home, with a voice of its own.",
+        "descripcion": "Self-hosted AI assistant that runs the apps in your home: chat and voice, Telegram, routines and parental controls. Free, on a Raspberry Pi or a PC.",
+        "alt": "Screenshot of ARIA, an AI assistant for the home",
+        "estado": "Live"
+      },
       "tecnologias": ["Python", "FastAPI", "Ollama", "Docker", "Telegram"],
       "web": "https://bertmarti.github.io/ARIA/"
     },
@@ -75,6 +103,13 @@
       "alt": "Captura de SHIELD-DNS, bloqueador de anuncios para toda la casa",
       "lema": "Adiós a los anuncios en toda la casa.",
       "descripcion": "Bloquea anuncios y rastreadores en todos tus dispositivos a la vez (Pi-hole + Unbound con DNSSEC), con guía paso a paso.",
+      "estado": "Publicado",
+      "en": {
+        "lema": "Goodbye to ads across the whole house.",
+        "descripcion": "Blocks ads and trackers on all your devices at once (Pi-hole + Unbound with DNSSEC), with a step-by-step guide.",
+        "alt": "Screenshot of SHIELD-DNS, an ad blocker for the whole house",
+        "estado": "Live"
+      },
       "tecnologias": ["Pi-hole", "Unbound", "DNSSEC", "Docker"],
       "web": "https://bertmarti.github.io/SHIELD-DNS/"
     },
@@ -88,6 +123,13 @@
       "alt": "Captura de HEIMDALL, VPN para entrar en casa desde fuera",
       "lema": "Tu casa, a mano desde cualquier sitio.",
       "descripcion": "Tu propia VPN WireGuard para entrar en casa desde fuera de forma segura, con guía paso a paso.",
+      "estado": "Publicado",
+      "en": {
+        "lema": "Your home, within reach from anywhere.",
+        "descripcion": "Your own WireGuard VPN to get into your home network securely from outside, with a step-by-step guide.",
+        "alt": "Screenshot of HEIMDALL, a VPN to reach home from outside",
+        "estado": "Live"
+      },
       "tecnologias": ["WireGuard", "wg-easy", "Caddy", "Docker"],
       "web": "https://bertmarti.github.io/HEIMDALL/"
     },
@@ -101,6 +143,13 @@
       "alt": "Captura de Repartito, la app para repartir gastos",
       "lema": "Cuentas claras y el chocolate espeso.",
       "descripcion": "Reparte gastos del piso, la pareja o el viaje, en cualquier moneda y 5 idiomas: gratis, sin cuentas ni anuncios y sin conexión. Recordatorios y tickets desde «Compartir». Web (PWA) y Android, cifrado y auditado.",
+      "estado": "Publicado",
+      "en": {
+        "lema": "Clear accounts make good friends.",
+        "descripcion": "Split the expenses of a flat, a couple or a trip, in any currency and 5 languages: free, with no accounts or ads, and offline. Reminders and receipts straight from “Share”. Web (PWA) and Android, encrypted and audited.",
+        "alt": "Screenshot of Repartito, the expense-splitting app",
+        "estado": "Live"
+      },
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "Web Crypto"],
       "web": "https://bertmarti.github.io/repartito/",
       "android": "https://github.com/BertMarti/repartito/releases/latest"
@@ -115,6 +164,14 @@
       "alt": "Captura de RUNA, para compartir secretos cifrados que se autodestruyen",
       "lema": "Secretos que se leen una vez… y desaparecen.",
       "descripcion": "Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse, o pide un secreto con un enlace. En 5 idiomas, autoalojable con Docker y con herramienta de terminal en Go. Auditado.",
+      "estado": "Autoalojable",
+      "en": {
+        "lema": "Secrets that are read once… and vanish.",
+        "descripcion": "Share end-to-end encrypted passwords and files that self-destruct once read, or request a secret with a link. In 5 languages, self-hostable with Docker and with a command-line tool in Go. Audited.",
+        "alt": "Screenshot of RUNA, for sharing encrypted secrets that self-destruct",
+        "estado": "Self-hosted",
+        "nota": "Runs on your own server"
+      },
       "tecnologias": ["Fastify", "React", "Web Crypto", "Docker", "SQLite", "Go"],
       "nota": { "texto": "Se instala en tu servidor", "logo": "docker" }
     },
@@ -128,6 +185,13 @@
       "alt": "Captura de modelduel, comparador de modelos de IA",
       "lema": "Comparar modelos con datos, no con opiniones.",
       "descripcion": "Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe, con quién gana a quién. Tareas en Python, JavaScript o TypeScript, y el código de los modelos aislado en un contenedor si quieres.",
+      "estado": "Publicado",
+      "en": {
+        "lema": "Compare models with data, not opinions.",
+        "descripcion": "Two AI models, one task and the same tests: pass rate, time and cost in a single report, showing who beats whom. Tasks in Python, JavaScript or TypeScript, with the models’ code sandboxed in a container if you like.",
+        "alt": "Screenshot of modelduel, an AI model comparison tool",
+        "estado": "Live"
+      },
       "tecnologias": ["Python", "CLI", "pytest", "Docker"],
       "web": "https://bertmarti.github.io/modelduel/"
     },
@@ -141,6 +205,13 @@
       "alt": "Captura de printquote, presupuestos de impresión 3D",
       "lema": "Del modelo 3D al presupuesto en segundos.",
       "descripcion": "Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor. El PDF del presupuesto sale numerado, con los datos del encargo y el correo y teléfono del cliente.",
+      "estado": "Publicado",
+      "en": {
+        "lema": "From 3D model to quote in seconds.",
+        "descripcion": "Drop in your 3D model (STL, OBJ or 3MF), inspect it and get weight, print time and price without uploading the file to any server. The quote PDF is numbered and includes the job details and the customer’s email and phone.",
+        "alt": "Screenshot of printquote, 3D printing quotes",
+        "estado": "Live"
+      },
       "tecnologias": ["TypeScript", "Three.js", "Vite", "PWA"],
       "web": "https://bertmarti.github.io/printquote/"
     },
@@ -154,6 +225,13 @@
       "alt": "Captura de commitling, mascota pixel-art para tu perfil",
       "lema": "Tu actividad convertida en una criatura digital.",
       "descripcion": "Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits; también puede ser una calabaza (la mía está aquí abajo) y desde la 1.2 se instala en segundos con binarios verificables.",
+      "estado": "v1.2 · en uso a diario",
+      "en": {
+        "lema": "Your activity turned into a digital creature.",
+        "descripcion": "A pixel-art pet that lives on your GitHub profile and grows with your commits; it can also be a pumpkin (mine is further down) and since 1.2 it installs in seconds with verifiable binaries.",
+        "alt": "Screenshot of commitling, a pixel-art pet for your profile",
+        "estado": "v1.2 · in daily use"
+      },
       "tecnologias": ["Go", "GitHub Actions", "SVG animado", "WebAssembly"],
       "web": "https://bertmarti.github.io/commitling/"
     },
@@ -167,6 +245,13 @@
       "alt": "Vitaclip: ventana del historial del portapapeles en modo claro y oscuro",
       "lema": "El portapapeles supervitaminado.",
       "descripcion": "Historial de todo lo que copias (como Ditto), capturas con anotaciones (como Lightshot) y grabación de pantalla en MP4. App de escritorio gratis, sin cuentas y todo en tu equipo.",
+      "estado": "App de escritorio",
+      "en": {
+        "lema": "The clipboard, supercharged.",
+        "descripcion": "A history of everything you copy (like Ditto), annotated screenshots (like Lightshot) and MP4 screen recording. A free desktop app, with no accounts and everything kept on your machine.",
+        "alt": "Vitaclip: clipboard history window in light and dark mode",
+        "estado": "Desktop app"
+      },
       "tecnologias": ["Tauri", "Rust", "JavaScript", "Windows", "macOS", "Linux"],
       "descarga": "https://github.com/BertMarti/vitaclip/releases/latest"
     },
@@ -180,6 +265,13 @@
       "alt": "Captura de Roscodex, rosco de preguntas de Pokémon",
       "lema": "El rosco de las letras, versión Pokémon.",
       "descripcion": "Preguntas fan con estética pixel-art, contrarreloj, estadísticas y un Rosco del día igual para todos, con racha, estadísticas y tu resultado como imagen para compartir: gratis, sin cuentas y también sin conexión.",
+      "estado": "Jugable",
+      "en": {
+        "lema": "The alphabet-wheel quiz, Pokémon edition.",
+        "descripcion": "Fan-made questions with a pixel-art look, against the clock, plus a Daily Wheel that’s the same for everyone, with streaks, stats and your result as an image to share: free, no accounts and playable offline.",
+        "alt": "Screenshot of Roscodex, a Pokémon alphabet-wheel quiz",
+        "estado": "Playable"
+      },
       "tecnologias": ["React", "TypeScript", "Vite", "PWA"],
       "web": "https://bertmarti.github.io/Roscodex/",
       "jugar": true
@@ -194,6 +286,13 @@
       "alt": "Captura de PokéQuién, duelo de deducción con Pokémon",
       "lema": "¿Quién es quién?, con Pokémon.",
       "descripcion": "Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador, con estadísticas de tus duelos; se instala en el móvil, el Solitario funciona sin conexión y tiene ajustes de sonido, vibración y daltonismo.",
+      "estado": "Jugable",
+      "en": {
+        "lema": "Guess Who?, with Pokémon.",
+        "descripcion": "A pixel-art deduction duel against the computer or a friend, in the browser, with stats for your duels; it installs on your phone, Solitaire mode works offline and it has sound, vibration and colour-blind settings.",
+        "alt": "Screenshot of PokéQuién, a deduction duel with Pokémon",
+        "estado": "Playable"
+      },
       "tecnologias": ["React Native (Expo)", "TypeScript", "WebSocket"],
       "web": "https://bertmarti.github.io/Adivina-pkm/",
       "jugar": true
@@ -208,6 +307,13 @@
       "alt": "Captura de Squad Summoner, convocatorias para jugar en grupo",
       "lema": "Convocatorias épicas para tu escuadrón.",
       "descripcion": "Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2, Monster Hunter y más, con tu tono o tus plantillas (compartibles por enlace) y encuesta de asistencia, listos para WhatsApp o para leer en voz alta con la voz que elijas.",
+      "estado": "Publicado",
+      "en": {
+        "lema": "Epic call-ups for your squad.",
+        "descripcion": "AI-generated messages to rally your group for Helldivers 2, Space Marine 2, Monster Hunter and more, in your tone or with your own templates (shareable by link) and an attendance poll, ready for WhatsApp or to read aloud in the voice you choose.",
+        "alt": "Screenshot of Squad Summoner, call-ups for playing as a group",
+        "estado": "Live"
+      },
       "tecnologias": ["Vue 3", "TypeScript", "Vite", "Gemini"],
       "web": "https://bertmarti.github.io/squad-summoner-v3/"
     }

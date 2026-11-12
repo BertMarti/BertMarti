@@ -59,8 +59,8 @@
             ],
             "en": [
               "Architecture project for a banking platform within a cross-functional team.",
-              "Owned the evolution and maintainability of the system: Spring Boot microservices and Spring Batch processes.",
-              "Migrated Spring Web Flow flows to microservices, supported by AI and agent orchestrators."
+              "Responsible for the evolution and maintainability of the system: Spring Boot microservices and Spring Batch processes.",
+              "Migrating flows from Spring Web Flow to microservices, with the help of AI and agent orchestrators."
             ]
           }
         },
@@ -102,7 +102,7 @@
       "titulo": { "es": "CFGS Desarrollo de Aplicaciones Web (DAW)", "en": "Higher Vocational Diploma in Web Application Development (DAW)" },
       "centro": "IES Jándula, Andújar (Jaén)",
       "inicio": "09/2021", "fin": "06/2023",
-      "nota": { "es": "Nota media: 9,5", "en": "GPA: 9.5/10" }
+      "nota": { "es": "Nota media: 9,5", "en": "Grade: 9.5/10" }
     },
     {
       "titulo": { "es": "Grado Profesional en Diseño Gráfico", "en": "Vocational Degree in Graphic Design" },

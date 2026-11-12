@@ -56,29 +56,45 @@ jobs:
           exit $fallo
       - name: Web sin estilos ni scripts en línea, sin innerHTML, con CSP
         run: |
-          if grep -nE 'style=|<style|<script>|on(click|load|error|change)=' site/*.html; then echo "::error::Estilos/scripts en línea: rompen la CSP"; exit 1; fi
+          # Las páginas del portafolio: español (site/) e inglés (site/en/). El JSON-LD es un bloque de datos, no un script.
+          if grep -nE 'style=|<style|<script>|on(click|load|error|change)=' site/*.html site/en/*.html; then echo "::error::Estilos/scripts en línea: rompen la CSP"; exit 1; fi
           if grep -nE 'innerHTML|outerHTML|insertAdjacentHTML|document\.write' site/*.js; then echo "::error::Usa textContent"; exit 1; fi
-          grep -q 'Content-Security-Policy' site/index.html || { echo "::error::Falta la CSP"; exit 1; }
-      - name: La web no publica ningún email
+          for f in site/index.html site/en/index.html; do
+            grep -q 'Content-Security-Policy' "$f" || { echo "::error::Falta la CSP en $f"; exit 1; }
+          done
+      - name: La web no publica ningún email ni el teléfono
         run: |
-          if grep -rnIE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}' site/; then echo "::error::Email en la web"; exit 1; fi
+          # Todo site/ menos los PDF del CV (site/cv/*.pdf), que sí llevan el contacto completo a propósito.
+          if find site -type f ! -path 'site/cv/*.pdf' -print0 | xargs -0 grep -nIE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,}'; then echo "::error::Email en la web"; exit 1; fi
+          telefono=$(node -p "require('./perfil.json').contacto.telefono.replace(/\D/g, '').slice(-9).split('').join('[ .-]?')")
+          if find site -type f ! -path 'site/cv/*.pdf' -print0 | xargs -0 grep -nIE "$telefono"; then echo "::error::Teléfono en la web"; exit 1; fi
       - name: Los archivos enlazados de la web existen
         run: |
           fallo=0
-          for ruta in $(grep -ohE '(src|href|srcset)="[^"#:]+"' site/*.html | sed -E 's/^[a-z]+="//; s/"$//' | sort -u); do
-            [ -e "site/$ruta" ] || { echo "::error::No existe: site/$ruta"; fallo=1; }
+          # Cada ruta se resuelve desde la carpeta de su página (site/en/ enlaza con «../»).
+          for pagina in site/*.html site/en/*.html; do
+            carpeta=$(dirname "$pagina")
+            for ruta in $(grep -ohE '(src|href|srcset)="[^"#:]+"' "$pagina" | sed -E 's/^[a-z]+="//; s/"$//' | sort -u); do
+              [ -e "$carpeta/$ruta" ] || { echo "::error::No existe: $carpeta/$ruta (enlazado desde $pagina)"; fallo=1; }
+            done
+          done
+          for ruta in site/sitemap.xml site/robots.txt; do
+            [ -f "$ruta" ] || { echo "::error::Falta $ruta"; fallo=1; }
           done
           exit $fallo
       - name: Las tarjetas coinciden con proyectos.json
         run: node scripts/generar-tarjetas.mjs --comprobar
       - name: Pruebas de los scripts
         run: node --test scripts/vigilar-csp.test.mjs
-      - name: La web tiene og:image y Trusted Types
+      - name: La web tiene og:image, Trusted Types e idiomas alternos
         run: |
-          grep -q '<meta property="og:image" content="https://bertmarti.github.io/BertMarti/og.png">' site/index.html || { echo "::error::Falta og:image absoluta"; exit 1; }
           [ -f site/og.png ] || { echo "::error::Falta site/og.png"; exit 1; }
-          grep -q "require-trusted-types-for 'script'" site/index.html || { echo "::error::Falta Trusted Types en la CSP"; exit 1; }
+          for f in site/index.html site/en/index.html; do
+            grep -q '<meta property="og:image" content="https://bertmarti.github.io/BertMarti/og.png">' "$f" || { echo "::error::Falta og:image absoluta en $f"; exit 1; }
+            grep -q "require-trusted-types-for 'script'" "$f" || { echo "::error::Falta Trusted Types en la CSP de $f"; exit 1; }
+            grep -q '<link rel="alternate" hreflang="en" href="https://bertmarti.github.io/BertMarti/en/">' "$f" || { echo "::error::Falta el hreflang en $f"; exit 1; }
+          done
       - name: JavaScript y SVG válidos
         run: |
           for f in site/*.js scripts/*.mjs; do node --check "$f"; done
-          for f in img/*.svg site/*.svg; do python3 -c "import sys,xml.etree.ElementTree as E; E.parse(sys.argv[1])" "$f"; done
+          for f in img/*.svg site/*.svg site/sitemap.xml; do python3 -c "import sys,xml.etree.ElementTree as E; E.parse(sys.argv[1])" "$f"; done

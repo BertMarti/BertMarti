@@ -13,7 +13,7 @@
 
 <!-- titular:fin -->
 
-Entre semana, microservicios y procesos batch para banca en NTT DATA. El resto del tiempo, apps pequeñas y útiles para casa: la nevera, los papeles, los regalos.
+Desarrollador Full-Stack con más de 3 años en NTT DATA construyendo software para banca: microservicios con Spring Boot, procesos batch e interfaces en React y Angular. Especializado en modernizar arquitecturas con IA.
 
 <p>
   <a href="mailto:amarmor878@gmail.com"><img src="https://img.shields.io/badge/Email-amarmor878%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
@@ -31,7 +31,7 @@ Entre semana, microservicios y procesos batch para banca en NTT DATA. El resto d
 
 <!-- sobre:inicio · generado por scripts/generar-tarjetas.mjs desde perfil.json: no lo edites a mano -->
 
-Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA en proyectos reales, desde orquestadores de agentes hasta la migración de Spring Web Flow a microservicios. Vengo del diseño gráfico, así que cuido la interfaz tanto como el código.
+Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA y orquestación de agentes en proyectos reales de modernización. Mi formación en diseño gráfico me lleva a cuidar la interfaz tanto como el código.
 
 ### Experiencia · NTT DATA Europe &amp; Latam
 
@@ -42,11 +42,11 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
   </tr>
   <tr>
     <td width="170" valign="top"><code>dic 2024 – hoy</code></td>
-    <td valign="top"><strong>Full-Stack Developer (Java + Front) · Arquitectura</strong><br>Proyecto de arquitectura para una plataforma bancaria, en un equipo multidisciplinar.</td>
+    <td valign="top"><strong>Full-Stack Developer (Java + Front) · Arquitectura</strong><br>Equipo multidisciplinar de arquitectura de una plataforma bancaria.</td>
   </tr>
   <tr>
     <td width="170" valign="top"><code>jun 2023 – dic 2024</code></td>
-    <td valign="top"><strong>Junior Full-Stack / Frontend Developer</strong><br>Funcionalidades end-to-end: APIs REST y su interfaz de usuario.</td>
+    <td valign="top"><strong>Junior Full-Stack / Frontend Developer</strong><br>Desarrollo de APIs REST y de las pantallas que las consumen.</td>
   </tr>
   <tr>
     <td width="170" valign="top"><code>mar 2023 – jun 2023</code></td>
@@ -91,12 +91,12 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
     </td>
   </tr>
   <tr>
-    <td width="150"><strong>IA</strong></td>
+    <td width="150"><strong>Desarrollo asistido por IA</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Orquestaci%C3%B3n%20de%20agentes-6D28D9?style=flat-square" alt="Orquestación de agentes">
-      <img src="https://img.shields.io/badge/Migraci%C3%B3n%20asistida%20por%20IA-6D28D9?style=flat-square" alt="Migración asistida por IA">
-      <img src="https://img.shields.io/badge/Claude-6D28D9?style=flat-square&logo=claude&logoColor=white" alt="Claude">
-      <img src="https://img.shields.io/badge/Ollama-6D28D9?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+      <img src="https://img.shields.io/badge/Orquestaci%C3%B3n%20de%20agentes-475569?style=flat-square" alt="Orquestación de agentes">
+      <img src="https://img.shields.io/badge/Migraci%C3%B3n%20asistida%20por%20IA-475569?style=flat-square" alt="Migración asistida por IA">
+      <img src="https://img.shields.io/badge/Claude-475569?style=flat-square&logo=claude&logoColor=white" alt="Claude">
+      <img src="https://img.shields.io/badge/Ollama-475569?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
     </td>
   </tr>
   <tr>
@@ -134,9 +134,9 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
 
 <!-- tecnologias:fin -->
 
-## Proyectos destacados
+## Proyectos personales
 
-Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Gestorín tienen de momento el código privado, pero se pueden probar; el resto es gratuito y de código abierto.
+Aplicaciones completas que diseño, desarrollo y publico de principio a fin: arquitectura, UX, seguridad y despliegue. Pulsa una captura para abrir su web o su demo. Fresquito y Gestorín tienen el código privado; el resto es de código abierto.
 
 <!-- destacados:inicio · generado por scripts/generar-tarjetas.mjs desde proyectos.json y perfil.json: no lo edites a mano -->
 
@@ -145,7 +145,7 @@ Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Ge
     <td width="50%" valign="top">
       <a href="https://fresquito-demo.pages.dev/"><img src="./site/img/proyectos/fresquito.webp" alt="Demo de Fresquito" width="100%"></a>
       <h3><a href="https://github.com/BertMarti/fresquito-demo">Fresquito</a></h3>
-      <p><strong>Lo que hay en tu nevera, antes de que caduque.</strong><br>Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.</p>
+      <p><strong>Lo que hay en tu nevera, antes de que caduque.</strong><br>Inventario de nevera y despensa con IA: a partir de una foto o del ticket de compra registra los alimentos, avisa de las caducidades y propone recetas según las preferencias del usuario; lo que falta pasa a la lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.</p>
       <p><code>React</code> <code>TypeScript</code> <code>PWA</code> <code>Android (Capacitor)</code> <code>IA</code></p>
       <a href="https://fresquito-demo.pages.dev/"><img src="https://img.shields.io/badge/DEMO-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Fresquito"></a>
       <img src="https://img.shields.io/badge/C%C3%93DIGO%20PRIVADO-6B7280?style=flat-square&logo=github&logoColor=white" alt="Código privado">
@@ -153,7 +153,7 @@ Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Ge
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/gestorin-demo/"><img src="./site/img/proyectos/gestorin.webp" alt="Demo de Gestorín" width="100%"></a>
       <h3><a href="https://github.com/BertMarti/gestorin-demo">Gestorín</a></h3>
-      <p><strong>Tu gestor de bolsillo.</strong><br>Te explica cartas, multas y notificaciones en lenguaje llano, convierte cada plazo en una tarea y te avisa antes. Estrena diseño en la 3.2, «Expediente con señal»: papel marfil, cifras serif grandes, iconos propios y color solo para el tiempo. Toda la familia, con IA local (Ollama) o sin IA. Windows y Android.</p>
+      <p><strong>Tu gestor de bolsillo.</strong><br>Asistente para el papeleo doméstico: explica cartas, multas y notificaciones oficiales en lenguaje claro, convierte cada plazo en una tarea y avisa con antelación. Para toda la familia, con IA local (Ollama) o sin IA; Windows y Android.</p>
       <p><code>Tauri</code> <code>Rust</code> <code>React</code> <code>TypeScript</code> <code>Ollama</code></p>
       <a href="https://bertmarti.github.io/gestorin-demo/"><img src="https://img.shields.io/badge/DEMO-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Demo de Gestorín"></a>
       <img src="https://img.shields.io/badge/C%C3%93DIGO%20PRIVADO-6B7280?style=flat-square&logo=github&logoColor=white" alt="Código privado">
@@ -163,7 +163,7 @@ Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Ge
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/lazo/"><img src="./site/img/proyectos/lazo.webp" alt="Web de Lazo" width="100%"></a>
       <h3><a href="https://github.com/BertMarti/lazo">Lazo</a></h3>
-      <p><strong>Listas de regalos en familia, sin repetidos ni spoilers.</strong><br>Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran al momento; nadie ve lo de su propia lista, ni siquiera por la API ni en tiempo real. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible, lista para imprimir con QR y enlace de solo lectura. Web (PWA) y Android firmado, autoalojado en casa con PocketBase y auditado a fondo.</p>
+      <p><strong>Listas de regalos en familia, sin repetidos ni spoilers.</strong><br>Aplicación de listas de regalos para familias y grupos: cada persona publica lo que quiere y el resto lo reserva o lo compra sin que el destinatario pueda verlo. Incluye fondo común, regalos compartidos y amigo invisible; web (PWA) y Android, autoalojada con PocketBase y auditada.</p>
       <p><code>React</code> <code>TypeScript</code> <code>PWA</code> <code>Android (Capacitor)</code> <code>PocketBase</code> <code>IA</code></p>
       <a href="https://bertmarti.github.io/lazo/"><img src="https://img.shields.io/badge/WEB-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de Lazo"></a>
       <a href="https://github.com/BertMarti/lazo/releases/latest"><img src="https://img.shields.io/badge/ANDROID-0F766E?style=flat-square&logo=android&logoColor=white" alt="App de Android de Lazo"></a>
@@ -172,7 +172,7 @@ Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Ge
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/modelduel/"><img src="./site/img/proyectos/modelduel.webp" alt="Web de modelduel" width="100%"></a>
       <h3><a href="https://github.com/BertMarti/modelduel">modelduel</a></h3>
-      <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe, con quién gana a quién. Tareas en Python, JavaScript o TypeScript, y el código de los modelos aislado en un contenedor si quieres.</p>
+      <p><strong>Comparar modelos con datos, no con opiniones.</strong><br>Herramienta de línea de comandos que compara dos modelos de IA con la misma tarea y los mismos tests, y resume aciertos, tiempo y coste en un único informe. Admite tareas en Python, JavaScript o TypeScript y puede aislar el código generado en un contenedor.</p>
       <p><code>Python</code> <code>CLI</code> <code>pytest</code> <code>Docker</code></p>
       <a href="https://bertmarti.github.io/modelduel/"><img src="https://img.shields.io/badge/WEB-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de modelduel"></a>
       <a href="https://github.com/BertMarti/modelduel"><img src="https://img.shields.io/badge/C%C3%93DIGO-475569?style=flat-square&logo=github&logoColor=white" alt="Código de modelduel"></a>
@@ -182,7 +182,7 @@ Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Ge
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/commitling/"><img src="./site/img/proyectos/commitling.webp" alt="Web de commitling" width="100%"></a>
       <h3><a href="https://github.com/BertMarti/commitling">commitling</a></h3>
-      <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits; también puede ser una calabaza (la mía está aquí abajo) y desde la 1.2 se instala en segundos con binarios verificables.</p>
+      <p><strong>Tu actividad convertida en una criatura digital.</strong><br>Mascota pixel-art para el perfil de GitHub que crece con la actividad de commits. Se genera como SVG animado con GitHub Actions y se instala con binarios verificables.</p>
       <p><code>Go</code> <code>GitHub Actions</code> <code>SVG animado</code> <code>WebAssembly</code></p>
       <a href="https://bertmarti.github.io/commitling/"><img src="https://img.shields.io/badge/WEB-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de commitling"></a>
       <a href="https://github.com/BertMarti/commitling"><img src="https://img.shields.io/badge/C%C3%93DIGO-475569?style=flat-square&logo=github&logoColor=white" alt="Código de commitling"></a>
@@ -190,7 +190,7 @@ Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Ge
     <td width="50%" valign="top">
       <a href="https://bertmarti.github.io/printquote/"><img src="./site/img/proyectos/printquote.webp" alt="Web de printquote" width="100%"></a>
       <h3><a href="https://github.com/BertMarti/printquote">printquote</a></h3>
-      <p><strong>Del modelo 3D al presupuesto en segundos.</strong><br>Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor. El PDF del presupuesto sale numerado, con los datos del encargo y el correo y teléfono del cliente.</p>
+      <p><strong>Del modelo 3D al presupuesto en segundos.</strong><br>Calcula el peso, el tiempo de impresión y el precio de un modelo 3D (STL, OBJ o 3MF) directamente en el navegador, sin subir el archivo a ningún servidor. Genera el presupuesto en PDF, numerado y con los datos del encargo y del cliente.</p>
       <p><code>TypeScript</code> <code>Three.js</code> <code>Vite</code> <code>PWA</code></p>
       <a href="https://bertmarti.github.io/printquote/"><img src="https://img.shields.io/badge/WEB-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Web de printquote"></a>
       <a href="https://github.com/BertMarti/printquote"><img src="https://img.shields.io/badge/C%C3%93DIGO-475569?style=flat-square&logo=github&logoColor=white" alt="Código de printquote"></a>
@@ -202,7 +202,7 @@ Seis para empezar. Pulsa una captura para abrir su web o su demo. Fresquito y Ge
 
 ## Más proyectos
 
-Todos gratuitos y de código abierto; casi todos se prueban en el navegador. En el [portafolio](https://bertmarti.github.io/BertMarti/) están con más detalle.
+Todos gratuitos y de código abierto; la mayoría puede probarse en el navegador. El [portafolio](https://bertmarti.github.io/BertMarti/) los recoge con más detalle.
 
 <!-- tarjetas:inicio · generado por scripts/generar-tarjetas.mjs desde proyectos.json: no lo edites a mano -->
 
@@ -215,12 +215,12 @@ Todos gratuitos y de código abierto; casi todos se prueban en el navegador. En 
     </td>
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/SHIELD-DNS/"><img src="./site/img/proyectos/shield-dns.webp" alt="Web de SHIELD-DNS" width="100%"></a>
-      <p><strong>🛡️ <a href="https://github.com/BertMarti/SHIELD-DNS">SHIELD-DNS</a></strong><br>Adiós a los anuncios en toda la casa.<br><sub>Pi-hole · Unbound · DNSSEC · Docker</sub></p>
+      <p><strong>🛡️ <a href="https://github.com/BertMarti/SHIELD-DNS">SHIELD-DNS</a></strong><br>Bloqueo de anuncios para toda la red doméstica.<br><sub>Pi-hole · Unbound · DNSSEC · Docker</sub></p>
       <p><a href="https://bertmarti.github.io/SHIELD-DNS/">Web</a> · <a href="https://github.com/BertMarti/SHIELD-DNS">Código</a></p>
     </td>
     <td width="33%" valign="top">
       <a href="https://bertmarti.github.io/HEIMDALL/"><img src="./site/img/proyectos/heimdall.webp" alt="Web de HEIMDALL" width="100%"></a>
-      <p><strong>🔐 <a href="https://github.com/BertMarti/HEIMDALL">HEIMDALL</a></strong><br>Tu casa, a mano desde cualquier sitio.<br><sub>WireGuard · wg-easy · Caddy · Docker</sub></p>
+      <p><strong>🔐 <a href="https://github.com/BertMarti/HEIMDALL">HEIMDALL</a></strong><br>Acceso seguro a tu red doméstica desde cualquier lugar.<br><sub>WireGuard · wg-easy · Caddy · Docker</sub></p>
       <p><a href="https://bertmarti.github.io/HEIMDALL/">Web</a> · <a href="https://github.com/BertMarti/HEIMDALL">Código</a></p>
     </td>
   </tr>
@@ -232,7 +232,7 @@ Todos gratuitos y de código abierto; casi todos se prueban en el navegador. En 
     </td>
     <td width="33%" valign="top">
       <a href="https://github.com/BertMarti/runa"><img src="./site/img/proyectos/runa.webp" alt="Captura de RUNA, para compartir secretos cifrados que se autodestruyen" width="100%"></a>
-      <p><strong>🔥 <a href="https://github.com/BertMarti/runa">RUNA</a></strong><br>Secretos que se leen una vez… y desaparecen.<br><sub>Fastify · React · Web Crypto · Docker · SQLite · Go</sub></p>
+      <p><strong>🔥 <a href="https://github.com/BertMarti/runa">RUNA</a></strong><br>Secretos cifrados que se leen una sola vez.<br><sub>Fastify · React · Web Crypto · Docker · SQLite · Go</sub></p>
       <p><a href="https://github.com/BertMarti/runa">Código</a> · Se instala en tu servidor</p>
     </td>
     <td width="33%" valign="top">

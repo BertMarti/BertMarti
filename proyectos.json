@@ -19,11 +19,11 @@
       "captura": "lazo.webp",
       "alt": "Captura de Lazo: el grupo «Navidad en familia» con cada persona en grande, su presupuesto (el tuyo no se ve) y lo más deseado en fotos, en papel crema con terracota",
       "lema": "Listas de regalos en familia, sin repetidos ni spoilers.",
-      "descripcion": "Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran al momento; nadie ve lo de su propia lista, ni siquiera por la API ni en tiempo real. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible, lista para imprimir con QR y enlace de solo lectura. Web (PWA) y Android firmado, autoalojado en casa con PocketBase y auditado a fondo.",
+      "descripcion": "Aplicación de listas de regalos para familias y grupos: cada persona publica lo que quiere y el resto lo reserva o lo compra sin que el destinatario pueda verlo. Incluye fondo común, regalos compartidos y amigo invisible; web (PWA) y Android, autoalojada con PocketBase y auditada.",
       "estado": "v1.0 · publicada",
       "en": {
         "lema": "Family gift lists, with no duplicates and no spoilers.",
-        "descripcion": "Everyone adds what they would like (from Amazon, any shop or a spreadsheet) and the others reserve or buy it on the spot; nobody sees what is happening on their own list, not through the API and not in real time. Shared kitty with settling up, split gifts, Secret Santa, a printable list with QR codes and a read-only link. Web (PWA) and signed Android app, self-hosted at home with PocketBase and thoroughly audited.",
+        "descripcion": "Gift-list app for families and groups: each person posts what they would like and the others reserve or buy it without the recipient being able to see it. Includes a shared fund, split gifts and Secret Santa; web (PWA) and Android, self-hosted with PocketBase and audited.",
         "alt": "Lazo screenshot: the “Family Christmas” group with each person shown large, their budget (yours is hidden) and the most wanted gifts in photos, on cream paper with terracotta",
         "estado": "v1.0 · released"
       },
@@ -40,11 +40,11 @@
       "captura": "fresquito.webp",
       "alt": "Captura de Fresquito: lo que caduca antes en fichas con la ilustración de cada alimento, bajo una banda azul, y una receta para hoy",
       "lema": "Lo que hay en tu nevera, antes de que caduque.",
-      "descripcion": "Haz una foto a la nevera, la despensa o el ticket y la IA apunta qué tienes, te avisa de lo que caduca y te propone recetas según tus preferencias (fitness, vegana, picante…); lo que falta pasa a tu lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.",
+      "descripcion": "Inventario de nevera y despensa con IA: a partir de una foto o del ticket de compra registra los alimentos, avisa de las caducidades y propone recetas según las preferencias del usuario; lo que falta pasa a la lista de la compra. Web (PWA) y Android, con modelos de IA gratuitos por defecto.",
       "estado": "v4.0 · demo pública",
       "en": {
-        "lema": "What’s in your fridge, before it goes off.",
-        "descripcion": "Take a photo of the fridge, the pantry or the receipt and the AI notes what you have, warns you about what’s about to expire and suggests recipes to suit you (fitness, vegan, spicy…); whatever is missing goes on your shopping list. Web (PWA) and Android, with free AI models by default.",
+        "lema": "What’s in your fridge, before it expires.",
+        "descripcion": "AI-powered fridge and pantry inventory: from a photo or a shopping receipt it logs the food, flags upcoming expiry dates and suggests recipes based on the user’s preferences; missing items go to the shopping list. Web (PWA) and Android, with free AI models by default.",
         "alt": "Fresquito screenshot: what expires first as cards with an illustration of each food, under a blue band, and a recipe for today",
         "estado": "v4.0 · public demo"
       },
@@ -59,14 +59,14 @@
       "seccion": "nuevas",
       "etiqueta": "Día a día",
       "captura": "gestorin.webp",
-      "alt": "Captura de Gestorín 3.2: índice de apartados arriba, plazos con su cifra grande en serif y el índice de apartados a la derecha",
+      "alt": "Captura de Gestorín 3.2: la lista «Por hacer» con los plazos más próximos en cifras grandes y, a la derecha, los apartados Identidad, Vehículo, Hogar, Salud, Hacienda y trabajo y Archivo",
       "lema": "Tu gestor de bolsillo.",
-      "descripcion": "Te explica cartas, multas y notificaciones en lenguaje llano, convierte cada plazo en una tarea y te avisa antes. Estrena diseño en la 3.2, «Expediente con señal»: papel marfil, cifras serif grandes, iconos propios y color solo para el tiempo. Toda la familia, con IA local (Ollama) o sin IA. Windows y Android.",
+      "descripcion": "Asistente para el papeleo doméstico: explica cartas, multas y notificaciones oficiales en lenguaje claro, convierte cada plazo en una tarea y avisa con antelación. Para toda la familia, con IA local (Ollama) o sin IA; Windows y Android.",
       "estado": "v3.2 · demo pública",
       "en": {
         "lema": "A paperwork assistant in your pocket.",
-        "descripcion": "It explains letters, fines and official notices in plain language, turns every deadline into a task and reminds you in time. Version 3.2 brings a new design, “Case file with a signal”: ivory paper, large serif figures, custom icons and colour reserved for time. For the whole family, with local AI (Ollama) or no AI at all. Windows and Android.",
-        "alt": "Gestorín 3.2 screenshot: section index at the top, deadlines with large serif figures and the section index on the right",
+        "descripcion": "Household paperwork assistant: it explains letters, fines and official notices in plain language, turns each deadline into a task and sends reminders in advance. For the whole family, with local AI (Ollama) or no AI at all; Windows and Android.",
+        "alt": "Gestorín 3.2 screenshot: the to-do list with the nearest deadlines in large figures and, on the right, the Identity, Vehicle, Home, Health, Tax and work, and Archive sections",
         "estado": "v3.2 · public demo"
       },
       "tecnologias": ["Tauri", "Rust", "React", "TypeScript", "Ollama"],
@@ -82,11 +82,11 @@
       "captura": "aria.webp",
       "alt": "Captura de ARIA, asistente de IA para el hogar",
       "lema": "Tu casa, con voz propia.",
-      "descripcion": "Asistente de IA autoalojado que gestiona las apps de tu casa: chat y voz, Telegram, rutinas y control parental. Gratis, en una Raspberry Pi o un PC.",
+      "descripcion": "Asistente de IA autoalojado para gestionar las aplicaciones del hogar por chat, voz o Telegram, con rutinas y control parental. Gratuito; funciona en una Raspberry Pi o en un PC.",
       "estado": "Publicado",
       "en": {
         "lema": "Your home, with a voice of its own.",
-        "descripcion": "Self-hosted AI assistant that runs the apps in your home: chat and voice, Telegram, routines and parental controls. Free, on a Raspberry Pi or a PC.",
+        "descripcion": "Self-hosted AI assistant for managing home applications via chat, voice or Telegram, with routines and parental controls. Free; runs on a Raspberry Pi or a PC.",
         "alt": "Screenshot of ARIA, an AI assistant for the home",
         "estado": "Live"
       },
@@ -101,12 +101,12 @@
       "etiqueta": "Casa",
       "captura": "shield-dns.webp",
       "alt": "Captura de SHIELD-DNS, bloqueador de anuncios para toda la casa",
-      "lema": "Adiós a los anuncios en toda la casa.",
-      "descripcion": "Bloquea anuncios y rastreadores en todos tus dispositivos a la vez (Pi-hole + Unbound con DNSSEC), con guía paso a paso.",
+      "lema": "Bloqueo de anuncios para toda la red doméstica.",
+      "descripcion": "Bloquea anuncios y rastreadores en todos los dispositivos de la red doméstica (Pi-hole + Unbound con DNSSEC), con guía de instalación paso a paso.",
       "estado": "Publicado",
       "en": {
-        "lema": "Goodbye to ads across the whole house.",
-        "descripcion": "Blocks ads and trackers on all your devices at once (Pi-hole + Unbound with DNSSEC), with a step-by-step guide.",
+        "lema": "Ad blocking for the whole home network.",
+        "descripcion": "Blocks ads and trackers on every device on the home network (Pi-hole + Unbound with DNSSEC), with a step-by-step installation guide.",
         "alt": "Screenshot of SHIELD-DNS, an ad blocker for the whole house",
         "estado": "Live"
       },
@@ -121,12 +121,12 @@
       "etiqueta": "Casa",
       "captura": "heimdall.webp",
       "alt": "Captura de HEIMDALL, VPN para entrar en casa desde fuera",
-      "lema": "Tu casa, a mano desde cualquier sitio.",
-      "descripcion": "Tu propia VPN WireGuard para entrar en casa desde fuera de forma segura, con guía paso a paso.",
+      "lema": "Acceso seguro a tu red doméstica desde cualquier lugar.",
+      "descripcion": "VPN WireGuard propia para acceder a la red doméstica desde el exterior de forma segura, con guía de instalación paso a paso.",
       "estado": "Publicado",
       "en": {
-        "lema": "Your home, within reach from anywhere.",
-        "descripcion": "Your own WireGuard VPN to get into your home network securely from outside, with a step-by-step guide.",
+        "lema": "Secure access to your home network from anywhere.",
+        "descripcion": "Your own WireGuard VPN for secure remote access to your home network, with a step-by-step installation guide.",
         "alt": "Screenshot of HEIMDALL, a VPN to reach home from outside",
         "estado": "Live"
       },
@@ -142,11 +142,11 @@
       "captura": "repartito.webp",
       "alt": "Captura de Repartito, la app para repartir gastos",
       "lema": "Cuentas claras y el chocolate espeso.",
-      "descripcion": "Reparte gastos del piso, la pareja o el viaje, en cualquier moneda y 5 idiomas: gratis, sin cuentas ni anuncios y sin conexión. Recordatorios y tickets desde «Compartir». Web (PWA) y Android, cifrado y auditado.",
+      "descripcion": "Aplicación para repartir gastos compartidos (piso, pareja o viajes) en cualquier moneda y en 5 idiomas. Gratuita, sin registro ni anuncios y con funcionamiento sin conexión; web (PWA) y Android, cifrada y auditada.",
       "estado": "Publicado",
       "en": {
         "lema": "Clear accounts make good friends.",
-        "descripcion": "Split the expenses of a flat, a couple or a trip, in any currency and 5 languages: free, with no accounts or ads, and offline. Reminders and receipts straight from “Share”. Web (PWA) and Android, encrypted and audited.",
+        "descripcion": "App for splitting shared expenses (flat, couple or trips) in any currency and in 5 languages. Free, with no sign-up or ads, and works offline; web (PWA) and Android, encrypted and audited.",
         "alt": "Screenshot of Repartito, the expense-splitting app",
         "estado": "Live"
       },
@@ -162,12 +162,12 @@
       "etiqueta": "Día a día",
       "captura": "runa.webp",
       "alt": "Captura de RUNA, para compartir secretos cifrados que se autodestruyen",
-      "lema": "Secretos que se leen una vez… y desaparecen.",
-      "descripcion": "Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse, o pide un secreto con un enlace. En 5 idiomas, autoalojable con Docker y con herramienta de terminal en Go. Auditado.",
+      "lema": "Secretos cifrados que se leen una sola vez.",
+      "descripcion": "Comparte contraseñas y archivos cifrados de extremo a extremo que se autodestruyen al leerse, o solicita un secreto mediante un enlace. Autoalojable con Docker, en 5 idiomas, con cliente de línea de comandos en Go y auditado.",
       "estado": "Autoalojable",
       "en": {
-        "lema": "Secrets that are read once… and vanish.",
-        "descripcion": "Share end-to-end encrypted passwords and files that self-destruct once read, or request a secret with a link. In 5 languages, self-hostable with Docker and with a command-line tool in Go. Audited.",
+        "lema": "Encrypted secrets that can be read only once.",
+        "descripcion": "Share end-to-end encrypted passwords and files that self-destruct once read, or request a secret via a link. Self-hostable with Docker, in 5 languages, with a command-line client in Go, and audited.",
         "alt": "Screenshot of RUNA, for sharing encrypted secrets that self-destruct",
         "estado": "Self-hosted",
         "nota": "Runs on your own server"
@@ -184,11 +184,11 @@
       "captura": "modelduel.webp",
       "alt": "Captura de modelduel, comparador de modelos de IA",
       "lema": "Comparar modelos con datos, no con opiniones.",
-      "descripcion": "Dos modelos de IA, una tarea y los mismos tests: aciertos, tiempo y coste en un mismo informe, con quién gana a quién. Tareas en Python, JavaScript o TypeScript, y el código de los modelos aislado en un contenedor si quieres.",
+      "descripcion": "Herramienta de línea de comandos que compara dos modelos de IA con la misma tarea y los mismos tests, y resume aciertos, tiempo y coste en un único informe. Admite tareas en Python, JavaScript o TypeScript y puede aislar el código generado en un contenedor.",
       "estado": "Publicado",
       "en": {
         "lema": "Compare models with data, not opinions.",
-        "descripcion": "Two AI models, one task and the same tests: pass rate, time and cost in a single report, showing who beats whom. Tasks in Python, JavaScript or TypeScript, with the models’ code sandboxed in a container if you like.",
+        "descripcion": "Command-line tool that compares two AI models on the same task and the same tests, and summarises pass rate, time and cost in a single report. Supports tasks in Python, JavaScript or TypeScript and can sandbox the generated code in a container.",
         "alt": "Screenshot of modelduel, an AI model comparison tool",
         "estado": "Live"
       },
@@ -204,11 +204,11 @@
       "captura": "printquote.webp",
       "alt": "Captura de printquote, presupuestos de impresión 3D",
       "lema": "Del modelo 3D al presupuesto en segundos.",
-      "descripcion": "Arrastra tu modelo 3D (STL, OBJ o 3MF), míralo y obtén peso, tiempo y precio sin subir el archivo a ningún servidor. El PDF del presupuesto sale numerado, con los datos del encargo y el correo y teléfono del cliente.",
+      "descripcion": "Calcula el peso, el tiempo de impresión y el precio de un modelo 3D (STL, OBJ o 3MF) directamente en el navegador, sin subir el archivo a ningún servidor. Genera el presupuesto en PDF, numerado y con los datos del encargo y del cliente.",
       "estado": "Publicado",
       "en": {
         "lema": "From 3D model to quote in seconds.",
-        "descripcion": "Drop in your 3D model (STL, OBJ or 3MF), inspect it and get weight, print time and price without uploading the file to any server. The quote PDF is numbered and includes the job details and the customer’s email and phone.",
+        "descripcion": "Calculates the weight, print time and price of a 3D model (STL, OBJ or 3MF) directly in the browser, without uploading the file to any server. Generates a numbered PDF quote with the job and customer details.",
         "alt": "Screenshot of printquote, 3D printing quotes",
         "estado": "Live"
       },
@@ -224,13 +224,13 @@
       "captura": "commitling.webp",
       "alt": "Captura de commitling, mascota pixel-art para tu perfil",
       "lema": "Tu actividad convertida en una criatura digital.",
-      "descripcion": "Una mascota pixel-art que vive en tu perfil de GitHub y crece con tus commits; también puede ser una calabaza (la mía está aquí abajo) y desde la 1.2 se instala en segundos con binarios verificables.",
-      "estado": "v1.2 · en uso a diario",
+      "descripcion": "Mascota pixel-art para el perfil de GitHub que crece con la actividad de commits. Se genera como SVG animado con GitHub Actions y se instala con binarios verificables.",
+      "estado": "v1.2 · publicada",
       "en": {
         "lema": "Your activity turned into a digital creature.",
-        "descripcion": "A pixel-art pet that lives on your GitHub profile and grows with your commits; it can also be a pumpkin (mine is further down) and since 1.2 it installs in seconds with verifiable binaries.",
+        "descripcion": "A pixel-art pet for your GitHub profile that grows with your commit activity. It is generated as an animated SVG with GitHub Actions and installs with verifiable binaries.",
         "alt": "Screenshot of commitling, a pixel-art pet for your profile",
-        "estado": "v1.2 · in daily use"
+        "estado": "v1.2 · released"
       },
       "tecnologias": ["Go", "GitHub Actions", "SVG animado", "WebAssembly"],
       "web": "https://bertmarti.github.io/commitling/"
@@ -244,11 +244,11 @@
       "captura": "vitaclip.webp",
       "alt": "Vitaclip: ventana del historial del portapapeles en modo claro y oscuro",
       "lema": "El portapapeles supervitaminado.",
-      "descripcion": "Historial de todo lo que copias (como Ditto), capturas con anotaciones (como Lightshot) y grabación de pantalla en MP4. App de escritorio gratis, sin cuentas y todo en tu equipo.",
+      "descripcion": "Aplicación de escritorio que reúne historial del portapapeles, capturas con anotaciones y grabación de pantalla en MP4. Gratuita, sin registro y con todos los datos en el propio equipo.",
       "estado": "App de escritorio",
       "en": {
         "lema": "The clipboard, supercharged.",
-        "descripcion": "A history of everything you copy (like Ditto), annotated screenshots (like Lightshot) and MP4 screen recording. A free desktop app, with no accounts and everything kept on your machine.",
+        "descripcion": "Desktop app that combines clipboard history, annotated screenshots and MP4 screen recording. Free, with no sign-up and all data kept on your own machine.",
         "alt": "Vitaclip: clipboard history window in light and dark mode",
         "estado": "Desktop app"
       },
@@ -264,11 +264,11 @@
       "captura": "roscodex.webp",
       "alt": "Captura de Roscodex, rosco de preguntas de Pokémon",
       "lema": "El rosco de las letras, versión Pokémon.",
-      "descripcion": "Preguntas fan con estética pixel-art, contrarreloj, estadísticas y un Rosco del día igual para todos, con racha, estadísticas y tu resultado como imagen para compartir: gratis, sin cuentas y también sin conexión.",
+      "descripcion": "Juego de preguntas sobre Pokémon con formato de rosco y estética pixel-art: modo contrarreloj, reto diario común para todos los jugadores, rachas y estadísticas. Gratuito, sin registro y jugable sin conexión.",
       "estado": "Jugable",
       "en": {
         "lema": "The alphabet-wheel quiz, Pokémon edition.",
-        "descripcion": "Fan-made questions with a pixel-art look, against the clock, plus a Daily Wheel that’s the same for everyone, with streaks, stats and your result as an image to share: free, no accounts and playable offline.",
+        "descripcion": "Pokémon quiz in an alphabet-wheel format with a pixel-art look: timed mode, a daily challenge shared by all players, streaks and stats. Free, with no sign-up and playable offline.",
         "alt": "Screenshot of Roscodex, a Pokémon alphabet-wheel quiz",
         "estado": "Playable"
       },
@@ -285,11 +285,11 @@
       "captura": "adivina-pkm.webp",
       "alt": "Captura de PokéQuién, duelo de deducción con Pokémon",
       "lema": "¿Quién es quién?, con Pokémon.",
-      "descripcion": "Duelo de deducción pixel-art contra la máquina o contra un amigo, en el navegador, con estadísticas de tus duelos; se instala en el móvil, el Solitario funciona sin conexión y tiene ajustes de sonido, vibración y daltonismo.",
+      "descripcion": "Juego de deducción pixel-art para navegador, contra la máquina o contra otro jugador, con estadísticas de partidas. Instalable en el móvil, con modo en solitario sin conexión y ajustes de sonido, vibración y daltonismo.",
       "estado": "Jugable",
       "en": {
         "lema": "Guess Who?, with Pokémon.",
-        "descripcion": "A pixel-art deduction duel against the computer or a friend, in the browser, with stats for your duels; it installs on your phone, Solitaire mode works offline and it has sound, vibration and colour-blind settings.",
+        "descripcion": "Pixel-art deduction game for the browser, against the computer or another player, with match statistics. Installable on mobile, with an offline solo mode and sound, vibration and colour-blind settings.",
         "alt": "Screenshot of PokéQuién, a deduction duel with Pokémon",
         "estado": "Playable"
       },
@@ -306,11 +306,11 @@
       "captura": "squad-summoner-v3.webp",
       "alt": "Captura de Squad Summoner, convocatorias para jugar en grupo",
       "lema": "Convocatorias épicas para tu escuadrón.",
-      "descripcion": "Mensajes generados con IA para quedar a jugar a Helldivers 2, Space Marine 2, Monster Hunter y más, con tu tono o tus plantillas (compartibles por enlace) y encuesta de asistencia, listos para WhatsApp o para leer en voz alta con la voz que elijas.",
+      "descripcion": "Generador de convocatorias con IA para organizar partidas en grupo (Helldivers 2, Space Marine 2, Monster Hunter y otros), con tono y plantillas personalizables, encuesta de asistencia y lectura en voz alta. Los mensajes quedan listos para compartir por WhatsApp.",
       "estado": "Publicado",
       "en": {
         "lema": "Epic call-ups for your squad.",
-        "descripcion": "AI-generated messages to rally your group for Helldivers 2, Space Marine 2, Monster Hunter and more, in your tone or with your own templates (shareable by link) and an attendance poll, ready for WhatsApp or to read aloud in the voice you choose.",
+        "descripcion": "AI-powered call-up generator for organising group gaming sessions (Helldivers 2, Space Marine 2, Monster Hunter and others), with customisable tone and templates, an attendance poll and read-aloud. Messages are ready to share on WhatsApp.",
         "alt": "Screenshot of Squad Summoner, call-ups for playing as a group",
         "estado": "Live"
       },

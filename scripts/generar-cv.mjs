@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Genera el CV en PDF (español e inglés) desde perfil.json y proyectos.json. Sin dependencias de npm.
+// Genera el CV en PDF (español e inglés) desde perfil.json. Sin dependencias de npm.
 //
 //   node scripts/generar-cv.mjs            → cv/cv-es.html, cv/cv-en.html y los dos PDF de site/cv/
 //   CHROME=/ruta/a/chrome node scripts/generar-cv.mjs   (si Chrome o Chromium no están en su sitio habitual)
@@ -13,12 +13,11 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
-import { escapar, TECNOLOGIAS_EN } from './comun.mjs';
+import { escapar } from './comun.mjs';
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), '..');
 const leer = (archivo) => JSON.parse(readFileSync(join(raiz, archivo), 'utf8'));
 export const perfil = leer('perfil.json');
-const { proyectos } = leer('proyectos.json');
 
 export const TITULO = `${perfil.nombre} — CV`;
 export const FUENTE = (idioma) => join(raiz, 'cv', `cv-${idioma}.html`);
@@ -27,16 +26,16 @@ export const SALIDA = (idioma) => join(raiz, 'site', 'cv', `Alberto-Martinez-Mor
 // Rótulos por idioma. Los encabezados son los estándar que reconocen los ATS.
 export const TEXTOS = {
   es: {
-    perfil: 'Perfil', habilidades: 'Habilidades', experiencia: 'Experiencia', proyectos: 'Proyectos',
+    perfil: 'Perfil', habilidades: 'Habilidades', experiencia: 'Experiencia', logros: 'Logros destacados',
     formacion: 'Formación', certificaciones: 'Certificaciones', idiomas: 'Idiomas',
-    actualidad: 'actualidad', privado: 'Código privado',
+    actualidad: 'actualidad',
     solape: (n) => `${n} puestos en curso a la vez`,
     asunto: 'Currículum de Alberto Martínez Moreno, Full-Stack Developer',
   },
   en: {
-    perfil: 'Summary', habilidades: 'Skills', experiencia: 'Experience', proyectos: 'Projects',
+    perfil: 'Summary', habilidades: 'Skills', experiencia: 'Experience', logros: 'Key achievements',
     formacion: 'Education', certificaciones: 'Certifications', idiomas: 'Languages',
-    actualidad: 'Present', privado: 'Closed source',
+    actualidad: 'Present',
     solape: (n) => `${n} roles held at the same time`,
     asunto: 'Résumé of Alberto Martínez Moreno, Full-Stack Developer',
   },
@@ -48,14 +47,6 @@ const enlace = (url, clase = '') => `<a${clase && ` class="${clase}"`} href="${e
 const seccion = (titulo, cuerpo) => `<section>\n<h2>${e(titulo)}</h2>\n${cuerpo}\n</section>`;
 const aMeses = (mmaaaa) => { const [m, a] = mmaaaa.split('/'); return a * 12 + +m; };
 const habilidad = (item, idioma) => (idioma === 'en' && perfil.habilidadesEn[item]) || item;
-
-export function destacados() {
-  return perfil.destacados.map((repo) => {
-    const p = proyectos.find((x) => x.repo === repo);
-    if (!p) throw new Error(`perfil.json → destacados: «${repo}» no está en proyectos.json`);
-    return p;
-  });
-}
 
 export function html(idioma) {
   const t = TEXTOS[idioma];
@@ -83,16 +74,8 @@ ${puestos}
 </article>`;
   }).join('\n');
 
-  // Los privados nunca enlazan al repositorio: solo a la demo.
-  const proyectosHtml = destacados().map((p) => {
-    const lema = idioma === 'en' ? p.en?.lema : p.lema;
-    if (!lema) throw new Error(`proyectos.json: a «${p.repo}» le falta el lema (${idioma})`);
-    const stack = p.tecnologias.map((x) => (idioma === 'en' && TECNOLOGIAS_EN[x]) || x).join(', ');
-    return `<div class="proyecto">
-<div class="fila"><h3>${e(p.nombre)} </h3>— ${e(lema)} ${enlace(p.web, 'url')}</div>
-<p class="stack">${e(stack)}${p.privado ? ` · ${e(t.privado)}` : ''}</p>
-</div>`;
-  }).join('\n');
+  // Logros: solo hechos de LinkedIn; las cifras pendientes van en «_cifra» de perfil.json y no se imprimen.
+  const logros = perfil.logros.map((l) => `<li>${e(l[idioma])}</li>`).join('\n');
 
   const formacion = perfil.formacion.map((f) => `<div class="fila linea${f.secundario ? ' secundaria' : ''}">
 <h3>${e(f.titulo[idioma])} </h3><span class="suave">· </span><span class="resto"><span class="suave">${e(f.centro)}${f.nota ? ` · ${e(f.nota[idioma])}` : ''} </span>${periodo(f.inicio, f.fin)}</span>
@@ -131,9 +114,9 @@ ${puestos}
 </header>
 <main>
 ${seccion(t.perfil, `<p>${e(perfil.perfil[idioma])}</p>`)}
+${seccion(t.logros, `<ul class="logros">\n${logros}\n</ul>`)}
 ${seccion(t.habilidades, `<dl class="habilidades">\n${habilidades}\n</dl>`)}
 ${seccion(t.experiencia, experiencia)}
-${seccion(t.proyectos, proyectosHtml)}
 ${seccion(t.formacion, formacion)}
 ${seccion(t.certificaciones, `<ul class="corrida">\n${certificaciones}\n</ul>`)}
 ${seccion(t.idiomas, `<ul class="corrida">\n${idiomas}\n</ul>`)}

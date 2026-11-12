@@ -9,7 +9,7 @@
 // segunda extracción independiente.
 import { readFileSync, existsSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
-import { perfil, TEXTOS, TITULO, FUENTE, SALIDA, destacados } from './generar-cv.mjs';
+import { perfil, TEXTOS, TITULO, FUENTE, SALIDA } from './generar-cv.mjs';
 
 const ejecutar = (cmd, args) => spawnSync(cmd, args, { encoding: 'utf8', env: { ...process.env, PYTHONIOENCODING: 'utf-8' } });
 const plano = (s) => s.replace(/\s+/g, ' ').trim();
@@ -29,9 +29,8 @@ function comprobar(idioma, extractor, texto, fuente) {
   const hab = (i) => (idioma === 'en' && perfil.habilidadesEn[i]) || i;
   const orden = [
     perfil.nombre, perfil.contacto.email, perfil.contacto.telefono, 'linkedin.com/in/',
-    t.perfil, t.habilidades, hab('Java'),
+    t.perfil, t.logros, ...perfil.logros.map((l) => l[idioma]), t.habilidades, hab('Java'),
     t.experiencia, ...puestos.flatMap((p) => [p.cargo[idioma], `${p.inicio} – ${p.fin ?? t.actualidad}`, ...p.logros[idioma]]),
-    t.proyectos, ...destacados().flatMap((p) => [p.nombre, p.web.replace(/^https?:\/\//, '').replace(/\/$/, '')]),
     t.formacion, perfil.formacion[0].titulo[idioma],
     t.certificaciones, perfil.certificaciones[0].nombre[idioma],
     t.idiomas, perfil.idiomas[0].idioma[idioma],

@@ -1,6 +1,21 @@
 # MEMORY.md — decisiones y trampas (actualizado 26/10/2026, fase 3)
 
-## Estado actual
+## Rediseño 2.0 (12/11/2026)
+- Web nueva generada entera por `scripts/web.mjs` (ES `site/index.html`, EN `site/en/index.html`) desde `perfil.json` y
+  `proyectos.json`: hero con foto, banda de tecnologías (se para con hover, foco, botón y reduced-motion), experiencia en
+  línea de tiempo, 6 destacados + «y N más», habilidades, formación, commitling y contacto. Lighthouse 99/100/100/100.
+- CSP: se añadieron `font-src 'self'` (fuentes propias) y `connect-src 'self'` (sin él, Lighthouse no lee robots.txt y
+  el SEO baja a 92; la web no hace peticiones).
+- Los «años de experiencia» se calculan hasta la fecha más reciente de `perfil.json` (no hasta hoy) para que
+  `--comprobar` sea determinista.
+- CV: Chrome incrusta las fuentes VARIABLES como Type3, que algunos ATS leen mal; el CV usa fuentes estáticas en `cv/fonts/`.
+  Encabezados sin mayúsculas espaciadas y fechas sin alinear a la derecha: `pdftotext -layout` las desordenaba.
+- `robots.txt` en `/BertMarti/` no lo leen los buscadores (solo miran la raíz del host); lo útil es el sitemap.
+- README: marcadores `titular`, `sobre`, `tecnologias`, `destacados` y `tarjetas` (solo los no destacados). Banners con
+  el texto en trazos (`docs/rediseno/generar-banner.py`).
+- Las referencias del rediseño (LinkedIn, CV de otra persona) NO están en el repo, a propósito.
+
+## Estado anterior (hasta 11/2026)
 - README del perfil renovado: banner SVG propio (claro/oscuro), proyectos en tarjetas por categoría
   (casa, día a día, herramientas e IA, juegos); están TODOS los repos públicos con aplicación (12, sin contar este) con captura, web y código; mascota commitling en el mismo sitio.
 - Portafolio estático en `site/` publicado con Pages (`pages.yml`), sin dependencias.

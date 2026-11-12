@@ -3,6 +3,49 @@
 Todas las versiones del perfil y del portafolio (https://bertmarti.github.io/BertMarti/).
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y las versiones, [SemVer](https://semver.org/lang/es/).
 
+## [2.0.0] - 2026-11-12
+
+Rediseño completo del portafolio, del README del perfil y un CV nuevo. Capturas de antes y después en `docs/rediseno/`.
+
+### Añadido
+- **Portafolio nuevo, en español e inglés** (`/BertMarti/` y `/BertMarti/en/`), generado entero desde `perfil.json` y `proyectos.json`:
+  hero con foto y botones «Descargar CV» y «Contactar», banda de tecnologías animada (se para con el ratón, el teclado, un botón
+  o «reducir movimiento»), sobre mí con cifras reales, experiencia en línea de tiempo, seis proyectos destacados con captura,
+  chips de tecnologías, estado y enlaces, el resto en una rejilla compacta, habilidades, formación, certificaciones y contacto.
+  Identidad propia: Schibsted Grotesk y JetBrains Mono autoalojadas, violeta y turquesa sobre papel cálido, el píxel como firma.
+  Modo claro y oscuro. Lighthouse 99/100/100/100 en los dos idiomas.
+- **CV en PDF en español e inglés** (`site/cv/Alberto-Martinez-Moreno-CV-ES.pdf` y `-EN.pdf`), de una página y apto para ATS:
+  una columna, texto seleccionable, encabezados estándar, fechas MM/AAAA y fuentes estáticas incrustadas. Se genera con
+  `node scripts/generar-cv.mjs` y se comprueba con `node scripts/comprobar-cv.mjs` (pdftotext y pypdf).
+- **`perfil.json`**: fuente única de la experiencia, la formación, las habilidades y el contacto, que comparten la web, el README y el CV.
+- Para buscadores y filtros de empresas: JSON-LD `Person`, Open Graph y Twitter por idioma, `hreflang`, `sitemap.xml` y `robots.txt`.
+  Imagen social nueva.
+
+### Cambiado
+- **README del perfil rehecho**: cabecera nueva, botones de portafolio y CV, sobre mí con la experiencia, banda de tecnologías
+  por categorías, seis destacados con captura y el resto más compactos. La mascota commitling sigue igual.
+- **Privacidad**: el teléfono solo aparece en el CV en PDF. En la web el correo ya no está escrito: se compone al pulsar «Escríbeme».
+- **Lazo** pasa a la 1.0 «Nochebuena» en las tarjetas (de la rama del PR #24).
+- CSP de la web: `font-src 'self'` para las fuentes propias y `connect-src 'self'` para que Lighthouse lea `robots.txt`.
+- El generador se divide en `scripts/readme.mjs`, `scripts/web.mjs` y `scripts/comun.mjs`. El CI comprueba también la página en
+  inglés, que el teléfono no está en la web y que existen el sitemap y `robots.txt`.
+- Versión del pie del portafolio: v2.0.0.
+
+[2.0.0]: https://github.com/BertMarti/BertMarti/blob/main/CHANGELOG.md
+
+## [1.2.5] - 2026-11-12
+
+### Cambiado
+- **Lazo** pasa a v0.5: captura nueva con el diseño «El catálogo de juguetes» (la familia en grande y lo más deseado en fotos) y descripción al día (avisos sin spoilers y guía para montarlo en casa).
+- Versión del pie del portafolio: v1.2.5.
+
+## [1.2.4] - 2026-11-11
+
+### Cambiado
+- **Fresquito** (v4.0.2): la demo se muda a https://fresquito-demo.pages.dev/ (Cloudflare Pages); captura nueva del
+  rediseño «Nevera abierta», con lo que caduca antes en fichas ilustradas y una receta para hoy.
+- Versión del pie del portafolio: v1.2.4.
+
 ## [1.2.3] - 2026-11-11
 
 ### Cambiado

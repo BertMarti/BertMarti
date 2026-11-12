@@ -5,9 +5,11 @@ description: Añade un proyecto público nuevo de BertMarti al README del perfil
 
 # Añadir o cambiar un proyecto del perfil y del portafolio
 
-Las tarjetas del README y de `site/index.html` **se generan** desde `proyectos.json` con
-`scripts/generar-tarjetas.mjs` (sin dependencias). No edites a mano lo que hay entre los marcadores
-`<!-- tarjetas:inicio … -->` / `<!-- tarjetas:fin -->` (ni los filtros de la web): el CI falla si no coincide.
+Las tarjetas del README y las páginas `site/index.html` (ES) y `site/en/index.html` (EN) **se generan** desde
+`proyectos.json` con `scripts/generar-tarjetas.mjs` (sin dependencias). No edites a mano el README entre marcadores
+ni las páginas de la web: el CI falla si no coincide. Cada proyecto necesita también sus textos en inglés
+(`"en": { "lema", "descripcion", "alt", "estado" }`) y un `"estado"` corto. Para que salga entre los destacados
+(web, README y CV), añade su `repo` a `perfil.json` → `destacados`.
 
 Requisitos: el repo es **público** (nunca añadas repos privados; para apps con código privado, mira `"privado"` en el paso 3). Si tiene web, está en `https://bertmarti.github.io/<Repo>/`
 (respeta las mayúsculas exactas del nombre del repo; el script lo comprueba).
@@ -51,7 +53,8 @@ no aparece en el README o en la web. Si ves ese aviso, usa esta skill.
 
 4. **Genera y comprueba:**
    ```bash
-   node scripts/generar-tarjetas.mjs              # reescribe README.md y site/index.html
+   node scripts/generar-tarjetas.mjs              # reescribe README.md, site/index.html y site/en/index.html
+   node scripts/generar-cv.mjs && node scripts/comprobar-cv.mjs  # solo si cambian los destacados
    node scripts/generar-tarjetas.mjs --comprobar  # lo mismo que hace el CI
    git diff README.md | grep -iE 'mailto|linkedin' # no debe salir nada
    ```

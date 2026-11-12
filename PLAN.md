@@ -24,7 +24,12 @@
 ## Hecho (10/11/2026): versión 1.1.0
 - [x] Fresquito y Gestorín (código privado, demos públicas) en una sección nueva «Recién salidas», con `"privado": true`.
 
+## Hecho (12/11/2026): versión 2.0.0
+- [x] Rediseño completo: portafolio ES/EN, README nuevo y CV en PDF apto para ATS, todo desde `perfil.json` y `proyectos.json`.
+
 ## Siguiente
+- [ ] Alberto: añadir idiomas (inglés) y logros con cifras reales en `perfil.json` y regenerar el CV.
+- [ ] Enviar `https://bertmarti.github.io/BertMarti/sitemap.xml` a Google Search Console.
 - [x] Capturas nuevas de Fresquito (v2.4.0, «Frescor») y Gestorín (v2.11.0) tras sus rediseños (v1.1.1).
 - [ ] Revisar cada pocos meses que las descripciones de `proyectos.json` siguen igual que en cada repo
       (`gh repo view BertMarti/<Repo> --json description`).

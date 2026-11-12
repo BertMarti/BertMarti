@@ -19,7 +19,7 @@
       "captura": "lazo.webp",
       "alt": "Captura de Lazo: el grupo «Navidad en familia» con cada persona en grande, su presupuesto (el tuyo no se ve) y lo más deseado en fotos, en papel crema con terracota",
       "lema": "Listas de regalos en familia, sin repetidos ni spoilers.",
-      "descripcion": "Cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran; nadie ve lo de su propia lista, ni siquiera por la API. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible y avisos que nunca chivan nada. Novedades: diseño nuevo de «catálogo de juguetes» y guía para montarlo en casa con copias y HTTPS. Web (PWA) y Android, autoalojado con PocketBase e IA opcional (Ollama en casa).",
+      "descripcion": "Lazo 1.0 «Nochebuena»: cada uno apunta lo que quiere (de Amazon, de cualquier tienda o de un Excel) y los demás lo reservan o lo compran al momento; nadie ve lo de su propia lista, ni siquiera por la API ni en tiempo real. Hucha común con ajuste de cuentas, regalos a medias, amigo invisible, lista para imprimir con QR y enlace de solo lectura. Web (PWA) y Android firmado, autoalojado en casa con PocketBase y auditado a fondo.",
       "tecnologias": ["React", "TypeScript", "PWA", "Android (Capacitor)", "PocketBase", "IA"],
       "web": "https://bertmarti.github.io/lazo/",
       "android": "https://github.com/BertMarti/lazo/releases/latest"

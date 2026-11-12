@@ -6,7 +6,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y l
 ## [1.2.3] - 2026-11-12
 
 ### Cambiado
-- **Lazo** pasa a v0.5: captura nueva con el diseño «El catálogo de juguetes» (la familia en grande y lo más deseado en fotos) y descripción al día (avisos sin spoilers y guía para montarlo en casa).
+- **Lazo** pasa a la 1.0 «Nochebuena»: captura nueva con el diseño «El catálogo de juguetes» y descripción al día (tiempo real sin spoilers, lista para imprimir con QR, enlace de solo lectura y APK firmado).
 - Versión del pie del portafolio: v1.2.3.
 
 ## [1.2.2] - 2026-11-11

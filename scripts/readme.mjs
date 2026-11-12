@@ -54,14 +54,14 @@ function sobreReadme(perfil) {
 
 // Logos de Simple Icons; lo que no tiene logo (conceptos) sale como insignia de solo texto.
 const LOGOS = {
-  Java: 'openjdk', 'Spring Boot': 'springboot', 'Spring Batch': 'spring', 'Spring Web Flow': 'spring',
+  Java: 'openjdk', 'Spring Boot': 'springboot', 'Spring Batch': 'spring', WebLogic: 'oracle',
   React: 'react', Angular: 'angular', TypeScript: 'typescript', JavaScript: 'javascript', HTML5: 'html5', CSS: 'css',
   Claude: 'claude', Ollama: 'ollama', MySQL: 'mysql', SQLite: 'sqlite',
   Docker: 'docker', 'GitHub Actions': 'githubactions', Git: 'git', Jira: 'jira', Bash: 'gnubash',
   Python: 'python', Go: 'go', Rust: 'rust', Tauri: 'tauri', PWA: 'pwa', 'Android (Capacitor)': 'capacitor',
 };
 // Tres tintas, no un arcoíris: violeta (código de servidor e IA), turquesa (interfaz y datos), pizarra (el resto).
-const COLOR_CATEGORIA = { Backend: VIOLETA, IA: VIOLETA, Frontend: TURQUESA, Datos: TURQUESA };
+const COLOR_CATEGORIA = { Backend: VIOLETA, 'Desarrollo asistido por IA': VIOLETA, Frontend: TURQUESA, Datos: TURQUESA };
 
 function tecnologiasReadme(perfil) {
   const lineas = perfil.habilidades.map((h) => {

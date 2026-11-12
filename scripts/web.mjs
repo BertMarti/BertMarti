@@ -4,7 +4,7 @@
 // manejador on* ni script en línea (el JSON-LD es un bloque de datos, no se ejecuta).
 import { escapar, TECNOLOGIAS_EN } from './comun.mjs';
 
-const VERSION = '2.1.1';
+const VERSION = '2.1.2';
 const URL_BASE = 'https://bertmarti.github.io/BertMarti/';
 const MASCOTA = 'https://raw.githubusercontent.com/BertMarti/BertMarti/main/';
 // connect-src 'self': la web no hace peticiones, pero sin él Lighthouse no puede leer robots.txt y suspende esa auditoría de SEO.

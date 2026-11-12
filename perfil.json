@@ -21,8 +21,8 @@
   },
   "logros": [
     {
-      "es": "Modernizo la capa de integración de una plataforma bancaria: migro servicios de integración (SI) de Spring Web Flow a microservicios Spring Boot, apoyándome en IA y orquestación de agentes.",
-      "en": "Modernising the integration layer of a banking platform: migrating integration services (SI) from Spring Web Flow to Spring Boot microservices, supported by AI and agent orchestration.",
+      "es": "Modernizo la capa de integración de una plataforma bancaria: migro servicios de integración de un framework propietario basado en flujos Spring y EJB a microservicios Spring Boot, apoyándome en IA.",
+      "en": "Modernising the integration layer of a banking platform: migrating integration services from a proprietary flow framework built on Spring and EJB to Spring Boot microservices, supported by AI.",
       "_cifra": "¿Cuántos servicios se han migrado ya (o qué parte del total) y cuánto tiempo ahorra la IA? Si se puede decir, añádelo al final de la frase."
     },
     {
@@ -41,7 +41,7 @@
     }
   ],
   "habilidades": [
-    { "categoria": { "es": "Backend", "en": "Backend" }, "items": ["Java", "Spring Boot", "Spring Batch", "Spring Web Flow", "APIs REST", "Microservicios", "JSP"] },
+    { "categoria": { "es": "Backend", "en": "Backend" }, "items": ["Java", "Spring Boot", "Spring Batch", "APIs REST", "Microservicios", "EJB", "WebLogic", "JSP", "Migración de arquitecturas legacy"] },
     { "categoria": { "es": "Frontend", "en": "Frontend" }, "items": ["React", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS", "Diseño responsive"] },
     { "categoria": { "es": "Desarrollo asistido por IA", "en": "AI-assisted development" }, "items": ["Orquestación de agentes", "Migración asistida por IA", "Claude", "Ollama"] },
     { "categoria": { "es": "Datos", "en": "Data" }, "items": ["SQL", "MySQL", "SQLite"] },
@@ -51,6 +51,7 @@
   "habilidadesEn": {
     "APIs REST": "REST APIs",
     "Microservicios": "Microservices",
+    "Migración de arquitecturas legacy": "Legacy architecture migration",
     "Diseño responsive": "Responsive design",
     "Orquestación de agentes": "Agent orchestration",
     "Migración asistida por IA": "AI-assisted migration",
@@ -65,8 +66,8 @@
           "cargo": { "es": "Rising Software Engineer", "en": "Rising Software Engineer" },
           "inicio": "07/2026", "fin": null,
           "logros": {
-            "es": ["Migración de servicios de integración (SI) basados en Spring Web Flow a microservicios con Spring Boot en una plataforma bancaria.", "Desacoplamiento de los SI respecto de los servicios de negocio (SN) que los consumen, con contratos REST definidos y pruebas.", "Uso de IA y orquestación de agentes para acelerar y validar la migración."],
-            "en": ["Migrating integration services (SI) built on Spring Web Flow to Spring Boot microservices on a banking platform.", "Decoupling SIs from the business services (SN) that consume them, with well-defined REST contracts and tests.", "Using AI and agent orchestration to speed up and validate the migration."]
+            "es": ["Migración de servicios de integración (SI) de un framework propietario de orquestación sobre Spring y EJB (WebLogic) a microservicios con Spring Boot, en una plataforma bancaria.", "Los SI orquestan servicios de negocio (SN) y llamadas al backend; la migración rediseña esos flujos como microservicios REST desacoplados.", "Uso de IA y orquestación de agentes para acelerar y validar la migración."],
+            "en": ["Migrating integration services (SI) from a proprietary Spring/EJB (WebLogic) orchestration framework to Spring Boot microservices on a banking platform.", "SIs orchestrate business services (SN) and backend calls; the migration redesigns those flows as decoupled REST microservices.", "Using AI and agent orchestration to speed up and validate the migration."]
           }
         },
         {

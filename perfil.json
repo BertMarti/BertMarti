@@ -16,8 +16,8 @@
     "portafolio": "https://bertmarti.github.io/BertMarti/"
   },
   "perfil": {
-    "es": "Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA y orquestación de agentes en el trabajo real de modernización, no solo en pruebas. Vengo del diseño gráfico, así que cuido la interfaz tanto como el código.",
-    "en": "Full-Stack Developer with 3+ years at NTT DATA on enterprise banking projects: microservices, batch processing and architecture migration. On the backend I work with Java, Spring Boot and Spring Batch; on the frontend, with React, Angular and TypeScript. I use AI and agent orchestration in real modernisation work, not just experiments. With a background in graphic design, I care about the interface as much as the code."
+    "es": "Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresariales de banca: microservicios, procesos batch y migración de arquitecturas. En backend trabajo con Java, Spring Boot y Spring Batch; en frontend, con React, Angular y TypeScript. Aplico IA y orquestación de agentes en proyectos reales de modernización. Mi formación en diseño gráfico me lleva a cuidar la interfaz tanto como el código.",
+    "en": "Full-Stack Developer with 3+ years at NTT DATA on enterprise banking projects: microservices, batch processing and architecture migration. On the backend I work with Java, Spring Boot and Spring Batch; on the frontend, with React, Angular and TypeScript. I apply AI and agent orchestration to real modernisation projects. With a background in graphic design, I care about the interface as much as the code."
   },
   "logros": [
     {
@@ -107,11 +107,11 @@
           "logros": {
             "es": [
               "APIs REST con Spring e interfaces con Angular y JavaScript.",
-              "Optimización de vistas, pequeñas mejoras de rendimiento y documentación de endpoints."
+              "Optimización de vistas, mejoras de rendimiento y documentación de endpoints."
             ],
             "en": [
               "Built REST APIs with Spring and interfaces with Angular and JavaScript.",
-              "Optimised views, made small performance improvements and documented endpoints."
+              "Optimised views, improved performance and documented endpoints."
             ]
           }
         }

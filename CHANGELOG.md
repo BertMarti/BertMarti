@@ -13,6 +13,10 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y l
 - Revisión de reclutador: los logros ya no repiten las viñetas de Experiencia; viñetas en presente para los puestos en curso
   e inglés más natural. El perfil se ajusta igual en la web y el README.
 - La categoría de habilidades «IA» pasa a «Desarrollo asistido por IA» / «AI-assisted development».
+- **Tono profesional en la web y el README**: nueva entradilla del hero («Desarrollador Full-Stack con más de 3 años en NTT DATA
+  construyendo software para banca…»), la sección de apps pasa a «Proyectos personales» con una presentación profesional, y las
+  descripciones de los 15 proyectos se reescriben en ES y EN (qué es, para quién y con qué, sin tuteo, bromas ni notas de versión).
+  También los textos de la mascota, el contacto y el pie. Revisado con mirada de reclutador.
 - El CV sigue en una página y pasa la prueba ATS en los dos idiomas. Versión del pie del portafolio: v2.1.0.
 
 [2.1.0]: https://github.com/BertMarti/BertMarti/blob/main/CHANGELOG.md

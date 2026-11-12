@@ -9,6 +9,19 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y l
 - **Lazo** pasa a la v1.1 «Lista de Amazon»: la descripción (ES y EN) incluye la importación de listas de deseos de Amazon, y el estado pasa a «v1.1 · publicada».
 - Versión del pie: v2.1.1.
 
+## [2.1.1] - 2026-11-12
+
+### Corregido
+- **Experiencia (web ES/EN, CV ES/EN y README):** un solo puesto actual, **Rising Software Engineer** (07/2026 – actualidad),
+  centrado en migrar servicios de integración (SI) de Spring Web Flow a microservicios Spring Boot, desacoplarlos de los
+  servicios de negocio (SN) que los consumen y apoyarse en IA y orquestación de agentes. **Full-Stack Developer (Java + Front)**
+  pasa a 12/2024 – 07/2026, sin «Actual» y sin «· Arquitectura». Viñetas más cortas.
+- «Logros destacados» del CV al día con lo anterior (modernización de la capa de integración) y sin repetir las viñetas.
+  Desaparece la nota «2 puestos en curso a la vez».
+- Versión del pie del portafolio: v2.1.1.
+
+[2.1.1]: https://github.com/BertMarti/BertMarti/blob/main/CHANGELOG.md
+
 ## [2.1.0] - 2026-11-12
 
 ### Cambiado

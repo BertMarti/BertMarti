@@ -38,11 +38,11 @@ Desarrollador Full-Stack con más de 3 años en NTT DATA en proyectos empresaria
 <table>
   <tr>
     <td width="170" valign="top"><code>jul 2026 – hoy</code></td>
-    <td valign="top"><strong>Rising Software Engineer</strong><br>Desarrollo Full-Stack en proyectos empresariales críticos con Java y Spring.</td>
+    <td valign="top"><strong>Rising Software Engineer</strong><br>Migración de servicios de integración (SI) basados en Spring Web Flow a microservicios con Spring Boot en una plataforma bancaria.</td>
   </tr>
   <tr>
-    <td width="170" valign="top"><code>dic 2024 – hoy</code></td>
-    <td valign="top"><strong>Full-Stack Developer (Java + Front) · Arquitectura</strong><br>Equipo multidisciplinar de arquitectura de una plataforma bancaria.</td>
+    <td width="170" valign="top"><code>dic 2024 – jul 2026</code></td>
+    <td valign="top"><strong>Full-Stack Developer (Java + Front)</strong><br>Desarrollo y mantenimiento de microservicios con Spring Boot y procesos batch con Spring Batch.</td>
   </tr>
   <tr>
     <td width="170" valign="top"><code>jun 2023 – dic 2024</code></td>

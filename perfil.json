@@ -21,18 +21,18 @@
   },
   "logros": [
     {
-      "es": "Modernizo una plataforma bancaria con IA: migro flujos de Spring Web Flow a microservicios Spring Boot apoyándome en orquestación de agentes.",
-      "en": "Modernise a banking platform with AI: migrate flows from Spring Web Flow to Spring Boot microservices using agent orchestration.",
-      "_cifra": "¿Cuántos flujos se han migrado ya (o qué % del total) y cuánto tiempo ahorra la IA frente a migrarlos a mano? Si se puede decir, añádelo al final de la frase."
+      "es": "Modernizo la capa de integración de una plataforma bancaria: migro servicios de integración (SI) de Spring Web Flow a microservicios Spring Boot, apoyándome en IA y orquestación de agentes.",
+      "en": "Modernising the integration layer of a banking platform: migrating integration services (SI) from Spring Web Flow to Spring Boot microservices, supported by AI and agent orchestration.",
+      "_cifra": "¿Cuántos servicios se han migrado ya (o qué parte del total) y cuánto tiempo ahorra la IA? Si se puede decir, añádelo al final de la frase."
     },
     {
-      "es": "Asumí la evolución y la mantenibilidad de la arquitectura de la plataforma (microservicios y procesos Spring Batch) con menos de 2 años de experiencia.",
-      "en": "Took ownership of the platform architecture's evolution and maintainability (microservices and Spring Batch jobs) with under 2 years of experience.",
-      "_cifra": "¿Cuántos microservicios o procesos batch mantienes, qué volumen mueven (registros, usuarios) y de cuántas personas es el equipo? Confirma también que esa responsabilidad empezó en 12/2024 (21 meses después de entrar)."
+      "es": "Con menos de 2 años de experiencia ya trabajaba en los microservicios y procesos batch de una plataforma bancaria.",
+      "en": "With under 2 years of experience, I was already working on a banking platform's microservices and batch jobs.",
+      "_cifra": "¿Cuántos microservicios o procesos batch, qué volumen mueven y de cuántas personas era el equipo?"
     },
     {
-      "es": "Tres cambios de puesto en algo más de 3 años en NTT DATA: de becario a Rising Software Engineer (03/2023 – 07/2026).",
-      "en": "Three role changes in just over 3 years at NTT DATA: from intern to Rising Software Engineer (03/2023 – 07/2026)."
+      "es": "De becario a Rising Software Engineer en algo más de 3 años en NTT DATA (03/2023 – 07/2026).",
+      "en": "From intern to Rising Software Engineer in just over 3 years at NTT DATA (03/2023 – 07/2026)."
     },
     {
       "es": "Entregué funcionalidades completas desde el primer año: de la API REST en Spring a la interfaz en Angular y JavaScript.",
@@ -65,23 +65,21 @@
           "cargo": { "es": "Rising Software Engineer", "en": "Rising Software Engineer" },
           "inicio": "07/2026", "fin": null,
           "logros": {
-            "es": ["Desarrollo Full-Stack en proyectos empresariales críticos con Java y Spring."],
-            "en": ["Develop full-stack features for business-critical enterprise projects with Java and Spring."]
+            "es": ["Migración de servicios de integración (SI) basados en Spring Web Flow a microservicios con Spring Boot en una plataforma bancaria.", "Desacoplamiento de los SI respecto de los servicios de negocio (SN) que los consumen, con contratos REST definidos y pruebas.", "Uso de IA y orquestación de agentes para acelerar y validar la migración."],
+            "en": ["Migrating integration services (SI) built on Spring Web Flow to Spring Boot microservices on a banking platform.", "Decoupling SIs from the business services (SN) that consume them, with well-defined REST contracts and tests.", "Using AI and agent orchestration to speed up and validate the migration."]
           }
         },
         {
-          "cargo": { "es": "Full-Stack Developer (Java + Front) · Arquitectura", "en": "Full-Stack Developer (Java + Frontend) · Architecture" },
-          "inicio": "12/2024", "fin": null,
+          "cargo": { "es": "Full-Stack Developer (Java + Front)", "en": "Full-Stack Developer (Java + Frontend)" },
+          "inicio": "12/2024", "fin": "07/2026",
           "logros": {
             "es": [
-              "Equipo multidisciplinar de arquitectura de una plataforma bancaria.",
-              "Desarrollo y mantenimiento de microservicios con Spring Boot y de procesos batch con Spring Batch.",
-              "Migración asistida por IA (orquestadores de agentes) desde Spring Web Flow."
+              "Desarrollo y mantenimiento de microservicios con Spring Boot y procesos batch con Spring Batch.",
+              "Colaboración en un equipo multidisciplinar de una plataforma bancaria."
             ],
             "en": [
-              "Work in the cross-functional architecture team of a banking platform.",
-              "Build and maintain Spring Boot microservices and Spring Batch jobs.",
-              "Work on the AI-assisted migration (agent orchestrators) away from Spring Web Flow."
+              "Built and maintained Spring Boot microservices and Spring Batch jobs.",
+              "Worked in a cross-functional team on a banking platform."
             ]
           }
         },

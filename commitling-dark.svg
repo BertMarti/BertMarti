@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-labelledby="cl-title cl-desc">
 <title id="cl-title">commitling de @BertMarti</title>
-<desc id="cl-desc">Árbol ancestral, aburrido. 2.861 XP, racha de 0 días, 11 días activos en los últimos 30. Accesorios: flor.</desc>
+<desc id="cl-desc">Árbol ancestral, durmiendo. 2.861 XP, racha de 0 días, 11 días activos en los últimos 30. Accesorios: flor.</desc>
 <style>
 .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono","Liberation Mono",monospace}
 .b{font-weight:700}
 .bob{animation:breathe 5.6s ease-in-out infinite}
 @keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
-.eyes{transform-origin:100px 106px;animation:blink 4.8s infinite}
-@keyframes blink{0%,91%,97%,100%{transform:scaleY(1)}94%{transform:scaleY(.1)}}
+.z{animation:zz 3.6s ease-in-out infinite;opacity:.9}
+.z2{animation-delay:1.2s}.z3{animation-delay:2.4s}
+@keyframes zz{0%{opacity:0;transform:translate(0,6px)}35%{opacity:.9}100%{opacity:0;transform:translate(6px,-10px)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 <rect x="0.5" y="0.5" width="479" height="199" rx="8" fill="#2b2724" stroke="#4a433d"/>
@@ -16,17 +17,18 @@
 <g class="bob" shape-rendering="crispEdges">
 <path fill="#f3efe6" d="M60 16h80v10h-80zM40 26h20v10h-20zM150 26h10v10h-10zM30 36h10v10h-10zM160 36h10v10h-10zM20 46h10v10h-10zM170 46h10v10h-10zM20 56h10v10h-10zM170 56h10v10h-10zM20 66h10v10h-10zM170 66h10v10h-10zM30 76h10v10h-10zM160 76h10v10h-10zM40 86h20v10h-20zM140 86h20v10h-20zM50 96h10v10h-10zM140 96h10v10h-10zM50 106h10v10h-10zM140 106h10v10h-10zM50 116h10v10h-10zM140 116h10v10h-10zM50 126h10v10h-10zM140 126h10v10h-10zM50 136h10v10h-10zM140 136h10v10h-10zM40 146h10v10h-10zM150 146h10v10h-10zM30 156h10v10h-10zM60 156h10v10h-10zM130 156h10v10h-10zM160 156h10v10h-10zM20 166h40v10h-40zM70 166h60v10h-60zM140 166h40v10h-40z"/>
 <path fill="#7fb069" d="M60 26h80v10h-80zM40 36h10v10h-10zM60 36h60v10h-60zM30 46h110v10h-110zM150 46h20v10h-20zM30 56h30v10h-30zM70 56h100v10h-100zM30 66h110v10h-110zM150 66h20v10h-20zM40 76h120v10h-120z"/>
-<path fill="#e6aa68" d="M140 36h10v10h-10zM60 86h80v10h-80zM60 96h80v10h-80zM60 106h80v10h-80zM60 116h80v10h-80zM60 126h20v10h-20zM120 126h20v10h-20zM60 136h80v10h-80zM50 146h100v10h-100zM40 156h20v10h-20zM70 156h60v10h-60zM140 156h20v10h-20z"/>
+<path fill="#e6aa68" d="M140 36h10v10h-10zM60 86h80v10h-80zM60 96h80v10h-80zM60 106h80v10h-80zM60 116h80v10h-80zM60 126h30v10h-30zM110 126h30v10h-30zM60 136h80v10h-80zM50 146h100v10h-100zM40 156h20v10h-20zM70 156h60v10h-60zM140 156h20v10h-20z"/>
 <path fill="#f3efe6" d="M50 36h10v10h-10z"/>
 <path fill="#ca3c25" d="M140 26h10v10h-10zM120 36h20v10h-20zM150 36h10v10h-10zM140 46h10v10h-10zM60 56h10v10h-10zM140 66h10v10h-10z"/>
-<path fill="#2b2724" d="M80 126h40v10h-40z"/>
-<g class="eyes"><path fill="#2b2724" d="M60 96h30v10h-30zM110 96h30v10h-30zM70 106h10v10h-10zM120 106h10v10h-10z"/></g>
+<path fill="#2b2724" d="M90 126h20v10h-20z"/>
+<g class="eyes"><path fill="#2b2724" d="M60 106h30v10h-30zM110 106h30v10h-30z"/></g>
 </g>
+<g shape-rendering="crispEdges"><path class="z z1" fill="#f3efe6" d="M166 52h2v2h-2zM168 52h2v2h-2zM170 52h2v2h-2zM172 52h2v2h-2zM170 54h2v2h-2zM168 56h2v2h-2zM166 58h2v2h-2zM168 58h2v2h-2zM170 58h2v2h-2zM172 58h2v2h-2z"/><path class="z z2" fill="#f3efe6" d="M178 38h2v2h-2zM180 38h2v2h-2zM182 38h2v2h-2zM184 38h2v2h-2zM182 40h2v2h-2zM180 42h2v2h-2zM178 44h2v2h-2zM180 44h2v2h-2zM182 44h2v2h-2zM184 44h2v2h-2z"/><path class="z z3" fill="#f3efe6" d="M190 22h3v3h-3zM193 22h3v3h-3zM196 22h3v3h-3zM199 22h3v3h-3zM196 25h3v3h-3zM193 28h3v3h-3zM190 31h3v3h-3zM193 31h3v3h-3zM196 31h3v3h-3zM199 31h3v3h-3z"/></g>
 <text class="t" x="222" y="36" font-size="11" fill="#a39a8e">@BertMarti</text>
 <text class="t" x="460" y="36" font-size="11" fill="#a39a8e" text-anchor="end">commitling</text>
 <text class="t b" x="222" y="64" font-size="22" fill="#f3efe6">Árbol ancestral</text>
-<rect x="222" y="78" width="8" height="8" fill="#e6aa68" shape-rendering="crispEdges"/>
-<text class="t" x="236" y="86" font-size="12" fill="#f3efe6">Aburrido</text>
+<rect x="222" y="78" width="8" height="8" fill="#a39a8e" shape-rendering="crispEdges"/>
+<text class="t" x="236" y="86" font-size="12" fill="#f3efe6">Durmiendo</text>
 <text class="t" x="460" y="86" font-size="11" fill="#a39a8e" text-anchor="end">fase 5 de 5</text>
 <text class="t" x="222" y="110" font-size="12" fill="#f3efe6">2.861 XP</text>
 <text class="t" x="460" y="110" font-size="11" fill="#a39a8e" text-anchor="end">fase máxima</text>
